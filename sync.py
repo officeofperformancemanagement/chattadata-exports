@@ -15,7 +15,7 @@ skiplist = []
 select_asset_ids = []
 
 # grab all assets
-limit = 100
+limit = 1_000_000
 
 assets = get_all_assets(limit)
 
