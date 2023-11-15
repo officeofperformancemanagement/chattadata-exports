@@ -15,7 +15,7 @@ skiplist = []
 select_asset_ids = []
 
 # grab all assets
-limit = 1_000_000
+limit = 1000
 
 assets = get_all_assets(limit)
 
@@ -58,7 +58,11 @@ for base, asset in assets:
     download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
     print(f'[{id}] downloading "{name}"')
     with Timer(f"[{id}] retrieving data"):
+      try:
         urlretrieve(download_url, download_path)
+      except Exception as e:
+         # skip this asset if problem downloading
+         continue
     print(f'[{id}] downloaded "{name}"')
 
     zip_path = download_path + '.zip'
