@@ -1,6 +1,7 @@
 from requests import get
 from time import time
 
+
 class Timer:
     def __init__(self, str):
         self.str = str
@@ -36,3 +37,7 @@ def get_all_assets(limit=10000):
                     ids.add(id)
 
         return assets
+
+
+def bytes_to_megabytes(num_bytes):
+    return round(num_bytes / 1024 / 1024, 2)
