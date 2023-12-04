@@ -40,4 +40,4 @@ def get_all_assets(limit=10000):
 
 
 def bytes_to_megabytes(num_bytes):
-    return round(num_bytes / 1024 / 1024, 2)
+    return round(num_bytes / 1024 / 1024, 4)
