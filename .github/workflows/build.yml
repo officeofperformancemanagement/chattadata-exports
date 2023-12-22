@@ -21,6 +21,8 @@ jobs:
 
       # - run: pip install -r requirements.txt
 
+      - run: ./clean.sh
+
       - run: python3 sync.py
 
       # Commit all changed files back to the repository

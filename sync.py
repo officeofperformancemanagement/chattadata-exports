@@ -1,4 +1,5 @@
 import csv
+import json
 import os
 from requests import get
 import sys
@@ -50,38 +51,56 @@ for base, asset in assets:
             print(metadata["message"])
             continue
 
+    if "columns" in metadata:
+        for column in metadata["columns"]:
+            if "cachedContents" in column:
+                del column["cachedContents"]
+
     assetType = metadata["assetType"]
     print(f"[{id}] assetType:", assetType)
     if assetType not in ["dataset", "filter"]:
         print(f"[{id}] skipping because it's not a dataset or filter")
         continue
 
-    download_path = f"./data/{id}.csv"
+    dataset_dirpath = f"./data/{id}"
+    if not os.path.isdir(dataset_dirpath):
+        os.mkdir(dataset_dirpath)
+        print(f'[{id}] created dataset directory "{dataset_dirpath}"')
+
+    # save metadata
+    metadata_path = os.path.join(dataset_dirpath, f"{id}.metadata.json")
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=4)
+        print(f'[{id}] saved metadata to "{metadata_path}"')
+
+    csv_filename = id + ".csv"
+
+    download_csv_path = os.path.join(dataset_dirpath, csv_filename)
     download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
     print(f'[{id}] downloading "{name}"')
     with Timer(f"[{id}] retrieving data"):
         try:
-            urlretrieve(download_url, download_path)
+            urlretrieve(download_url, download_csv_path)
         except Exception as e:
             # skip this asset if problem downloading
             continue
     print(f'[{id}] downloaded "{name}"')
 
-    size_of_csv = os.path.getsize(download_path)
+    size_of_csv = os.path.getsize(download_csv_path)
     print(f"[{id}] size of csv: {size_of_csv}")
 
-    zip_path = download_path + ".zip"
+    zip_path = download_csv_path + ".zip"
     with Timer(f"[{id}] zipping"):
         with zipfile.ZipFile(
             zip_path, mode="w", compression=zipfile.ZIP_DEFLATED, compresslevel=9
         ) as zip:
-            zip.write(download_path)
+            zip.write(download_csv_path)
 
     size_of_zip = os.path.getsize(zip_path)
     print(f"[{id}] size of zip: {size_of_zip}")
 
     with Timer(f"[{id}] deleting old csv"):
-        os.remove(download_path)
+        os.remove(download_csv_path)
 
     with Timer(f"[{id}] checking size"):
         included = size_of_zip < 5e7

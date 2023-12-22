@@ -1,3 +1,4 @@
 #!/bin/sh -e
-rm ./data/*.csv
-rm ./data/*.csv.zip
+rm -f ./data/*.csv
+rm -f ./data/*.csv.zip
+rm -r ./data/*
