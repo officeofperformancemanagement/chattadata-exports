@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-python@v4
 
-      # - run: pip install -r requirements.txt
+      - run: pip install csvkit
 
       - run: ./clean.sh
 
