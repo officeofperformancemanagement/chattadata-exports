@@ -2,6 +2,7 @@ import csv
 import json
 import os
 from requests import get
+from subprocess import call
 import sys
 from urllib.request import urlretrieve
 import zipfile
@@ -88,6 +89,10 @@ for base, asset in assets:
 
     size_of_csv = os.path.getsize(download_csv_path)
     print(f"[{id}] size of csv: {size_of_csv}")
+
+    stat_path = os.path.join(dataset_dirpath, f"{id}.stats.txt")
+    with open(stat_path, "w") as f:
+        call(["csvstat", download_csv_path], shell=False, stdout=f)
 
     zip_path = download_csv_path + ".zip"
     with Timer(f"[{id}] zipping"):
