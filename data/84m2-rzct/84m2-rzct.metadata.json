@@ -1,0 +1,155 @@
+{
+    "id": "84m2-rzct",
+    "name": "OHSH Ages 2023",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1708959004,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40442427,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1708959173,
+    "publicationGroup": 19464699,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1708959167,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19464699,
+    "totalTimesRated": 0,
+    "viewCount": 6,
+    "viewLastModified": 1708959173,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1709317444,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6198322,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1709314831,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1709317444,
+                "failureCount": 0,
+                "startedAt": 1709317444,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 589914350,
+            "name": "Age",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "age",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 151558711,
+            "format": {}
+        },
+        {
+            "id": 589914351,
+            "name": "Total",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 151558712,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 589914352,
+            "name": "Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 151558713,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
