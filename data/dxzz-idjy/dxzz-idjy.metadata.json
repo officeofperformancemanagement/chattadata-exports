@@ -1,0 +1,153 @@
+{
+    "id": "dxzz-idjy",
+    "name": "Neighborhood Association Boundaries",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1710883149,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40487671,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1710977554,
+    "publicationGroup": 19483482,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1710992132,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19484746,
+    "totalTimesRated": 0,
+    "viewCount": 29,
+    "viewLastModified": 1710977554,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1711046919,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6228526,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1711046802,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1711046919,
+                "failureCount": 0,
+                "startedAt": 1711046919,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 591056712,
+            "name": "name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 151944557,
+            "format": {}
+        },
+        {
+            "id": 591056713,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 151944556,
+            "format": {}
+        },
+        {
+            "id": 591056714,
+            "name": "boundary",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "boundary",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 151944555,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Equity and Community Engagement",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
