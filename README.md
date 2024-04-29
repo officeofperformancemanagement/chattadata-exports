@@ -1,2 +1,7 @@
 # chattadata-exports
-Work in Progress
+Exports of all the open datasets on ChattaData.
+
+## why?
+- backup
+- version controlled / version history
+- ease access 
