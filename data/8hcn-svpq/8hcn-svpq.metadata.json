@@ -7,7 +7,7 @@
     "createdAt": 1576778947,
     "description": "Data from the Bureau of Labor Statistics",
     "displayType": "table",
-    "downloadCount": 237,
+    "downloadCount": 238,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16773600,
     "totalTimesRated": 0,
-    "viewCount": 287,
+    "viewCount": 288,
     "viewLastModified": 1714342875,
     "viewType": "tabular",
     "approvals": [

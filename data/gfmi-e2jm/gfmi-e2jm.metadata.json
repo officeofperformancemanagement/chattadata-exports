@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 218,
+    "downloadCount": 219,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -36,7 +36,8 @@
             "workflowId": 534,
             "reviewer": {
                 "id": "w5hb-qra3",
-                "displayName": "Joshua Hardin"
+                "displayName": "Joshua Hardin",
+                "email": "jhardin@chattanooga.gov"
             },
             "submissionDetails": {
                 "permissionType": "read"
@@ -49,7 +50,8 @@
             },
             "submitter": {
                 "id": "w5hb-qra3",
-                "displayName": "Joshua Hardin"
+                "displayName": "Joshua Hardin",
+                "email": "jhardin@chattanooga.gov"
             }
         },
         {
@@ -605,6 +607,9 @@
             "format": {}
         }
     ],
+    "federatedTo": [
+        "www.chattadata.org"
+    ],
     "grants": [
         {
             "inherited": false,
@@ -629,32 +634,96 @@
             "page"
         ]
     },
+    "outgoingFederations": [
+        {
+            "domainCname": "www.chattadata.org",
+            "scope": "by_audience",
+            "siteName": "City of Chattanooga Open Data ",
+            "type": "data"
+        },
+        {
+            "domainCname": "www.chattadata.org",
+            "scope": "by_audience",
+            "siteName": "City of Chattanooga Open Data ",
+            "type": "data"
+        }
+    ],
     "owner": {
         "id": "w5hb-qra3",
         "displayName": "Joshua Hardin",
         "screenName": "Joshua Hardin",
         "type": "interactive",
+        "userSegment": "site_member",
         "flags": [
             "acceptedEula",
-            "mayBeStoriesCoOwner"
+            "mayBeStoriesCoOwner",
+            "siteMember"
         ]
+    },
+    "permissions": {
+        "scope": "public",
+        "accessLevels": [
+            {
+                "name": "viewer",
+                "version": "published"
+            },
+            {
+                "name": "owner",
+                "version": "all"
+            }
+        ],
+        "users": [
+            {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin",
+                "email": "jhardin@chattanooga.gov",
+                "type": "interactive",
+                "accessLevels": [
+                    {
+                        "name": "current_owner",
+                        "version": "all"
+                    }
+                ]
+            }
+        ]
+    },
+    "privateMetadata": {
+        "custom_fields": {
+            "Internal": {
+                "Dataset Sensitivity": "Internal - Shared with all city employees"
+            }
+        }
     },
     "query": {},
     "rights": [
-        "read"
+        "grant",
+        "add_column",
+        "remove_column",
+        "write",
+        "add",
+        "delete",
+        "read",
+        "update_column",
+        "delete_view",
+        "update_view",
+        "transfer_ownership",
+        "manage_provenance"
     ],
     "tableAuthor": {
         "id": "w5hb-qra3",
         "displayName": "Joshua Hardin",
         "screenName": "Joshua Hardin",
         "type": "interactive",
+        "userSegment": "site_member",
         "flags": [
             "acceptedEula",
-            "mayBeStoriesCoOwner"
+            "mayBeStoriesCoOwner",
+            "siteMember"
         ]
     },
     "flags": [
         "default",
+        "internalToPublicFederatedSourceView",
         "ownerMayBeContacted",
         "restorable",
         "restorePossibleForType"
