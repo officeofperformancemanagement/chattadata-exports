@@ -9,7 +9,7 @@
     "createdAt": 1613588022,
     "description": "Vaccine County Age Group file from TDH website: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 219,
+    "downloadCount": 220,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -22,12 +22,12 @@
     "publicationGroup": 18048497,
     "publicationStage": "published",
     "rowIdentifierColumnId": 525140253,
-    "rowsUpdatedAt": 1716073612,
+    "rowsUpdatedAt": 1716160147,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18048497,
     "totalTimesRated": 0,
     "viewCount": 134,
-    "viewLastModified": 1716070356,
+    "viewLastModified": 1716156778,
     "viewType": "tabular",
     "approvals": [
         {
