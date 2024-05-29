@@ -1,0 +1,198 @@
+{
+    "id": "tb7b-wx4v",
+    "name": "Point In Time (PIT) Count, 2019-2024",
+    "assetType": "dataset",
+    "attribution": "Chattanooga Regional Homeless Coalition",
+    "attributionLink": "https://www.homelesscoalition.org",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1716926185,
+    "description": "The PIT Count is a yearly study mandated by the U.S. Department of Housing and Urban Development to understand the number of unduplicated individuals experiencing homelessness in Hamilton County, TN on a single night in January. Data for the southeast Tennessee region was not broken down by County until 2019.",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40590012,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1716927299,
+    "publicationGroup": 19534607,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1716927293,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19534614,
+    "totalTimesRated": 0,
+    "viewCount": 5,
+    "viewLastModified": 1716928710,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1716927108,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6327814,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1716927060,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1716927108,
+                "failureCount": 0,
+                "startedAt": 1716927108,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 593023034,
+            "name": "Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "year",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 152758112,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 593023031,
+            "name": "Sheltered",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sheltered",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 152758104,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 593023032,
+            "name": "Unsheltered",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unsheltered",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 152758105,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 593023033,
+            "name": "Total",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 152758106,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "2024-PIT-Count-Results-1 (1).pdf",
+                "assetId": "835f28bf-6c22-42f1-b4f6-4e597233a1ea",
+                "name": "2024-PIT-Count-Results-1 (1).pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "Yearly"
+            }
+        },
+        "rowLabel": "Year",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "housing",
+        "homelessness",
+        "hud"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
