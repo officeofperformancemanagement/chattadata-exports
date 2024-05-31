@@ -1,53 +1,53 @@
 {
-    "id": "v5h7-bi97",
-    "name": "Home-ARP Household Types Aggregate",
+    "id": "pcix-2n4p",
+    "name": "Home-ARP QP Aggregate",
     "assetType": "dataset",
     "averageRating": 0,
     "category": "Social Services",
-    "createdAt": 1709331700,
+    "createdAt": 1717084850,
     "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
     "displayType": "table",
-    "downloadCount": 88,
+    "downloadCount": 0,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40453748,
+    "oid": 40593237,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1709331957,
-    "publicationGroup": 19470409,
+    "publicationDate": 1717084959,
+    "publicationGroup": 19536199,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1716999528,
+    "rowsUpdatedAt": 1717084958,
     "rowsUpdatedBy": "n3cu-zjep",
-    "tableId": 19470409,
+    "tableId": 19536199,
     "totalTimesRated": 0,
-    "viewCount": 21,
-    "viewLastModified": 1717003660,
+    "viewCount": 1,
+    "viewLastModified": 1717084959,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1709565975,
+            "reviewedAt": 1717084981,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6198740,
+            "submissionId": 6330305,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1709332136,
+            "submittedAt": 1717084960,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "kp5y-vgiw",
-                "displayName": "Katharine Clem"
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
             },
             "submissionDetails": {
-                "permissionType": "read"
+                "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1709565975,
+                "endedAt": 1717084981,
                 "failureCount": 0,
-                "startedAt": 1709565975,
+                "startedAt": 1717084981,
                 "status": "success"
             },
             "submitter": {
@@ -72,25 +72,25 @@
     },
     "columns": [
         {
-            "id": 590206781,
-            "name": "Household Type",
+            "id": 593084409,
+            "name": "QP",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "household_type",
+            "fieldName": "qp",
             "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 151667918,
+            "tableColumnId": 152786951,
             "format": {}
         },
         {
-            "id": 590206782,
+            "id": 593084410,
             "name": "Sum",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sum",
             "position": 2,
             "renderTypeName": "number",
-            "tableColumnId": 151667919,
+            "tableColumnId": 152786952,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
@@ -113,7 +113,7 @@
                 "How often are data values updated?": "As Needed"
             }
         },
-        "rowLabel": "Household",
+        "rowLabel": "Qualifying Population",
         "availableDisplayTypes": [
             "table",
             "fatrow",
@@ -145,8 +145,9 @@
         ]
     },
     "tags": [
-        "homeless",
+        "housing",
         "homelessness",
+        "hud",
         "american rescue plan"
     ],
     "flags": [
