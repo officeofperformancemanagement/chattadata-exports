@@ -21,9 +21,9 @@ jobs:
 
       - run: pip install csvkit
 
-      - run: ./clean.sh
+      #- run: ./clean.sh
 
-      - run: python3 sync.py
+      #- run: python3 sync.py
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
