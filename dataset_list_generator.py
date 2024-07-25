@@ -24,13 +24,9 @@ def traverse_directory(directory_path):
                 name, id = extract_name_id_from_json(file_path)
                 link = f"https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/{id}/{id}.csv.zip"
                 duckdb_link=f"https://shell.duckdb.org/#queries=v0,CREATE-TABLE-dataset-AS-SELECT-*-FROM-'https%3A%2F%2Fwww.chattadata.org%2Fapi%2Fviews%2F{id.replace('-','%20')}%2Frows.csv%3FaccessType%3DDOWNLOAD'~,Describe-dataset~"
-                f.write (f"\n|{id}|{name}|[Link]({link})|[Link]({duckdb_link})|")
+                f.write (f"\n|{id}|{name}|[Link]({link})|[DuckDB]({duckdb_link})|")
 directory_path = "./data"
 traverse_directory(directory_path)
 print("All good :)")
-# get all the 4x4s
-# make links with the 4x4s
-# convert to markdown
-# publish the list
 
 f.close()
