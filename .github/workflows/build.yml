@@ -25,5 +25,7 @@ jobs:
 
       #- run: python3 sync.py
 
+      - run: python3 dataset_list_generator.py
+
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
