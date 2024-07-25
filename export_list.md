@@ -1,6 +1,6 @@
-|four_by_four|dataset_name|dataset_link|
-| ----------- | ----------- |------------|
-|hvxf-4ntd|Child Care Providers|[Link](https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/hvxf-4ntd/hvxf-4ntd.csv.zip)|
+|four_by_four|dataset_name|dataset_link|duck_db|
+| ----------- | ----------- |------------|-----|
+|hvxf-4ntd|Child Care Providers|[Link](https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/hvxf-4ntd/hvxf-4ntd.csv.zip)|[Analyze](https://shell.duckdb.org/#queries=v0,CREATE-TABLE-dataset-AS-SELECT-*-FROM-'https%3A%2F%2Fwww.chattadata.org%2Fapi%2Fviews%2Fhvxf%204ntd%2Frows.csv%3FaccessType%3DDOWNLOAD'~,Describe-dataset~)|
 |b5bi-svwj|Hamilton County Cases by Zip Code|[Link](https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/b5bi-svwj/b5bi-svwj.csv.zip)|
 |b6e4-mshe|Census Tracts - 2010|[Link](https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/b6e4-mshe/b6e4-mshe.csv.zip)|
 |ak44-qdtk|Housing Types|[Link](https://raw.githubusercontent.com/officeofperformancemanagement/chattadata-exports/main/data/ak44-qdtk/ak44-qdtk.csv.zip)|
