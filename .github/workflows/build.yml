@@ -23,7 +23,7 @@ jobs:
 
       #- run: ./clean.sh
 
-      #- run: python3 sync.py
+      - run: python3 sync.py
 
       - run: python3 dataset_list_generator.py
 
