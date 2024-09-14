@@ -1,7 +1,9 @@
 import csv
+import gzip
 import json
 import os
 from requests import get
+import shutil
 from subprocess import call
 import sys
 from urllib.request import urlretrieve
@@ -100,10 +102,19 @@ for base, asset in assets:
             zip_path, mode="w", compression=zipfile.ZIP_DEFLATED, compresslevel=9
         ) as zip:
             zip.write(download_csv_path)
-
+    
     size_of_zip = os.path.getsize(zip_path)
     print(f"[{id}] size of zip: {size_of_zip}")
 
+    gzip_path = download_csv_path + ".gz"
+    with Timer(f"[{id}] gzipping"):
+        with open(download_csv_path, 'rb') as f_in:
+            with gzip.open(gzip_path, 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+    size_of_gzip = os.path.getsize(gzip_path)
+    print(f"[{id}] size of gzip: {size_of_gzip}")
+    
     with Timer(f"[{id}] deleting old csv"):
         os.remove(download_csv_path)
 
@@ -113,6 +124,13 @@ for base, asset in assets:
             print(f"[{id}] removing {zip_path} because it's too large")
             # file is too large for Github (without lfs)
             os.remove(zip_path)
+
+    with Timer(f"[{id}] checking size"):
+        included = size_of_gzip < 5e7
+        if not included:
+            print(f"[{id}] removing {gzip_path} because it's too large")
+            # file is too large for Github (without lfs)
+            os.remove(gzip_path)    
 
     rows.append(
         {
