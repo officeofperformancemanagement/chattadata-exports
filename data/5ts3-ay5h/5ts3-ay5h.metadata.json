@@ -1,0 +1,579 @@
+{
+    "id": "5ts3-ay5h",
+    "name": "911 Flood Calls - Helene",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1727362432,
+    "description": "911 service requests related to flooding over the weekend Hurricane Helene hits 9/26-9/29",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "locked": false,
+    "modifyingViewUid": "ad65-bzx9",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40879810,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1727362569,
+    "publicationGroup": 15972045,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1727399725,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19081832,
+    "totalTimesRated": 0,
+    "viewCount": 14,
+    "viewLastModified": 1727365243,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1727363841,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6563438,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1727362570,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1727363841,
+                "failureCount": 0,
+                "startedAt": 1727363841,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 599723299,
+            "name": "Master Incident Number",
+            "dataTypeName": "text",
+            "description": "Incident number",
+            "fieldName": "master_incident_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77051150,
+            "format": {}
+        },
+        {
+            "id": 599723300,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Address of incident",
+            "fieldName": "address",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77051151,
+            "format": {}
+        },
+        {
+            "id": 599723301,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "City of incident",
+            "fieldName": "city",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77051152,
+            "format": {}
+        },
+        {
+            "id": 599723302,
+            "name": "Cross Street",
+            "dataTypeName": "text",
+            "description": "Cross street of incident",
+            "fieldName": "cross_street",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77051153,
+            "format": {}
+        },
+        {
+            "id": 599723303,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "County of incident",
+            "fieldName": "county",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77051154,
+            "format": {}
+        },
+        {
+            "id": 599723304,
+            "name": "Response Date",
+            "dataTypeName": "calendar_date",
+            "description": "Response date of incident",
+            "fieldName": "response_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77051155,
+            "format": {}
+        },
+        {
+            "id": 599723305,
+            "name": "First Unit Arrived",
+            "dataTypeName": "calendar_date",
+            "description": "Time of first arriving unit on this call",
+            "fieldName": "first_unit_arrived",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 137525178,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 599723306,
+            "name": "PhonePickUp_To_FirstArrived",
+            "dataTypeName": "number",
+            "description": "Minutes from phone pick up to first arrived",
+            "fieldName": "phonepickup_to_firstarrived",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 137525177,
+            "format": {
+                "precisionStyle": "standard",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 599723307,
+            "name": "Phone Pick Up Time",
+            "dataTypeName": "calendar_date",
+            "description": "Phone pick up time for incident",
+            "fieldName": "phone_pick_up_time",
+            "position": 9,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77051156,
+            "format": {}
+        },
+        {
+            "id": 599723308,
+            "name": "Call Closed Time",
+            "dataTypeName": "calendar_date",
+            "description": "Closed call time for incident",
+            "fieldName": "call_closed_time",
+            "position": 10,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77051157,
+            "format": {}
+        },
+        {
+            "id": 599723309,
+            "name": "Incident Type",
+            "dataTypeName": "text",
+            "description": "Type of incident",
+            "fieldName": "incident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77051158,
+            "format": {}
+        },
+        {
+            "id": 599723310,
+            "name": "Problem",
+            "dataTypeName": "text",
+            "description": "Incident problem",
+            "fieldName": "problem",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77051159,
+            "format": {}
+        },
+        {
+            "id": 599723311,
+            "name": "Problem Type",
+            "dataTypeName": "text",
+            "description": "Type category of problem",
+            "fieldName": "problem_type",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 106757723,
+            "format": {}
+        },
+        {
+            "id": 599723312,
+            "name": "Disposition",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "disposition",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 106771887,
+            "format": {}
+        },
+        {
+            "id": 599723313,
+            "name": "Battalion",
+            "dataTypeName": "text",
+            "description": "Responding battalion",
+            "fieldName": "battalion",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 77051160,
+            "format": {}
+        },
+        {
+            "id": 599723314,
+            "name": "Division",
+            "dataTypeName": "text",
+            "description": "Responding division",
+            "fieldName": "division",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 77051161,
+            "format": {}
+        },
+        {
+            "id": 599723315,
+            "name": "Current Division",
+            "dataTypeName": "text",
+            "description": "Current responding division",
+            "fieldName": "current_division",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 77051162,
+            "format": {}
+        },
+        {
+            "id": 599723316,
+            "name": "Agency Type",
+            "dataTypeName": "text",
+            "description": "Responding agency type",
+            "fieldName": "agency_type",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 77051163,
+            "format": {}
+        },
+        {
+            "id": 599723317,
+            "name": "Jurisdiction",
+            "dataTypeName": "text",
+            "description": "Responding jurisdiction",
+            "fieldName": "jurisdiction",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77051164,
+            "format": {}
+        },
+        {
+            "id": 599723318,
+            "name": "Call Received to First Assign",
+            "dataTypeName": "text",
+            "description": "Time from call received to first arrive",
+            "fieldName": "call_received_to_first_assign",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 77051165,
+            "format": {}
+        },
+        {
+            "id": 599723319,
+            "name": "Call Received to First Assign Minutes",
+            "dataTypeName": "number",
+            "description": "Call Received to First Assign in decimal minutes",
+            "fieldName": "call_received_to_first_assign_minutes",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 107689771,
+            "format": {}
+        },
+        {
+            "id": 599723320,
+            "name": "Assigned to First Enroute",
+            "dataTypeName": "text",
+            "description": "Time from assigned to first enroute",
+            "fieldName": "assigned_to_first_enroute",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 77051166,
+            "format": {}
+        },
+        {
+            "id": 599723321,
+            "name": "Assigned to First Enroute Minutes",
+            "dataTypeName": "number",
+            "description": "Assigned to First Enroute in decimal minutes",
+            "fieldName": "assigned_to_first_enroute_minutes",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 107689770,
+            "format": {}
+        },
+        {
+            "id": 599723322,
+            "name": "Enroute to First at Scene",
+            "dataTypeName": "text",
+            "description": "Time from enroute to first at scene",
+            "fieldName": "enroute_to_first_at_scene",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 77051167,
+            "format": {}
+        },
+        {
+            "id": 599723323,
+            "name": "Enroute to First at Scene Minutes",
+            "dataTypeName": "number",
+            "description": "Enroute to First at Scene in decimal minutes",
+            "fieldName": "enroute_to_first_at_scene_minutes",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 107689769,
+            "format": {}
+        },
+        {
+            "id": 599723324,
+            "name": "Call Received to Call Closed",
+            "dataTypeName": "text",
+            "description": "Time from call received to call closed",
+            "fieldName": "call_received_to_call_closed",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 77051168,
+            "format": {}
+        },
+        {
+            "id": 599723325,
+            "name": "Call Received to Call Closed Minutes",
+            "dataTypeName": "number",
+            "description": "Call Received to Call Closed in decimal minutes",
+            "fieldName": "call_received_to_call_closed_minutes",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 107689768,
+            "format": {}
+        },
+        {
+            "id": 599723326,
+            "name": "Assigned Units Count",
+            "dataTypeName": "number",
+            "description": "Number of units assigned to call",
+            "fieldName": "assigned_units_count",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 79104319,
+            "format": {}
+        },
+        {
+            "id": 599723327,
+            "name": "Sum Of Units On Call Time Minutes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sum_of_units_on_call_time_minutes",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 79160895,
+            "format": {}
+        },
+        {
+            "id": 599723328,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Latitude of call",
+            "fieldName": "latitude",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 77051169,
+            "format": {}
+        },
+        {
+            "id": 599723329,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Longitude of call",
+            "fieldName": "longitude",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 77051170,
+            "format": {}
+        },
+        {
+            "id": 599723330,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "Location of call in Well Known Text format",
+            "fieldName": "location_wkt",
+            "position": 32,
+            "renderTypeName": "point",
+            "tableColumnId": 77051171,
+            "format": {}
+        },
+        {
+            "id": 599723331,
+            "name": "Citizen Initiated",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citizen_initiated",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 103997548,
+            "format": {}
+        },
+        {
+            "id": 599723332,
+            "name": "Agency Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "agency_case_number",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 103997549,
+            "format": {}
+        },
+        {
+            "id": 599723333,
+            "name": "Priority Number",
+            "dataTypeName": "number",
+            "description": "Call priority number",
+            "fieldName": "priority_number",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 107898263,
+            "format": {}
+        },
+        {
+            "id": 599723334,
+            "name": "ID",
+            "dataTypeName": "text",
+            "description": "Unique row ID",
+            "fieldName": "id",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 77051149,
+            "format": {}
+        },
+        {
+            "id": 599723335,
+            "name": "Census Tract",
+            "dataTypeName": "text",
+            "description": "Census tract id of the call",
+            "fieldName": "census_tract",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 106979773,
+            "format": {}
+        },
+        {
+            "id": 599723336,
+            "name": "Response Day of Week",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "response_day_of_week",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 106981231,
+            "format": {}
+        },
+        {
+            "id": 599723337,
+            "name": "Response Time of Day",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "response_time_of_day",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 106981230,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Other",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "rowLabel": "Flood Report",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}
