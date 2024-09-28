@@ -1,0 +1,171 @@
+{
+    "id": "f5wm-j9xr",
+    "name": "Hurricane Helene Road Closures",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1727443856,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40881002,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1727444010,
+    "publicationGroup": 19657603,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1727449823,
+    "rowsUpdatedBy": "iiwc-mbju",
+    "tableId": 19657603,
+    "totalTimesRated": 0,
+    "viewCount": 9,
+    "viewLastModified": 1727449822,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1727444029,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6564328,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1727444011,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1727444029,
+                "failureCount": 0,
+                "startedAt": 1727444029,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 599750186,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 154949493,
+            "format": {}
+        },
+        {
+            "id": 599750187,
+            "name": "line",
+            "dataTypeName": "line",
+            "description": "",
+            "fieldName": "line",
+            "position": 2,
+            "renderTypeName": "line",
+            "tableColumnId": 154949494,
+            "format": {}
+        },
+        {
+            "id": 599750188,
+            "name": "name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 154949495,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Public Works",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "rowLabel": "Road Closure",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
