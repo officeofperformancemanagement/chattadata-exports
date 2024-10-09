@@ -9,22 +9,22 @@
     "createdAt": 1562954391,
     "description": "Data from the annual community survey conducted by the City of Chattanooga Internal Audit to evaluate citizen's satisfaction with the City.",
     "displayType": "table",
-    "downloadCount": 354,
+    "downloadCount": 355,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "modifyingViewUid": "p6mj-ef7e",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39938620,
+    "oid": 40899729,
     "provenance": "official",
     "publicationAppendEnabled": false,
     "publicationDate": 1572283319,
     "publicationGroup": 16202115,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1694441866,
-    "rowsUpdatedBy": "iiwc-mbju",
-    "tableId": 19280646,
+    "rowsUpdatedAt": 1728409355,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 19664062,
     "totalTimesRated": 0,
     "viewCount": 376,
     "viewLastModified": 1708630521,
@@ -34,7 +34,7 @@
             "reviewedAt": 1562954521,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5749968,
+            "submissionId": 6576593,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1562954503,
@@ -75,7 +75,7 @@
     },
     "columns": [
         {
-            "id": 580607654,
+            "id": 600392906,
             "name": "Year",
             "dataTypeName": "text",
             "description": "Year the survey was administered",
@@ -86,7 +86,7 @@
             "format": {}
         },
         {
-            "id": 580607655,
+            "id": 600392907,
             "name": "Format",
             "dataTypeName": "text",
             "description": "The published format which was employed.Coded Values = TEXT - Paper: Scanning, Paper: Keyed, Online",
@@ -97,7 +97,7 @@
             "format": {}
         },
         {
-            "id": 580607656,
+            "id": 600392908,
             "name": "1a Overall, how do you rate the quality of life in Chattanooga as a place to live.",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -108,7 +108,7 @@
             "format": {}
         },
         {
-            "id": 580607657,
+            "id": 600392909,
             "name": "1b Overall, how do you rate the quality of life in your neighborhood as a place to live.",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -119,7 +119,7 @@
             "format": {}
         },
         {
-            "id": 580607658,
+            "id": 600392910,
             "name": "1c Overall, how do you rate the quality of life in Chattanooga as a place to work.",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -130,7 +130,7 @@
             "format": {}
         },
         {
-            "id": 580607659,
+            "id": 600392911,
             "name": "1d Overall, how do you rate the quality of life in Chattanooga as a place to raise children.",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -141,7 +141,7 @@
             "format": {}
         },
         {
-            "id": 580607660,
+            "id": 600392912,
             "name": "1e Overall, how do you rate the quality of life in Chattanooga as a place to retire.",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -152,7 +152,7 @@
             "format": {}
         },
         {
-            "id": 580607661,
+            "id": 600392913,
             "name": "2a How safe would you feel walking alone during the day in your neighborhood?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -163,7 +163,7 @@
             "format": {}
         },
         {
-            "id": 580607662,
+            "id": 600392914,
             "name": "2b How safe would you feel walking alone during the day in the park closest to you?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -174,7 +174,7 @@
             "format": {}
         },
         {
-            "id": 580607663,
+            "id": 600392915,
             "name": "2c How safe would you feel walking alone during the day downtown?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -185,7 +185,7 @@
             "format": {}
         },
         {
-            "id": 580607664,
+            "id": 600392916,
             "name": "3a How safe would you feel walking alone during at night in your neighborhood?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -196,7 +196,7 @@
             "format": {}
         },
         {
-            "id": 580607665,
+            "id": 600392917,
             "name": "3b How safe would you feel walking alone during at night in the park closest to you?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -207,7 +207,7 @@
             "format": {}
         },
         {
-            "id": 580607666,
+            "id": 600392918,
             "name": "3c How safe would you feel walking alone during at night downtown?",
             "dataTypeName": "number",
             "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
@@ -218,7 +218,7 @@
             "format": {}
         },
         {
-            "id": 580607667,
+            "id": 600392919,
             "name": "4a Did anyone break into, or burglarize, your home during the last 12 months?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No",
@@ -229,7 +229,7 @@
             "format": {}
         },
         {
-            "id": 580607668,
+            "id": 600392920,
             "name": "4b If yes, was it reported to the police?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No",
@@ -240,7 +240,7 @@
             "format": {}
         },
         {
-            "id": 580607669,
+            "id": 600392921,
             "name": "5a Did anyone break into, or attempt to break into, any vehicles belonging to your household during the last 12 months?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No",
@@ -251,7 +251,7 @@
             "format": {}
         },
         {
-            "id": 580607670,
+            "id": 600392922,
             "name": "5b If yes, was it reported to the police?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No",
@@ -262,7 +262,7 @@
             "format": {}
         },
         {
-            "id": 580607671,
+            "id": 600392923,
             "name": "6a Did you call 9-1-1 for an emergency during the last 12 months?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No (Question discontinued in 2022)",
@@ -273,7 +273,7 @@
             "format": {}
         },
         {
-            "id": 580607672,
+            "id": 600392924,
             "name": "6b If yes, how do you rate the services you received on the the phone from the 9-1-1 calltaker?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK  (Discontinued in 2022)",
@@ -284,7 +284,7 @@
             "format": {}
         },
         {
-            "id": 580607673,
+            "id": 600392925,
             "name": "7a How do you rate police services on the overall quality of services?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -295,7 +295,7 @@
             "format": {}
         },
         {
-            "id": 580607674,
+            "id": 600392926,
             "name": "7b How do you rate police services on the conduct of police officers?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -306,7 +306,7 @@
             "format": {}
         },
         {
-            "id": 580607675,
+            "id": 600392927,
             "name": "7c How do you rate police services on the speed of emergency police response?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -317,7 +317,7 @@
             "format": {}
         },
         {
-            "id": 580607676,
+            "id": 600392928,
             "name": "8a Did you use fire or emergency medical services during the last 12 months?",
             "dataTypeName": "text",
             "description": "TEXT - Yes / No (Discontinued in 2022)",
@@ -328,7 +328,7 @@
             "format": {}
         },
         {
-            "id": 580607677,
+            "id": 600392929,
             "name": "8b If yes, how do you rate the services you received on overall quality of services?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -339,7 +339,7 @@
             "format": {}
         },
         {
-            "id": 580607678,
+            "id": 600392930,
             "name": "8c If yes, how do you rate the services you received on speed of emergency response?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -350,7 +350,7 @@
             "format": {}
         },
         {
-            "id": 580607679,
+            "id": 600392931,
             "name": "9a How do you rate your satisfaction with the following City services: Garbage Pick-up?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -361,7 +361,7 @@
             "format": {}
         },
         {
-            "id": 580607680,
+            "id": 600392932,
             "name": "9b How do you rate your satisfaction with the following City services: Yard-waste Pick-up?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -372,7 +372,7 @@
             "format": {}
         },
         {
-            "id": 580607681,
+            "id": 600392933,
             "name": "9c How do you rate your satisfaction with the following City services: Curbside Recycling?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -383,7 +383,7 @@
             "format": {}
         },
         {
-            "id": 580607682,
+            "id": 600392934,
             "name": "9d How do you rate your satisfaction with the following City services: Water Quality of Lakes and Streams?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -394,7 +394,7 @@
             "format": {}
         },
         {
-            "id": 580607683,
+            "id": 600392935,
             "name": "9e How do you rate your satisfaction with the following City services: Storm Drainage?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK (Discontinued in 2022 and combined with 9f in a new question 9g))",
@@ -405,7 +405,7 @@
             "format": {}
         },
         {
-            "id": 580607684,
+            "id": 600392936,
             "name": "9f How do you rate your satisfaction with the following City services: Sewers?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK (Discontinued in 2022 and combined with 9e in a new question 9g)",
@@ -416,7 +416,7 @@
             "format": {}
         },
         {
-            "id": 580607685,
+            "id": 600392937,
             "name": "10a In the past 12 months, how many times did you: Visit any city park?",
             "dataTypeName": "text",
             "description": "TEXT - Daily, Weekly, Monthly, A Few Times, Never, Don't Know",
@@ -427,7 +427,7 @@
             "format": {}
         },
         {
-            "id": 580607686,
+            "id": 600392938,
             "name": "10b In the past 12 months, how many times did you: Visit a city park near your home?",
             "dataTypeName": "text",
             "description": "TEXT - Daily, Weekly, Monthly, A Few Times, Never, Don't Know",
@@ -438,7 +438,7 @@
             "format": {}
         },
         {
-            "id": 580607687,
+            "id": 600392939,
             "name": "11a How do you rate the quality of the parks near your home for well-maintained landscaping?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Discontinued in 2022)",
@@ -449,7 +449,7 @@
             "format": {}
         },
         {
-            "id": 580607688,
+            "id": 600392940,
             "name": "11b How do you rate the quality of the parks near your home for well-maintained facilities?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Reworded in 2022: \"11b How do you rate the quality of the parks near your home for well-maintained facilities?\")",
@@ -460,7 +460,7 @@
             "format": {}
         },
         {
-            "id": 580607689,
+            "id": 600392941,
             "name": "11c How do you rate the quality of the parks near your home for well-maintained playgrounds?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Reworded in 2022: \"11b How do you rate the quality of the parks near your home for well-maintained playgrounds?\")",
@@ -471,7 +471,7 @@
             "format": {}
         },
         {
-            "id": 580607691,
+            "id": 600392943,
             "name": "13a How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Affordability?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -482,7 +482,7 @@
             "format": {}
         },
         {
-            "id": 580607692,
+            "id": 600392944,
             "name": "13b How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Variety?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -493,7 +493,7 @@
             "format": {}
         },
         {
-            "id": 580607693,
+            "id": 600392945,
             "name": "13c How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Quality of instruction, coaching, leadership, etc?",
             "dataTypeName": "number",
             "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
@@ -504,7 +504,7 @@
             "format": {}
         },
         {
-            "id": 580607694,
+            "id": 600392946,
             "name": "14a How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during peak hours, that is 7-9am and 3:30-6pm?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -515,7 +515,7 @@
             "format": {}
         },
         {
-            "id": 580607695,
+            "id": 600392947,
             "name": "14b How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during off-peak traffic hours?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -526,7 +526,7 @@
             "format": {}
         },
         {
-            "id": 580607696,
+            "id": 600392948,
             "name": "15a How do you rate City streets on smoothness?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -537,7 +537,7 @@
             "format": {}
         },
         {
-            "id": 580607697,
+            "id": 600392949,
             "name": "15b How do you rate City streets on cleanliness?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -548,7 +548,7 @@
             "format": {}
         },
         {
-            "id": 580607698,
+            "id": 600392950,
             "name": "15c How do you rate City streets on speeding vehicles?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -559,7 +559,7 @@
             "format": {}
         },
         {
-            "id": 580607699,
+            "id": 600392951,
             "name": "15d How do you rate City streets on safety of pedestrians?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -570,7 +570,7 @@
             "format": {}
         },
         {
-            "id": 580607700,
+            "id": 600392952,
             "name": "15e How do you rate City streets on safety of bicyclists?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -581,7 +581,7 @@
             "format": {}
         },
         {
-            "id": 580607701,
+            "id": 600392953,
             "name": "16a Has a new commercial development been completed in or near your neighborhood in the last 12 months?",
             "dataTypeName": "text",
             "description": " TEXT - Yes / No",
@@ -592,7 +592,7 @@
             "format": {}
         },
         {
-            "id": 580607702,
+            "id": 600392954,
             "name": "16b If yes, how do you rate it on attractiveness?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -603,7 +603,7 @@
             "format": {}
         },
         {
-            "id": 580607703,
+            "id": 600392955,
             "name": "16c If yes, how do you rate it on  improvement to your neighborhood as a place to live?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -614,7 +614,7 @@
             "format": {}
         },
         {
-            "id": 580607704,
+            "id": 600392956,
             "name": "17a Has a new residentail development been completed in or near your neighborhood in the last 12 months?",
             "dataTypeName": "text",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -625,7 +625,7 @@
             "format": {}
         },
         {
-            "id": 580607705,
+            "id": 600392957,
             "name": "17b If yes, how do you rate it on attractiveness?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -636,7 +636,7 @@
             "format": {}
         },
         {
-            "id": 580607706,
+            "id": 600392958,
             "name": "17c If yes, how do you rate it on improvement to your neighborhood as a place to live?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -647,7 +647,7 @@
             "format": {}
         },
         {
-            "id": 580607707,
+            "id": 600392959,
             "name": "18a How do you rate your neighborhood on housing affordability?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -658,7 +658,7 @@
             "format": {}
         },
         {
-            "id": 580607708,
+            "id": 600392960,
             "name": "18b How do you rate your neighborhood on physical condition of housing?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -669,7 +669,7 @@
             "format": {}
         },
         {
-            "id": 580607709,
+            "id": 600392961,
             "name": "18c How do you rate your neighborhood on closeness of parks or open spaces?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -680,7 +680,7 @@
             "format": {}
         },
         {
-            "id": 580607710,
+            "id": 600392962,
             "name": "18d How do you rate your neighborhood on walking distance to public transit?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -691,7 +691,7 @@
             "format": {}
         },
         {
-            "id": 580607711,
+            "id": 600392963,
             "name": "18e How do you rate your neighborhood on access to shopping and other services?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -702,7 +702,7 @@
             "format": {}
         },
         {
-            "id": 580607712,
+            "id": 600392964,
             "name": "18f How do you rate your neighborhood on on-street parking?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -713,7 +713,7 @@
             "format": {}
         },
         {
-            "id": 580607713,
+            "id": 600392965,
             "name": "18g How do you rate your neighborhood on street lighting?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -724,7 +724,7 @@
             "format": {}
         },
         {
-            "id": 580607714,
+            "id": 600392966,
             "name": "18h How do you rate your neighborhood on availability of sidewalks?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -735,7 +735,7 @@
             "format": {}
         },
         {
-            "id": 580607715,
+            "id": 600392967,
             "name": "19a How do you rate Chattanooga as a place to do business?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -746,7 +746,7 @@
             "format": {}
         },
         {
-            "id": 580607716,
+            "id": 600392968,
             "name": "19b Do you own a business in Chattanooga?",
             "dataTypeName": "text",
             "description": " TEXT - Yes / No",
@@ -757,7 +757,7 @@
             "format": {}
         },
         {
-            "id": 580607717,
+            "id": 600392969,
             "name": "19c If yes, how many employees does your business employ?",
             "dataTypeName": "text",
             "description": "TEXT - Self, 1, 2-10, 11-50, 51-150, 151+",
@@ -768,7 +768,7 @@
             "format": {}
         },
         {
-            "id": 580607718,
+            "id": 600392970,
             "name": "20a In the last 12 months, about how many times, if ever, have you or other household members called 3-1-1 about public services?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
@@ -779,7 +779,7 @@
             "format": {}
         },
         {
-            "id": 580607719,
+            "id": 600392971,
             "name": "20b In the last 12 months, about how many times, if ever, have you or other household members ridden a local bus (CARTA)? (",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
@@ -790,7 +790,7 @@
             "format": {}
         },
         {
-            "id": 580607720,
+            "id": 600392972,
             "name": "20c In the last 12 months, about how many times, if ever, have you or other household members visited a Chattanooga Public Library branch?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
@@ -801,7 +801,7 @@
             "format": {}
         },
         {
-            "id": 580607721,
+            "id": 600392973,
             "name": "20d In the last 12 months, about how many times, if ever, have you or other household members attended an event at Memorial Auditorium or Tivoli?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times (Question discontinued in 2022)",
@@ -812,7 +812,7 @@
             "format": {}
         },
         {
-            "id": 580607722,
+            "id": 600392974,
             "name": "20e In the last 12 months, about how many times, if ever, have you or other household members used/visited McKamey Animal Center?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
@@ -823,7 +823,7 @@
             "format": {}
         },
         {
-            "id": 580607723,
+            "id": 600392975,
             "name": "20f In the last 12 months, about how many times, if ever, have you or other household members visited the Chattanooga.gov website?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times (Question discontinued in 2022)",
@@ -834,7 +834,7 @@
             "format": {}
         },
         {
-            "id": 580607724,
+            "id": 600392976,
             "name": "20g In the last 12 months, about how many times, if ever, have you or other household members been involved in a community project or attended a public meeting?",
             "dataTypeName": "text",
             "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
@@ -845,7 +845,7 @@
             "format": {}
         },
         {
-            "id": 580607725,
+            "id": 600392977,
             "name": "21a Overall, how do you rate the quality of 3-1-1?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -856,7 +856,7 @@
             "format": {}
         },
         {
-            "id": 580607726,
+            "id": 600392978,
             "name": "21b Overall, how do you rate the quality of bus services (CARTA)?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -867,7 +867,7 @@
             "format": {}
         },
         {
-            "id": 580607727,
+            "id": 600392979,
             "name": "21c Overall, how do you rate the quality of experiences at Memorial Auditorium and/or Tivoli?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Question discontinued in 2022)",
@@ -878,7 +878,7 @@
             "format": {}
         },
         {
-            "id": 580607728,
+            "id": 600392980,
             "name": "21d Overall, how do you rate the quality of animal control (McKamey)?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -889,7 +889,7 @@
             "format": {}
         },
         {
-            "id": 580607729,
+            "id": 600392981,
             "name": "21e Overall, how do you rate the quality of public libraries?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -900,7 +900,7 @@
             "format": {}
         },
         {
-            "id": 580607730,
+            "id": 600392982,
             "name": "21f Overall, how do you rate the quality of chattanooga.gov website?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Question discontinued in 2022)",
@@ -911,7 +911,7 @@
             "format": {}
         },
         {
-            "id": 580607731,
+            "id": 600392983,
             "name": "22a Overall, how do you rate following aspects of City government performance: Value of services for City taxes paid?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -922,7 +922,7 @@
             "format": {}
         },
         {
-            "id": 580607732,
+            "id": 600392984,
             "name": "22b Overall, how do you rate following aspects of City government performance: Overall direction the City is taking?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -933,7 +933,7 @@
             "format": {}
         },
         {
-            "id": 580607733,
+            "id": 600392985,
             "name": "22c Overall, how do you rate following aspects of City government performance: Welcoming citizen involvement?",
             "dataTypeName": "number",
             "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
@@ -944,7 +944,7 @@
             "format": {}
         },
         {
-            "id": 580607734,
+            "id": 600392986,
             "name": "Sex",
             "dataTypeName": "text",
             "description": "TEXT - Male / Female",
@@ -955,7 +955,7 @@
             "format": {}
         },
         {
-            "id": 580607735,
+            "id": 600392987,
             "name": "Age",
             "dataTypeName": "text",
             "description": "TEXT - Under 20, 20-29, 30-44, 45-59, 60-74, Over 74",
@@ -966,7 +966,7 @@
             "format": {}
         },
         {
-            "id": 580607736,
+            "id": 600392988,
             "name": "Length of Stay in Chattanooga",
             "dataTypeName": "text",
             "description": "TEXT - Less than 5, 5-10 years, 11-20 years, More than 20 years",
@@ -977,7 +977,7 @@
             "format": {}
         },
         {
-            "id": 580607737,
+            "id": 600392989,
             "name": "Own or Rent",
             "dataTypeName": "text",
             "description": "TEXT - Own, Rent, Live with Someone (rent-free)",
@@ -988,7 +988,7 @@
             "format": {}
         },
         {
-            "id": 580607738,
+            "id": 600392990,
             "name": "Individual Income",
             "dataTypeName": "text",
             "description": "TEXT - No income, Less than $20,000, $20,000-$34,999, $35,000-$74,999, $75,000-$149,999, $150,000 or more",
@@ -999,7 +999,7 @@
             "format": {}
         },
         {
-            "id": 580607739,
+            "id": 600392991,
             "name": "Ethnicity",
             "dataTypeName": "text",
             "description": "TEXT - Caucasian/White, African-American/Black, Asian or Pacific Islander, Native American/Indian, Hispanic/Latino, Other",
@@ -1010,7 +1010,7 @@
             "format": {}
         },
         {
-            "id": 580607740,
+            "id": 600392992,
             "name": "Education",
             "dataTypeName": "text",
             "description": "TEXT - Elementary, Some high school, High school grad or equivalent, Some college, College grad or more",
@@ -1021,7 +1021,7 @@
             "format": {}
         },
         {
-            "id": 580607741,
+            "id": 600392993,
             "name": "Zip Code",
             "dataTypeName": "text",
             "description": "",
@@ -1032,7 +1032,7 @@
             "format": {}
         },
         {
-            "id": 580607742,
+            "id": 600392994,
             "name": "Council District",
             "dataTypeName": "text",
             "description": "",
