@@ -6,7 +6,7 @@
     "createdAt": 1559134935,
     "description": "Shows asset views and downloads over time.",
     "displayType": "table",
-    "downloadCount": 2840,
+    "downloadCount": 2845,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575349039,
@@ -20,12 +20,12 @@
     "publicationGroup": 16230297,
     "publicationStage": "published",
     "rowIdentifierColumnId": 422603645,
-    "rowsUpdatedAt": 1728861720,
+    "rowsUpdatedAt": 1728948593,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16429238,
     "totalTimesRated": 0,
     "viewCount": 429,
-    "viewLastModified": 1728861713,
+    "viewLastModified": 1728948585,
     "viewType": "tabular",
     "approvals": [
         {

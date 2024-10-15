@@ -1,0 +1,251 @@
+{
+    "id": "cwzf-g7xm",
+    "name": "OHSH Dashboard Data 09.2024",
+    "assetType": "dataset",
+    "attribution": "Office of Homelessness and Supportive Housing",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1728936678,
+    "description": "This dataset contains outcome data aggregated by month from the Office of Homelessness and Supportive Housing. Many of the rows will show \"0\" due to changes in how data is collected and presented over time. Note: The first month that data on the Downtown Street Outreach program will be available is October 2024.",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40908061,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1728937895,
+    "publicationGroup": 19667697,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1728937889,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19667697,
+    "totalTimesRated": 0,
+    "viewCount": 1,
+    "viewLastModified": 1728937895,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1728937937,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6582632,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1728937896,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1728937938,
+                "failureCount": 0,
+                "startedAt": 1728937937,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 600539441,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 155185398,
+            "format": {}
+        },
+        {
+            "id": 600539442,
+            "name": "Households Housed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "households_housed",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 155185399,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539443,
+            "name": "Individuals Housed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "individuals_housed",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 155185400,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539444,
+            "name": "Downtown Active Clients",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "downtown_active_clients",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 155185401,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539445,
+            "name": "Downtown Services Provided",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "downtown_services_provided",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 155185402,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539446,
+            "name": "Post-Housing Service Coordination Active Clients",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "post_housing_service",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 155185403,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539447,
+            "name": "Encampment Active Clients",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "encampment_active_clients",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 155185404,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 600539448,
+            "name": "Encampment Services Provided",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "encampment_services_provided",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 155185405,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "HAPAugust2023.pdf",
+                "assetId": "8c3bfa94-b5df-405e-8a91-7e5f9fe4f6fb",
+                "name": "HAPAugust2023.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "Monthly"
+            }
+        },
+        "rowLabel": "Month",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "housing",
+        "homelessness",
+        "hud",
+        "one chattanooga"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
