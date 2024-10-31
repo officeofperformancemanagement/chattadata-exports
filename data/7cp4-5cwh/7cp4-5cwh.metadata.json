@@ -6,7 +6,7 @@
     "createdAt": 1550007339,
     "description": "Separated and combined sewer pressure mains.",
     "displayType": "table",
-    "downloadCount": 159,
+    "downloadCount": 160,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575335629,
@@ -23,27 +23,27 @@
     "rowsUpdatedBy": "ft46-kupe",
     "tableId": 15950298,
     "totalTimesRated": 0,
-    "viewCount": 10,
+    "viewCount": 12,
     "viewLastModified": 1712883624,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1659726227,
+            "reviewedAt": 1730264533,
             "reviewedAutomatically": true,
             "state": "approved",
-            "submissionId": 6265852,
+            "submissionId": 6597340,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1659726227,
+            "submittedAt": 1730264533,
             "targetAudience": "public",
             "workflowId": 534,
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1659726227,
+                "endedAt": 1730264533,
                 "failureCount": 0,
-                "startedAt": 1659726227,
+                "startedAt": 1730264533,
                 "status": "success"
             },
             "submitter": {
