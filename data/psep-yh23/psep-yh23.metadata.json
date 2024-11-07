@@ -1,0 +1,2566 @@
+{
+    "id": "psep-yh23",
+    "name": "Car Crashes",
+    "assetType": "dataset",
+    "attribution": "City of Chattanooga",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1727099289,
+    "description": "Car crash data from Tennessee Integrated Traffic Analysis Network since July 1, 2024.",
+    "displayType": "table",
+    "downloadCount": 4,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40874116,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1727100115,
+    "publicationGroup": 19654353,
+    "publicationStage": "published",
+    "resourceName": "car-crashes",
+    "rowsUpdatedAt": 1730897107,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19654353,
+    "totalTimesRated": 0,
+    "viewCount": 47,
+    "viewLastModified": 1730903527,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1730903666,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6603574,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1730903558,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1730903666,
+                "failureCount": 0,
+                "startedAt": 1730903666,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 599629445,
+            "name": "AgencyTrackingNbrTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "agencytrackingnbrtxt",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 154911089,
+            "format": {}
+        },
+        {
+            "id": 599629428,
+            "name": "CollisionDte",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "collisiondte",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 154911072,
+            "format": {}
+        },
+        {
+            "id": 599629541,
+            "name": "CollisionTimeUnknownInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "collisiontimeunknownind",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 154911185,
+            "format": {}
+        },
+        {
+            "id": 599629350,
+            "name": "NbrUnitsNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrunitsnmb",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 154910994,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629399,
+            "name": "NbrFatalitiesNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrfatalitiesnmb",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 154911043,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629506,
+            "name": "NbrInjuredNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrinjurednmb",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 154911150,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629418,
+            "name": "NbrNonInjuredNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrnoninjurednmb",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 154911062,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629410,
+            "name": "NbrMotoristsNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrmotoristsnmb",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 154911054,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629448,
+            "name": "NbrNonMotoristsNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nbrnonmotoristsnmb",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 154911092,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629449,
+            "name": "AlcoholInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "alcoholind",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 154911093,
+            "format": {}
+        },
+        {
+            "id": 599629426,
+            "name": "AreaDesignationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "areadesignationcde",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 154911070,
+            "format": {}
+        },
+        {
+            "id": 599629425,
+            "name": "ArrivedDte",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "arriveddte",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 154911069,
+            "format": {}
+        },
+        {
+            "id": 599629534,
+            "name": "BlockNbrTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blocknbrtxt",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 154911178,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629398,
+            "name": "CityCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citycde",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 154911042,
+            "format": {}
+        },
+        {
+            "id": 599629388,
+            "name": "ConstructionMaintZoneCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "constructionmaintzonecde",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 154911032,
+            "format": {}
+        },
+        {
+            "id": 599629450,
+            "name": "ConstructionMaintZoneLocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "constructionmaintzoneloc",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 154911094,
+            "format": {}
+        },
+        {
+            "id": 599629430,
+            "name": "CountyStateCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "countystatecde",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 154911074,
+            "format": {}
+        },
+        {
+            "id": 599629338,
+            "name": "CrashTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "crashtypecde",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 154910982,
+            "format": {}
+        },
+        {
+            "id": 599629353,
+            "name": "DirFromRefCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dirfromrefcde",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 154910997,
+            "format": {}
+        },
+        {
+            "id": 599629395,
+            "name": "DistFromRefNmb",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "distfromrefnmb",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 154911039,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629542,
+            "name": "DrugInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "drugind",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 154911186,
+            "format": {}
+        },
+        {
+            "id": 599629531,
+            "name": "FirstHarmfulEventCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "firstharmfuleventcde",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 154911175,
+            "format": {}
+        },
+        {
+            "id": 599629337,
+            "name": "HitAndRunSolvedInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hitandrunsolvedind",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 154910981,
+            "format": {}
+        },
+        {
+            "id": 599629503,
+            "name": "HitRunInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hitrunind",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 154911147,
+            "format": {}
+        },
+        {
+            "id": 599629334,
+            "name": "InterchangeRelatedInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "interchangerelatedind",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 154910978,
+            "format": {}
+        },
+        {
+            "id": 599629466,
+            "name": "IntersectLocalIDTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersectlocalidtxt",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 154911110,
+            "format": {}
+        },
+        {
+            "id": 599629420,
+            "name": "IntersectRoadNameTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersectroadnametxt",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 154911064,
+            "format": {}
+        },
+        {
+            "id": 599629501,
+            "name": "IntersectRoadNameSuffixTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersectroadnamesuffixtxt",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 154911145,
+            "format": {}
+        },
+        {
+            "id": 599629465,
+            "name": "IntersectRoadNbrTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersectroadnbrtxt",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 154911109,
+            "format": {}
+        },
+        {
+            "id": 599629483,
+            "name": "IntersectTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersecttypecde",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 154911127,
+            "format": {}
+        },
+        {
+            "id": 599629514,
+            "name": "InvestigationCompleteInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "investigationcompleteind",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 154911158,
+            "format": {}
+        },
+        {
+            "id": 599629473,
+            "name": "LatDecimalNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latdecimalnmb",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 154911117,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629360,
+            "name": "LongDecimalNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longdecimalnmb",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 154911004,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629472,
+            "name": "LightConditionCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lightconditioncde",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 154911116,
+            "format": {}
+        },
+        {
+            "id": 599629485,
+            "name": "MannerCollisionCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mannercollisioncde",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 154911129,
+            "format": {}
+        },
+        {
+            "id": 599629403,
+            "name": "MileMarkNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "milemarknmb",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 154911047,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629508,
+            "name": "MilesFeetCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "milesfeetcde",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 154911152,
+            "format": {}
+        },
+        {
+            "id": 599629439,
+            "name": "NineOrMoreInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "nineormoreind",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 154911083,
+            "format": {}
+        },
+        {
+            "id": 599629444,
+            "name": "NotifiedDte",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "notifieddte",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 154911088,
+            "format": {}
+        },
+        {
+            "id": 599629467,
+            "name": "PolicePursuitInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "policepursuitind",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 154911111,
+            "format": {}
+        },
+        {
+            "id": 599629438,
+            "name": "RailCrossingIDTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "railcrossingidtxt",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 154911082,
+            "format": {}
+        },
+        {
+            "id": 599629488,
+            "name": "RouteSigningCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "routesigningcde",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 154911132,
+            "format": {}
+        },
+        {
+            "id": 599629341,
+            "name": "RdwyLocalIDTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rdwylocalidtxt",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 154910985,
+            "format": {}
+        },
+        {
+            "id": 599629515,
+            "name": "RdwyNameTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rdwynametxt",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 154911159,
+            "format": {}
+        },
+        {
+            "id": 599629371,
+            "name": "RdwyNameSuffixTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rdwynamesuffixtxt",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 154911015,
+            "format": {}
+        },
+        {
+            "id": 599629502,
+            "name": "RdwyNbrTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rdwynbrtxt",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 154911146,
+            "format": {}
+        },
+        {
+            "id": 599629487,
+            "name": "RelationToJunctionCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "relationtojunctioncde",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 154911131,
+            "format": {}
+        },
+        {
+            "id": 599629435,
+            "name": "RelationToRoadCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "relationtoroadcde",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 154911079,
+            "format": {}
+        },
+        {
+            "id": 599629491,
+            "name": "ReportDte",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reportdte",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 154911135,
+            "format": {}
+        },
+        {
+            "id": 599629358,
+            "name": "SchoolBusCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "schoolbuscde",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 154911002,
+            "format": {}
+        },
+        {
+            "id": 599629433,
+            "name": "SpeedInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "speedind",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 154911077,
+            "format": {}
+        },
+        {
+            "id": 599629434,
+            "name": "TenKPlusInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tenkplusind",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 154911078,
+            "format": {}
+        },
+        {
+            "id": 599629455,
+            "name": "TowedInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "towedind",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 154911099,
+            "format": {}
+        },
+        {
+            "id": 599629478,
+            "name": "TrafficwayTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "trafficwaytypecde",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 154911122,
+            "format": {}
+        },
+        {
+            "id": 599629459,
+            "name": "WeatherCdes",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "weathercdes",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 154911103,
+            "format": {}
+        },
+        {
+            "id": 599629480,
+            "name": "WeatherCde1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "weathercde1",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 154911124,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629369,
+            "name": "WeatherCde2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "weathercde2",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 154911013,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629370,
+            "name": "WorkersPresentCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workerspresentcde",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 154911014,
+            "format": {}
+        },
+        {
+            "id": 599629375,
+            "name": "WorkZoneTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workzonetypecde",
+            "position": 59,
+            "renderTypeName": "text",
+            "tableColumnId": 154911019,
+            "format": {}
+        },
+        {
+            "id": 599629443,
+            "name": "SecondaryCollision",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "secondarycollision",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 154911087,
+            "format": {}
+        },
+        {
+            "id": 599629333,
+            "name": "SecondaryCollisionType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "secondarycollisiontype",
+            "position": 61,
+            "renderTypeName": "text",
+            "tableColumnId": 154910977,
+            "format": {}
+        },
+        {
+            "id": 599629517,
+            "name": "BlockageOccurred",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blockageoccurred",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 154911161,
+            "format": {}
+        },
+        {
+            "id": 599629513,
+            "name": "BlockageStart",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blockagestart",
+            "position": 63,
+            "renderTypeName": "text",
+            "tableColumnId": 154911157,
+            "format": {}
+        },
+        {
+            "id": 599629367,
+            "name": "BlockageEnd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blockageend",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 154911011,
+            "format": {}
+        },
+        {
+            "id": 599629364,
+            "name": "BlockageIncidentStart",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blockageincidentstart",
+            "position": 65,
+            "renderTypeName": "text",
+            "tableColumnId": 154911008,
+            "format": {}
+        },
+        {
+            "id": 599629496,
+            "name": "BlockageIncidentEnd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blockageincidentend",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 154911140,
+            "format": {}
+        },
+        {
+            "id": 599629400,
+            "name": "Unit.1.UnitTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_unittypecde",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 154911044,
+            "format": {}
+        },
+        {
+            "id": 599629352,
+            "name": "Unit.1.AccessControlCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_accesscontrolcde",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 154910996,
+            "format": {}
+        },
+        {
+            "id": 599629468,
+            "name": "Unit.1.BodyCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_bodycde",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 154911112,
+            "format": {}
+        },
+        {
+            "id": 599629386,
+            "name": "Unit.1.BusUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_bususecde",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 154911030,
+            "format": {}
+        },
+        {
+            "id": 599629389,
+            "name": "Unit.1.ColorCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_colorcde",
+            "position": 71,
+            "renderTypeName": "text",
+            "tableColumnId": 154911033,
+            "format": {}
+        },
+        {
+            "id": 599629484,
+            "name": "Unit.1.DamageEstCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_damageestcde",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 154911128,
+            "format": {}
+        },
+        {
+            "id": 599629387,
+            "name": "Unit.1.DamageExtentCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_damageextentcde",
+            "position": 73,
+            "renderTypeName": "text",
+            "tableColumnId": 154911031,
+            "format": {}
+        },
+        {
+            "id": 599629505,
+            "name": "Unit.1.DriverPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_driverpresencecde",
+            "position": 74,
+            "renderTypeName": "text",
+            "tableColumnId": 154911149,
+            "format": {}
+        },
+        {
+            "id": 599629489,
+            "name": "Unit.1.EmergencyInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_emergencyind",
+            "position": 75,
+            "renderTypeName": "text",
+            "tableColumnId": 154911133,
+            "format": {}
+        },
+        {
+            "id": 599629523,
+            "name": "Unit.1.FireInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_fireind",
+            "position": 76,
+            "renderTypeName": "text",
+            "tableColumnId": 154911167,
+            "format": {}
+        },
+        {
+            "id": 599629511,
+            "name": "Unit.1.FirstImpactCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_firstimpactcde",
+            "position": 77,
+            "renderTypeName": "text",
+            "tableColumnId": 154911155,
+            "format": {}
+        },
+        {
+            "id": 599629344,
+            "name": "Unit.1.FMCSAReportableInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_fmcsareportableind",
+            "position": 78,
+            "renderTypeName": "text",
+            "tableColumnId": 154910988,
+            "format": {}
+        },
+        {
+            "id": 599629469,
+            "name": "Unit.1.GVWRCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_gvwrcde",
+            "position": 79,
+            "renderTypeName": "text",
+            "tableColumnId": 154911113,
+            "format": {}
+        },
+        {
+            "id": 599629339,
+            "name": "Unit.1.HAZMATInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_hazmatind",
+            "position": 80,
+            "renderTypeName": "text",
+            "tableColumnId": 154910983,
+            "format": {}
+        },
+        {
+            "id": 599629492,
+            "name": "Unit.1.EmergencyUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_emergencyusecde",
+            "position": 81,
+            "renderTypeName": "text",
+            "tableColumnId": 154911136,
+            "format": {}
+        },
+        {
+            "id": 599629527,
+            "name": "Unit.1.HitRunCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_hitruncde",
+            "position": 82,
+            "renderTypeName": "text",
+            "tableColumnId": 154911171,
+            "format": {}
+        },
+        {
+            "id": 599629447,
+            "name": "Unit.1.MakeTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_maketxt",
+            "position": 83,
+            "renderTypeName": "text",
+            "tableColumnId": 154911091,
+            "format": {}
+        },
+        {
+            "id": 599629402,
+            "name": "Unit.1.ManeuverCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_maneuvercde",
+            "position": 84,
+            "renderTypeName": "text",
+            "tableColumnId": 154911046,
+            "format": {}
+        },
+        {
+            "id": 599629423,
+            "name": "Unit.1.Model",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_model",
+            "position": 85,
+            "renderTypeName": "text",
+            "tableColumnId": 154911067,
+            "format": {}
+        },
+        {
+            "id": 599629451,
+            "name": "Unit.1.MostHarmfulEventCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_mostharmfuleventcde",
+            "position": 86,
+            "renderTypeName": "text",
+            "tableColumnId": 154911095,
+            "format": {}
+        },
+        {
+            "id": 599629376,
+            "name": "Unit.1.NbrOccupantsNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unit_1_nbroccupantsnmb",
+            "position": 87,
+            "renderTypeName": "number",
+            "tableColumnId": 154911020,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629493,
+            "name": "Unit.1.RouteSigningCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_routesigningcde",
+            "position": 88,
+            "renderTypeName": "text",
+            "tableColumnId": 154911137,
+            "format": {}
+        },
+        {
+            "id": 599629521,
+            "name": "Unit.1.PlateStateCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_platestatecde",
+            "position": 89,
+            "renderTypeName": "text",
+            "tableColumnId": 154911165,
+            "format": {}
+        },
+        {
+            "id": 599629408,
+            "name": "Unit.1.PostedSpeedNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unit_1_postedspeednmb",
+            "position": 90,
+            "renderTypeName": "number",
+            "tableColumnId": 154911052,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629406,
+            "name": "Unit.1.RemovalCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_removalcde",
+            "position": 91,
+            "renderTypeName": "text",
+            "tableColumnId": 154911050,
+            "format": {}
+        },
+        {
+            "id": 599629416,
+            "name": "Unit.1.RoadAlignmentCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_roadalignmentcde",
+            "position": 92,
+            "renderTypeName": "text",
+            "tableColumnId": 154911060,
+            "format": {}
+        },
+        {
+            "id": 599629528,
+            "name": "Unit.1.RoadProfileCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_roadprofilecde",
+            "position": 93,
+            "renderTypeName": "text",
+            "tableColumnId": 154911172,
+            "format": {}
+        },
+        {
+            "id": 599629421,
+            "name": "Unit.1.RoadSurfTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_roadsurftypecde",
+            "position": 94,
+            "renderTypeName": "text",
+            "tableColumnId": 154911065,
+            "format": {}
+        },
+        {
+            "id": 599629373,
+            "name": "Unit.1.SpecialUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_specialusecde",
+            "position": 95,
+            "renderTypeName": "text",
+            "tableColumnId": 154911017,
+            "format": {}
+        },
+        {
+            "id": 599629452,
+            "name": "Unit.1.SurfCondCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_surfcondcde",
+            "position": 96,
+            "renderTypeName": "text",
+            "tableColumnId": 154911096,
+            "format": {}
+        },
+        {
+            "id": 599629539,
+            "name": "Unit.1.TrafficControlCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_trafficcontrolcde",
+            "position": 97,
+            "renderTypeName": "text",
+            "tableColumnId": 154911183,
+            "format": {}
+        },
+        {
+            "id": 599629382,
+            "name": "Unit.1.TrafficControlFuncCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_trafficcontrolfunccde",
+            "position": 98,
+            "renderTypeName": "text",
+            "tableColumnId": 154911026,
+            "format": {}
+        },
+        {
+            "id": 599629404,
+            "name": "Unit.1.TrafficwayFlowCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_trafficwayflowcde",
+            "position": 99,
+            "renderTypeName": "text",
+            "tableColumnId": 154911048,
+            "format": {}
+        },
+        {
+            "id": 599629409,
+            "name": "Unit.1.TravelDirCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_traveldircde",
+            "position": 100,
+            "renderTypeName": "text",
+            "tableColumnId": 154911053,
+            "format": {}
+        },
+        {
+            "id": 599629431,
+            "name": "Unit.1.TravelLanesCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_travellanescde",
+            "position": 101,
+            "renderTypeName": "text",
+            "tableColumnId": 154911075,
+            "format": {}
+        },
+        {
+            "id": 599629463,
+            "name": "Unit.1.TravelingOnTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_travelingontxt",
+            "position": 102,
+            "renderTypeName": "text",
+            "tableColumnId": 154911107,
+            "format": {}
+        },
+        {
+            "id": 599629393,
+            "name": "Unit.1.VehicleOperationTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_vehicleoperationtypecde",
+            "position": 103,
+            "renderTypeName": "text",
+            "tableColumnId": 154911037,
+            "format": {}
+        },
+        {
+            "id": 599629510,
+            "name": "Unit.1.VehicleYearTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_vehicleyeartxt",
+            "position": 104,
+            "renderTypeName": "text",
+            "tableColumnId": 154911154,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629343,
+            "name": "Unit.1.Person.1.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_1_persontypecde",
+            "position": 105,
+            "renderTypeName": "text",
+            "tableColumnId": 154910987,
+            "format": {}
+        },
+        {
+            "id": 599629512,
+            "name": "Unit.1.Person.2.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_2_persontypecde",
+            "position": 106,
+            "renderTypeName": "text",
+            "tableColumnId": 154911156,
+            "format": {}
+        },
+        {
+            "id": 599629499,
+            "name": "Unit.1.Person.3.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_3_persontypecde",
+            "position": 107,
+            "renderTypeName": "text",
+            "tableColumnId": 154911143,
+            "format": {}
+        },
+        {
+            "id": 599629509,
+            "name": "Unit.1.Person.4.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_4_persontypecde",
+            "position": 108,
+            "renderTypeName": "text",
+            "tableColumnId": 154911153,
+            "format": {}
+        },
+        {
+            "id": 599629346,
+            "name": "Unit.1.Person.1.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_1",
+            "position": 109,
+            "renderTypeName": "text",
+            "tableColumnId": 154910990,
+            "format": {}
+        },
+        {
+            "id": 599629363,
+            "name": "Unit.1.Person.2.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_2",
+            "position": 110,
+            "renderTypeName": "text",
+            "tableColumnId": 154911007,
+            "format": {}
+        },
+        {
+            "id": 599629427,
+            "name": "Unit.1.Person.3.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_3",
+            "position": 111,
+            "renderTypeName": "text",
+            "tableColumnId": 154911071,
+            "format": {}
+        },
+        {
+            "id": 599629366,
+            "name": "Unit.1.Person.4.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_4",
+            "position": 112,
+            "renderTypeName": "text",
+            "tableColumnId": 154911010,
+            "format": {}
+        },
+        {
+            "id": 599629537,
+            "name": "Unit.1.Person.1.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_1_ziptxt",
+            "position": 113,
+            "renderTypeName": "text",
+            "tableColumnId": 154911181,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629347,
+            "name": "Unit.1.Person.2.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_2_ziptxt",
+            "position": 114,
+            "renderTypeName": "text",
+            "tableColumnId": 154910991,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629390,
+            "name": "Unit.1.Person.3.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_3_ziptxt",
+            "position": 115,
+            "renderTypeName": "text",
+            "tableColumnId": 154911034,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629392,
+            "name": "Unit.1.Person.4.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_4_ziptxt",
+            "position": 116,
+            "renderTypeName": "text",
+            "tableColumnId": 154911036,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629401,
+            "name": "Unit.1.Person.1.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_1_transportcde",
+            "position": 117,
+            "renderTypeName": "text",
+            "tableColumnId": 154911045,
+            "format": {}
+        },
+        {
+            "id": 599629533,
+            "name": "Unit.1.Person.2.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_2_transportcde",
+            "position": 118,
+            "renderTypeName": "text",
+            "tableColumnId": 154911177,
+            "format": {}
+        },
+        {
+            "id": 599629394,
+            "name": "Unit.1.Person.3.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_3_transportcde",
+            "position": 119,
+            "renderTypeName": "text",
+            "tableColumnId": 154911038,
+            "format": {}
+        },
+        {
+            "id": 599629519,
+            "name": "Unit.1.Person.4.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_person_4_transportcde",
+            "position": 120,
+            "renderTypeName": "text",
+            "tableColumnId": 154911163,
+            "format": {}
+        },
+        {
+            "id": 599629349,
+            "name": "Unit.1.UnitEventSequence",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_1_uniteventsequence",
+            "position": 121,
+            "renderTypeName": "text",
+            "tableColumnId": 154910993,
+            "format": {}
+        },
+        {
+            "id": 599629442,
+            "name": "Unit.2.UnitTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_unittypecde",
+            "position": 122,
+            "renderTypeName": "text",
+            "tableColumnId": 154911086,
+            "format": {}
+        },
+        {
+            "id": 599629481,
+            "name": "Unit.2.AccessControlCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_accesscontrolcde",
+            "position": 123,
+            "renderTypeName": "text",
+            "tableColumnId": 154911125,
+            "format": {}
+        },
+        {
+            "id": 599629396,
+            "name": "Unit.2.BodyCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_bodycde",
+            "position": 124,
+            "renderTypeName": "text",
+            "tableColumnId": 154911040,
+            "format": {}
+        },
+        {
+            "id": 599629437,
+            "name": "Unit.2.BusUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_bususecde",
+            "position": 125,
+            "renderTypeName": "text",
+            "tableColumnId": 154911081,
+            "format": {}
+        },
+        {
+            "id": 599629440,
+            "name": "Unit.2.ColorCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_colorcde",
+            "position": 126,
+            "renderTypeName": "text",
+            "tableColumnId": 154911084,
+            "format": {}
+        },
+        {
+            "id": 599629475,
+            "name": "Unit.2.DamageEstCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_damageestcde",
+            "position": 127,
+            "renderTypeName": "text",
+            "tableColumnId": 154911119,
+            "format": {}
+        },
+        {
+            "id": 599629474,
+            "name": "Unit.2.DamageExtentCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_damageextentcde",
+            "position": 128,
+            "renderTypeName": "text",
+            "tableColumnId": 154911118,
+            "format": {}
+        },
+        {
+            "id": 599629538,
+            "name": "Unit.2.DriverPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_driverpresencecde",
+            "position": 129,
+            "renderTypeName": "text",
+            "tableColumnId": 154911182,
+            "format": {}
+        },
+        {
+            "id": 599629384,
+            "name": "Unit.2.EmergencyInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_emergencyind",
+            "position": 130,
+            "renderTypeName": "text",
+            "tableColumnId": 154911028,
+            "format": {}
+        },
+        {
+            "id": 599629405,
+            "name": "Unit.2.FireInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_fireind",
+            "position": 131,
+            "renderTypeName": "text",
+            "tableColumnId": 154911049,
+            "format": {}
+        },
+        {
+            "id": 599629454,
+            "name": "Unit.2.FirstImpactCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_firstimpactcde",
+            "position": 132,
+            "renderTypeName": "text",
+            "tableColumnId": 154911098,
+            "format": {}
+        },
+        {
+            "id": 599629464,
+            "name": "Unit.2.FMCSAReportableInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_fmcsareportableind",
+            "position": 133,
+            "renderTypeName": "text",
+            "tableColumnId": 154911108,
+            "format": {}
+        },
+        {
+            "id": 599629486,
+            "name": "Unit.2.GVWRCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_gvwrcde",
+            "position": 134,
+            "renderTypeName": "text",
+            "tableColumnId": 154911130,
+            "format": {}
+        },
+        {
+            "id": 599629456,
+            "name": "Unit.2.HAZMATInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_hazmatind",
+            "position": 135,
+            "renderTypeName": "text",
+            "tableColumnId": 154911100,
+            "format": {}
+        },
+        {
+            "id": 599629530,
+            "name": "Unit.2.EmergencyUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_emergencyusecde",
+            "position": 136,
+            "renderTypeName": "text",
+            "tableColumnId": 154911174,
+            "format": {}
+        },
+        {
+            "id": 599629412,
+            "name": "Unit.2.HitRunCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_hitruncde",
+            "position": 137,
+            "renderTypeName": "text",
+            "tableColumnId": 154911056,
+            "format": {}
+        },
+        {
+            "id": 599629391,
+            "name": "Unit.2.MakeTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_maketxt",
+            "position": 138,
+            "renderTypeName": "text",
+            "tableColumnId": 154911035,
+            "format": {}
+        },
+        {
+            "id": 599629397,
+            "name": "Unit.2.ManeuverCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_maneuvercde",
+            "position": 139,
+            "renderTypeName": "text",
+            "tableColumnId": 154911041,
+            "format": {}
+        },
+        {
+            "id": 599629359,
+            "name": "Unit.2.Model",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_model",
+            "position": 140,
+            "renderTypeName": "text",
+            "tableColumnId": 154911003,
+            "format": {}
+        },
+        {
+            "id": 599629429,
+            "name": "Unit.2.MostHarmfulEventCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_mostharmfuleventcde",
+            "position": 141,
+            "renderTypeName": "text",
+            "tableColumnId": 154911073,
+            "format": {}
+        },
+        {
+            "id": 599629526,
+            "name": "Unit.2.NbrOccupantsNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unit_2_nbroccupantsnmb",
+            "position": 142,
+            "renderTypeName": "number",
+            "tableColumnId": 154911170,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629535,
+            "name": "Unit.2.RouteSigningCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_routesigningcde",
+            "position": 143,
+            "renderTypeName": "text",
+            "tableColumnId": 154911179,
+            "format": {}
+        },
+        {
+            "id": 599629419,
+            "name": "Unit.2.PlateStateCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_platestatecde",
+            "position": 144,
+            "renderTypeName": "text",
+            "tableColumnId": 154911063,
+            "format": {}
+        },
+        {
+            "id": 599629500,
+            "name": "Unit.2.PostedSpeedNmb",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unit_2_postedspeednmb",
+            "position": 145,
+            "renderTypeName": "number",
+            "tableColumnId": 154911144,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629543,
+            "name": "Unit.2.RemovalCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_removalcde",
+            "position": 146,
+            "renderTypeName": "text",
+            "tableColumnId": 154911187,
+            "format": {}
+        },
+        {
+            "id": 599629477,
+            "name": "Unit.2.RoadAlignmentCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_roadalignmentcde",
+            "position": 147,
+            "renderTypeName": "text",
+            "tableColumnId": 154911121,
+            "format": {}
+        },
+        {
+            "id": 599629497,
+            "name": "Unit.2.RoadProfileCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_roadprofilecde",
+            "position": 148,
+            "renderTypeName": "text",
+            "tableColumnId": 154911141,
+            "format": {}
+        },
+        {
+            "id": 599629345,
+            "name": "Unit.2.RoadSurfTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_roadsurftypecde",
+            "position": 149,
+            "renderTypeName": "text",
+            "tableColumnId": 154910989,
+            "format": {}
+        },
+        {
+            "id": 599629365,
+            "name": "Unit.2.SpecialUseCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_specialusecde",
+            "position": 150,
+            "renderTypeName": "text",
+            "tableColumnId": 154911009,
+            "format": {}
+        },
+        {
+            "id": 599629413,
+            "name": "Unit.2.SurfCondCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_surfcondcde",
+            "position": 151,
+            "renderTypeName": "text",
+            "tableColumnId": 154911057,
+            "format": {}
+        },
+        {
+            "id": 599629458,
+            "name": "Unit.2.TrafficControlCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_trafficcontrolcde",
+            "position": 152,
+            "renderTypeName": "text",
+            "tableColumnId": 154911102,
+            "format": {}
+        },
+        {
+            "id": 599629494,
+            "name": "Unit.2.TrafficControlFuncCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_trafficcontrolfunccde",
+            "position": 153,
+            "renderTypeName": "text",
+            "tableColumnId": 154911138,
+            "format": {}
+        },
+        {
+            "id": 599629372,
+            "name": "Unit.2.TrafficwayFlowCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_trafficwayflowcde",
+            "position": 154,
+            "renderTypeName": "text",
+            "tableColumnId": 154911016,
+            "format": {}
+        },
+        {
+            "id": 599629414,
+            "name": "Unit.2.TravelDirCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_traveldircde",
+            "position": 155,
+            "renderTypeName": "text",
+            "tableColumnId": 154911058,
+            "format": {}
+        },
+        {
+            "id": 599629357,
+            "name": "Unit.2.TravelLanesCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_travellanescde",
+            "position": 156,
+            "renderTypeName": "text",
+            "tableColumnId": 154911001,
+            "format": {}
+        },
+        {
+            "id": 599629441,
+            "name": "Unit.2.TravelingOnTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_travelingontxt",
+            "position": 157,
+            "renderTypeName": "text",
+            "tableColumnId": 154911085,
+            "format": {}
+        },
+        {
+            "id": 599629495,
+            "name": "Unit.2.VehicleOperationTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_vehicleoperationtypecde",
+            "position": 158,
+            "renderTypeName": "text",
+            "tableColumnId": 154911139,
+            "format": {}
+        },
+        {
+            "id": 599629342,
+            "name": "Unit.2.VehicleYearTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_vehicleyeartxt",
+            "position": 159,
+            "renderTypeName": "text",
+            "tableColumnId": 154910986,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629544,
+            "name": "Unit.2.Person.1.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_1_persontypecde",
+            "position": 160,
+            "renderTypeName": "text",
+            "tableColumnId": 154911188,
+            "format": {}
+        },
+        {
+            "id": 599629381,
+            "name": "Unit.2.Person.2.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_2_persontypecde",
+            "position": 161,
+            "renderTypeName": "text",
+            "tableColumnId": 154911025,
+            "format": {}
+        },
+        {
+            "id": 599629490,
+            "name": "Unit.2.Person.3.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_3_persontypecde",
+            "position": 162,
+            "renderTypeName": "text",
+            "tableColumnId": 154911134,
+            "format": {}
+        },
+        {
+            "id": 599629432,
+            "name": "Unit.2.Person.4.PersonTypeCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_4_persontypecde",
+            "position": 163,
+            "renderTypeName": "text",
+            "tableColumnId": 154911076,
+            "format": {}
+        },
+        {
+            "id": 599629524,
+            "name": "Unit.2.Person.1.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_1",
+            "position": 164,
+            "renderTypeName": "text",
+            "tableColumnId": 154911168,
+            "format": {}
+        },
+        {
+            "id": 599629536,
+            "name": "Unit.2.Person.2.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_2",
+            "position": 165,
+            "renderTypeName": "text",
+            "tableColumnId": 154911180,
+            "format": {}
+        },
+        {
+            "id": 599629529,
+            "name": "Unit.2.Person.3.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_3",
+            "position": 166,
+            "renderTypeName": "text",
+            "tableColumnId": 154911173,
+            "format": {}
+        },
+        {
+            "id": 599629354,
+            "name": "Unit.2.Person.4.ProtectionSystemCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_4",
+            "position": 167,
+            "renderTypeName": "text",
+            "tableColumnId": 154910998,
+            "format": {}
+        },
+        {
+            "id": 599629516,
+            "name": "Unit.2.Person.1.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_1_ziptxt",
+            "position": 168,
+            "renderTypeName": "text",
+            "tableColumnId": 154911160,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629385,
+            "name": "Unit.2.Person.2.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_2_ziptxt",
+            "position": 169,
+            "renderTypeName": "text",
+            "tableColumnId": 154911029,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629362,
+            "name": "Unit.2.Person.3.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_3_ziptxt",
+            "position": 170,
+            "renderTypeName": "text",
+            "tableColumnId": 154911006,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629378,
+            "name": "Unit.2.Person.4.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_4_ziptxt",
+            "position": 171,
+            "renderTypeName": "text",
+            "tableColumnId": 154911022,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629479,
+            "name": "Unit.2.Person.1.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_1_transportcde",
+            "position": 172,
+            "renderTypeName": "text",
+            "tableColumnId": 154911123,
+            "format": {}
+        },
+        {
+            "id": 599629377,
+            "name": "Unit.2.Person.2.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_2_transportcde",
+            "position": 173,
+            "renderTypeName": "text",
+            "tableColumnId": 154911021,
+            "format": {}
+        },
+        {
+            "id": 599629356,
+            "name": "Unit.2.Person.3.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_3_transportcde",
+            "position": 174,
+            "renderTypeName": "text",
+            "tableColumnId": 154911000,
+            "format": {}
+        },
+        {
+            "id": 599629336,
+            "name": "Unit.2.Person.4.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_person_4_transportcde",
+            "position": 175,
+            "renderTypeName": "text",
+            "tableColumnId": 154910980,
+            "format": {}
+        },
+        {
+            "id": 599629532,
+            "name": "Unit.2.UnitEventSequence",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unit_2_uniteventsequence",
+            "position": 176,
+            "renderTypeName": "text",
+            "tableColumnId": 154911176,
+            "format": {}
+        },
+        {
+            "id": 599629411,
+            "name": "Pedestrian.1.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1_locationcde",
+            "position": 177,
+            "renderTypeName": "text",
+            "tableColumnId": 154911055,
+            "format": {}
+        },
+        {
+            "id": 599629417,
+            "name": "Pedestrian.1.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1_ziptxt",
+            "position": 178,
+            "renderTypeName": "text",
+            "tableColumnId": 154911061,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629374,
+            "name": "Pedestrian.1.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1",
+            "position": 179,
+            "renderTypeName": "text",
+            "tableColumnId": 154911018,
+            "format": {}
+        },
+        {
+            "id": 599629453,
+            "name": "Pedestrian.1.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1_drugpresencecde",
+            "position": 180,
+            "renderTypeName": "text",
+            "tableColumnId": 154911097,
+            "format": {}
+        },
+        {
+            "id": 599629507,
+            "name": "Pedestrian.1.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1_injuryclasscde",
+            "position": 181,
+            "renderTypeName": "text",
+            "tableColumnId": 154911151,
+            "format": {}
+        },
+        {
+            "id": 599629368,
+            "name": "Pedestrian.1.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_1_transportcde",
+            "position": 182,
+            "renderTypeName": "text",
+            "tableColumnId": 154911012,
+            "format": {}
+        },
+        {
+            "id": 599629462,
+            "name": "Pedestrian.2.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2_locationcde",
+            "position": 183,
+            "renderTypeName": "text",
+            "tableColumnId": 154911106,
+            "format": {}
+        },
+        {
+            "id": 599629422,
+            "name": "Pedestrian.2.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2_ziptxt",
+            "position": 184,
+            "renderTypeName": "text",
+            "tableColumnId": 154911066,
+            "format": {}
+        },
+        {
+            "id": 599629520,
+            "name": "Pedestrian.2.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2",
+            "position": 185,
+            "renderTypeName": "text",
+            "tableColumnId": 154911164,
+            "format": {}
+        },
+        {
+            "id": 599629436,
+            "name": "Pedestrian.2.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2_drugpresencecde",
+            "position": 186,
+            "renderTypeName": "text",
+            "tableColumnId": 154911080,
+            "format": {}
+        },
+        {
+            "id": 599629498,
+            "name": "Pedestrian.2.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2_injuryclasscde",
+            "position": 187,
+            "renderTypeName": "text",
+            "tableColumnId": 154911142,
+            "format": {}
+        },
+        {
+            "id": 599629380,
+            "name": "Pedestrian.2.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_2_transportcde",
+            "position": 188,
+            "renderTypeName": "text",
+            "tableColumnId": 154911024,
+            "format": {}
+        },
+        {
+            "id": 599629383,
+            "name": "Pedestrian.3.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3_locationcde",
+            "position": 189,
+            "renderTypeName": "text",
+            "tableColumnId": 154911027,
+            "format": {}
+        },
+        {
+            "id": 599629504,
+            "name": "Pedestrian.3.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3_ziptxt",
+            "position": 190,
+            "renderTypeName": "text",
+            "tableColumnId": 154911148,
+            "format": {}
+        },
+        {
+            "id": 599629457,
+            "name": "Pedestrian.3.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3",
+            "position": 191,
+            "renderTypeName": "text",
+            "tableColumnId": 154911101,
+            "format": {}
+        },
+        {
+            "id": 599629340,
+            "name": "Pedestrian.3.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3_drugpresencecde",
+            "position": 192,
+            "renderTypeName": "text",
+            "tableColumnId": 154910984,
+            "format": {}
+        },
+        {
+            "id": 599629525,
+            "name": "Pedestrian.3.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3_injuryclasscde",
+            "position": 193,
+            "renderTypeName": "text",
+            "tableColumnId": 154911169,
+            "format": {}
+        },
+        {
+            "id": 599629470,
+            "name": "Pedestrian.3.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_3_transportcde",
+            "position": 194,
+            "renderTypeName": "text",
+            "tableColumnId": 154911114,
+            "format": {}
+        },
+        {
+            "id": 599629540,
+            "name": "Pedestrian.4.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4_locationcde",
+            "position": 195,
+            "renderTypeName": "text",
+            "tableColumnId": 154911184,
+            "format": {}
+        },
+        {
+            "id": 599629476,
+            "name": "Pedestrian.4.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4_ziptxt",
+            "position": 196,
+            "renderTypeName": "text",
+            "tableColumnId": 154911120,
+            "format": {}
+        },
+        {
+            "id": 599629424,
+            "name": "Pedestrian.4.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4",
+            "position": 197,
+            "renderTypeName": "text",
+            "tableColumnId": 154911068,
+            "format": {}
+        },
+        {
+            "id": 599629335,
+            "name": "Pedestrian.4.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4_drugpresencecde",
+            "position": 198,
+            "renderTypeName": "text",
+            "tableColumnId": 154910979,
+            "format": {}
+        },
+        {
+            "id": 599629351,
+            "name": "Pedestrian.4.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4_injuryclasscde",
+            "position": 199,
+            "renderTypeName": "text",
+            "tableColumnId": 154910995,
+            "format": {}
+        },
+        {
+            "id": 599629361,
+            "name": "Pedestrian.4.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pedestrian_4_transportcde",
+            "position": 200,
+            "renderTypeName": "text",
+            "tableColumnId": 154911005,
+            "format": {}
+        },
+        {
+            "id": 599629482,
+            "name": "Bicyclist.1.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_locationcde",
+            "position": 201,
+            "renderTypeName": "text",
+            "tableColumnId": 154911126,
+            "format": {}
+        },
+        {
+            "id": 599629522,
+            "name": "Bicyclist.1.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_ziptxt",
+            "position": 202,
+            "renderTypeName": "text",
+            "tableColumnId": 154911166,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 599629446,
+            "name": "Bicyclist.1.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_alcoholpresencecde",
+            "position": 203,
+            "renderTypeName": "text",
+            "tableColumnId": 154911090,
+            "format": {}
+        },
+        {
+            "id": 599629348,
+            "name": "Bicyclist.1.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_drugpresencecde",
+            "position": 204,
+            "renderTypeName": "text",
+            "tableColumnId": 154910992,
+            "format": {}
+        },
+        {
+            "id": 599629379,
+            "name": "Bicyclist.1.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_injuryclasscde",
+            "position": 205,
+            "renderTypeName": "text",
+            "tableColumnId": 154911023,
+            "format": {}
+        },
+        {
+            "id": 599629518,
+            "name": "Bicyclist.1.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_1_transportcde",
+            "position": 206,
+            "renderTypeName": "text",
+            "tableColumnId": 154911162,
+            "format": {}
+        },
+        {
+            "id": 599629471,
+            "name": "Bicyclist.2.LocationCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_locationcde",
+            "position": 207,
+            "renderTypeName": "text",
+            "tableColumnId": 154911115,
+            "format": {}
+        },
+        {
+            "id": 599629461,
+            "name": "Bicyclist.2.ZipTxt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_ziptxt",
+            "position": 208,
+            "renderTypeName": "text",
+            "tableColumnId": 154911105,
+            "format": {}
+        },
+        {
+            "id": 599629355,
+            "name": "Bicyclist.2.AlcoholPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_alcoholpresencecde",
+            "position": 209,
+            "renderTypeName": "text",
+            "tableColumnId": 154910999,
+            "format": {}
+        },
+        {
+            "id": 599629415,
+            "name": "Bicyclist.2.DrugPresenceCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_drugpresencecde",
+            "position": 210,
+            "renderTypeName": "text",
+            "tableColumnId": 154911059,
+            "format": {}
+        },
+        {
+            "id": 599629460,
+            "name": "Bicyclist.2.InjuryClassCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_injuryclasscde",
+            "position": 211,
+            "renderTypeName": "text",
+            "tableColumnId": 154911104,
+            "format": {}
+        },
+        {
+            "id": 599629407,
+            "name": "Bicyclist.2.TransportCde",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bicyclist_2_transportcde",
+            "position": 212,
+            "renderTypeName": "text",
+            "tableColumnId": 154911051,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Police",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "rowLabel": "crash",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "car",
+        "transportation",
+        "road",
+        "pedestrian"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
