@@ -1,0 +1,405 @@
+{
+    "id": "dddp-pnjj",
+    "name": "Nurse Navigator Reporting",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1723225896,
+    "description": "Nurse navigator data from community events.\nThis dataset contains the work of the Office of Community Health nurse navigators following their work completed under the C.A.R.E. Coalition Grant funding. The data from the work of the OCH nurse navigators under the Grant can be found in the historical \"OCHS Events\" dataset.",
+    "displayType": "table",
+    "downloadCount": 11,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40931846,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1730314842,
+    "publicationGroup": 19617763,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1731380507,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19678305,
+    "totalTimesRated": 0,
+    "viewCount": 30,
+    "viewLastModified": 1731380506,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1731433272,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6610471,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1731433238,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "vjqq-neb8",
+                "displayName": "Brenna Leigh Dotson"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1731433273,
+                "failureCount": 0,
+                "startedAt": 1731433272,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "vjqq-neb8",
+                "displayName": "Brenna Leigh Dotson"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 601083062,
+            "name": "Timestamp",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "timestamp",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 154446071,
+            "format": {}
+        },
+        {
+            "id": 601083063,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 154446072,
+            "format": {}
+        },
+        {
+            "id": 601083064,
+            "name": "Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 154446073,
+            "format": {}
+        },
+        {
+            "id": 601083065,
+            "name": "Zip Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 154446070,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601083066,
+            "name": "Individual Engagement or Group Class/Event",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "individual_engagement_or",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 154446074,
+            "format": {}
+        },
+        {
+            "id": 601083067,
+            "name": "Please select the services provided",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "please_select_the_services",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 154446075,
+            "format": {}
+        },
+        {
+            "id": 601083068,
+            "name": "Age (optional)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "age_optional",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 154446076,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601083069,
+            "name": "Race (optional)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race_optional",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 154446077,
+            "format": {}
+        },
+        {
+            "id": 601083070,
+            "name": "Gender (optional)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gender_optional",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 154446078,
+            "format": {}
+        },
+        {
+            "id": 601083071,
+            "name": "Number of Individuals Served",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_individuals_served",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 154446079,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601083072,
+            "name": "Event Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "event_name",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 154446080,
+            "format": {}
+        },
+        {
+            "id": 601083073,
+            "name": "_geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "_geometry",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 154446081,
+            "format": {}
+        },
+        {
+            "id": 601083074,
+            "name": "Additional Information for Individual Health Encounter",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "additional_information_for",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 154446082,
+            "format": {}
+        },
+        {
+            "id": 601083075,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 154446083,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601083076,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 154446084,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601083077,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Redistricting - New Districts' (hr78-d3nd) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 154446085,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601083078,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (epkc-jqa5) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 154446086,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601083079,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (i3fa-25yc) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_i3fa_25yc",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 154446087,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_i3fa-25yc",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601083080,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Area Zip Codes' (3qrp-xh54) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 155350384,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Community Health",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "vjqq-neb8",
+        "displayName": "Brenna Leigh Dotson",
+        "screenName": "Brenna Leigh Dotson",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "vjqq-neb8",
+        "displayName": "Brenna Leigh Dotson",
+        "screenName": "Brenna Leigh Dotson",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

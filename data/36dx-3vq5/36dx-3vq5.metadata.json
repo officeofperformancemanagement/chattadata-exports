@@ -1,0 +1,451 @@
+{
+    "id": "36dx-3vq5",
+    "name": "CS/GVP Data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1722021059,
+    "description": "CS/GVP data combined with point values",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40932874,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1730379864,
+    "publicationGroup": 19594394,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1731380486,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19678662,
+    "totalTimesRated": 0,
+    "viewCount": 22,
+    "viewLastModified": 1731380485,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1731433276,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6610472,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1731433262,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "vjqq-neb8",
+                "displayName": "Brenna Leigh Dotson"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1731433276,
+                "failureCount": 0,
+                "startedAt": 1731433276,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "vjqq-neb8",
+                "displayName": "Brenna Leigh Dotson"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 601100391,
+            "name": "Please select your name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "please_select_your_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 153984544,
+            "format": {}
+        },
+        {
+            "id": 601100392,
+            "name": "Date of Event",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_of_event",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 153984545,
+            "format": {}
+        },
+        {
+            "id": 601100414,
+            "name": "Zip Code of Event",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code_of_event",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 155354197,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601100394,
+            "name": "Select Event Location Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "select_event_location_type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 153984547,
+            "format": {}
+        },
+        {
+            "id": 601100395,
+            "name": "School Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_name",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 153984548,
+            "format": {}
+        },
+        {
+            "id": 601100396,
+            "name": "Community Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "community_name",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 153984549,
+            "format": {}
+        },
+        {
+            "id": 601100397,
+            "name": "Number of individuals served (Community)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_individuals_served",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 153984550,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601100398,
+            "name": "Community Event Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "community_event_description",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 153984551,
+            "format": {}
+        },
+        {
+            "id": 601100399,
+            "name": "Was this a Youth counseling session? (Youth Intervention Specialists)",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "was_this_a_youth_counseling",
+            "position": 9,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 153984552,
+            "format": {}
+        },
+        {
+            "id": 601100400,
+            "name": "Number of Individuals Served (School)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_individuals_served_1",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 153984553,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601100401,
+            "name": "School Event Description (Not Counseling Services)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_event_description",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 153984554,
+            "format": {}
+        },
+        {
+            "id": 601100402,
+            "name": "Location of Event",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location_of_event",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 153984555,
+            "format": {}
+        },
+        {
+            "id": 601100403,
+            "name": "Number of Individuals Served (Other)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_individuals_served_2",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 153984556,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 601100404,
+            "name": "\"Other\" Event Type Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "other_event_type_description",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 153984557,
+            "format": {}
+        },
+        {
+            "id": 601100405,
+            "name": "Do you have any photos from today's event?",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "do_you_have_any_photos_from",
+            "position": 15,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 153984558,
+            "format": {}
+        },
+        {
+            "id": 601100406,
+            "name": "Please upload relevant event photos below",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "please_upload_relevant_event",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 153984542,
+            "format": {}
+        },
+        {
+            "id": 601100407,
+            "name": "_geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "_geometry",
+            "position": 17,
+            "renderTypeName": "point",
+            "tableColumnId": 153984543,
+            "format": {}
+        },
+        {
+            "id": 601100408,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 153984559,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601100409,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 153984560,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601100410,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Redistricting - New Districts' (hr78-d3nd) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 153984561,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601100411,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (epkc-jqa5) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 153984562,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601100412,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (i3fa-25yc) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_i3fa_25yc",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 153984563,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_i3fa-25yc",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 601100413,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Area Zip Codes' (3qrp-xh54) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 155354115,
+            "computationStrategy": {
+                "source_columns": [
+                    "_geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Information Technology",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
