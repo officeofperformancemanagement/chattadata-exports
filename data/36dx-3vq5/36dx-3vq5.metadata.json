@@ -6,7 +6,7 @@
     "createdAt": 1722021059,
     "description": "CS/GVP data combined with point values",
     "displayType": "table",
-    "downloadCount": 4,
+    "downloadCount": 6,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -18,22 +18,22 @@
     "publicationDate": 1730379864,
     "publicationGroup": 19594394,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1731553258,
+    "rowsUpdatedAt": 1732042060,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678662,
     "totalTimesRated": 0,
-    "viewCount": 24,
-    "viewLastModified": 1731553258,
+    "viewCount": 31,
+    "viewLastModified": 1732042059,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1731594135,
+            "reviewedAt": 1732127075,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6613347,
+            "submissionId": 6620201,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1731594114,
+            "submittedAt": 1732127054,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
@@ -44,9 +44,9 @@
                 "permissionType": "read"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1731594135,
+                "endedAt": 1732127075,
                 "failureCount": 0,
-                "startedAt": 1731594135,
+                "startedAt": 1732127075,
                 "status": "success"
             },
             "submitter": {

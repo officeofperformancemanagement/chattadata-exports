@@ -7,7 +7,7 @@
     "createdAt": 1723225896,
     "description": "Nurse navigator data from community events.\nThis dataset contains the work of the Office of Community Health nurse navigators following their work completed under the C.A.R.E. Coalition Grant funding. The data from the work of the OCH nurse navigators under the Grant can be found in the historical \"OCHS Events\" dataset.",
     "displayType": "table",
-    "downloadCount": 15,
+    "downloadCount": 16,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,22 +19,22 @@
     "publicationDate": 1730314842,
     "publicationGroup": 19617763,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1731553268,
+    "rowsUpdatedAt": 1732042079,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678305,
     "totalTimesRated": 0,
-    "viewCount": 40,
-    "viewLastModified": 1731553267,
+    "viewCount": 44,
+    "viewLastModified": 1732042078,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1731594132,
+            "reviewedAt": 1732127073,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6613346,
+            "submissionId": 6620200,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1731594090,
+            "submittedAt": 1732127038,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
@@ -45,9 +45,9 @@
                 "permissionType": "read"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1731594133,
+                "endedAt": 1732127073,
                 "failureCount": 0,
-                "startedAt": 1731594132,
+                "startedAt": 1732127073,
                 "status": "success"
             },
             "submitter": {
