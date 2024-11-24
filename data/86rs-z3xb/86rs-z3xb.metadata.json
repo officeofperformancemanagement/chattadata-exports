@@ -8,7 +8,7 @@
     "createdAt": 1569594415,
     "description": "Parcels owned by the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 481,
+    "downloadCount": 482,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16871762,
     "totalTimesRated": 0,
-    "viewCount": 272,
+    "viewCount": 273,
     "viewLastModified": 1708630406,
     "viewType": "tabular",
     "approvals": [
