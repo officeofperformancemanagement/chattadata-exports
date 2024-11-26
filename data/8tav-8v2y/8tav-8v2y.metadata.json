@@ -1,0 +1,154 @@
+{
+    "id": "8tav-8v2y",
+    "name": "Parcel Type Codes",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1722880055,
+    "description": "Text descriptions of parcel type codes taken from comptroller site\nhttps://comptroller.tn.gov/content/dam/cot/pa/documents/landuse/COTLandUseCodes.pdf",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40785704,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1722880656,
+    "publicationGroup": 19611110,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 597664287,
+    "rowsUpdatedAt": 1722880650,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 19611110,
+    "totalTimesRated": 0,
+    "viewCount": 8,
+    "viewLastModified": 1722880656,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1732562079,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6632086,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1732562058,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1732562079,
+                "failureCount": 0,
+                "startedAt": 1732562079,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 597664287,
+            "name": "CODE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 154207998,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 597664288,
+            "name": "DESC",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "desc",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 154207999,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Mayor's Office",
+                "How often are data values updated?": "Historical (no longer updated)"
+            }
+        },
+        "rowIdentifier": 597664287,
+        "rowLabel": "Code",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
