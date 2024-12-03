@@ -6,7 +6,7 @@
     "createdAt": 1722021059,
     "description": "CS/GVP data combined with point values",
     "displayType": "table",
-    "downloadCount": 9,
+    "downloadCount": 11,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -18,40 +18,40 @@
     "publicationDate": 1730379864,
     "publicationGroup": 19594394,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1732042060,
+    "rowsUpdatedAt": 1733169707,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678662,
     "totalTimesRated": 0,
-    "viewCount": 31,
-    "viewLastModified": 1732042059,
+    "viewCount": 47,
+    "viewLastModified": 1733169706,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1732127075,
+            "reviewedAt": 1733168965,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6620201,
+            "submissionId": 6639944,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1732127054,
+            "submittedAt": 1733168948,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "vjqq-neb8",
-                "displayName": "Brenna Leigh Dotson"
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
             },
             "submissionDetails": {
                 "permissionType": "read"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1732127075,
+                "endedAt": 1733168965,
                 "failureCount": 0,
-                "startedAt": 1732127075,
+                "startedAt": 1733168965,
                 "status": "success"
             },
             "submitter": {
-                "id": "vjqq-neb8",
-                "displayName": "Brenna Leigh Dotson"
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
             }
         },
         {
@@ -419,9 +419,12 @@
         ]
     },
     "owner": {
-        "id": "w5hb-qra3",
-        "displayName": "Joshua Hardin",
-        "screenName": "Joshua Hardin",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -433,9 +436,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "w5hb-qra3",
-        "displayName": "Joshua Hardin",
-        "screenName": "Joshua Hardin",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",

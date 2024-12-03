@@ -7,7 +7,7 @@
     "createdAt": 1723225896,
     "description": "Nurse navigator data from community events.\nThis dataset contains the work of the Office of Community Health nurse navigators following their work completed under the C.A.R.E. Coalition Grant funding. The data from the work of the OCH nurse navigators under the Grant can be found in the historical \"OCHS Events\" dataset.",
     "displayType": "table",
-    "downloadCount": 19,
+    "downloadCount": 21,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,40 +19,40 @@
     "publicationDate": 1730314842,
     "publicationGroup": 19617763,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1732042079,
+    "rowsUpdatedAt": 1733168404,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678305,
     "totalTimesRated": 0,
-    "viewCount": 44,
-    "viewLastModified": 1732042078,
+    "viewCount": 81,
+    "viewLastModified": 1733168403,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1732127073,
+            "reviewedAt": 1733168333,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6620200,
+            "submissionId": 6639938,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1732127038,
+            "submittedAt": 1733168279,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "vjqq-neb8",
-                "displayName": "Brenna Leigh Dotson"
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
             },
             "submissionDetails": {
-                "permissionType": "read"
+                "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1732127073,
+                "endedAt": 1733168333,
                 "failureCount": 0,
-                "startedAt": 1732127073,
+                "startedAt": 1733168333,
                 "status": "success"
             },
             "submitter": {
-                "id": "vjqq-neb8",
-                "displayName": "Brenna Leigh Dotson"
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
             }
         },
         {
@@ -373,9 +373,12 @@
         ]
     },
     "owner": {
-        "id": "vjqq-neb8",
-        "displayName": "Brenna Leigh Dotson",
-        "screenName": "Brenna Leigh Dotson",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -387,9 +390,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "vjqq-neb8",
-        "displayName": "Brenna Leigh Dotson",
-        "screenName": "Brenna Leigh Dotson",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",
