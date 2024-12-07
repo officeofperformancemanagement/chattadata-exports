@@ -1,0 +1,237 @@
+{
+    "id": "a2uq-ctz3",
+    "name": "FJC Metrics",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1732649095,
+    "displayType": "table",
+    "downloadCount": 1,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40999673,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1733496058,
+    "publicationGroup": 19703199,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1733496052,
+    "rowsUpdatedBy": "vjqq-neb8",
+    "tableId": 19709760,
+    "totalTimesRated": 0,
+    "viewCount": 23,
+    "viewLastModified": 1733496058,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1733410882,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6647308,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1733410853,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1733410882,
+                "failureCount": 0,
+                "startedAt": 1733410882,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 602632593,
+            "name": "Timestamp",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "timestamp",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 155799093,
+            "format": {}
+        },
+        {
+            "id": 602632586,
+            "name": "Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "year",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 155708976,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 602632587,
+            "name": "Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "month",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 155708977,
+            "format": {}
+        },
+        {
+            "id": 602632595,
+            "name": "Clients Served (intakes)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "clients_served_intakes",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 155799095,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 602632594,
+            "name": "Training and Awareness Events",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "training_and_awareness_events",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 155799094,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 602632590,
+            "name": "LAP (Screened in)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lap_screened_in",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 155737275,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 602632591,
+            "name": "LAP (Svs)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lap_svs",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 155737274,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 602632592,
+            "name": "LAP (reported strangulation)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lap_reported_strangulation",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 155708999,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Community Health",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
