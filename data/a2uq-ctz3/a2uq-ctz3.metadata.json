@@ -5,31 +5,31 @@
     "averageRating": 0,
     "createdAt": 1732649095,
     "displayType": "table",
-    "downloadCount": 1,
+    "downloadCount": 2,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40999673,
+    "oid": 41001046,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1733496058,
+    "publicationDate": 1733536914,
     "publicationGroup": 19703199,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1733496052,
-    "rowsUpdatedBy": "vjqq-neb8",
-    "tableId": 19709760,
+    "rowsUpdatedAt": 1733536908,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19710419,
     "totalTimesRated": 0,
     "viewCount": 23,
-    "viewLastModified": 1733496058,
+    "viewLastModified": 1733536914,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1733410882,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6647308,
+            "submissionId": 6648155,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1733410853,
@@ -70,18 +70,18 @@
     },
     "columns": [
         {
-            "id": 602632593,
+            "id": 602670381,
             "name": "Timestamp",
-            "dataTypeName": "calendar_date",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "timestamp",
             "position": 1,
-            "renderTypeName": "calendar_date",
-            "tableColumnId": 155799093,
+            "renderTypeName": "text",
+            "tableColumnId": 155815421,
             "format": {}
         },
         {
-            "id": 602632586,
+            "id": 602670372,
             "name": "Year",
             "dataTypeName": "text",
             "description": "",
@@ -95,7 +95,7 @@
             }
         },
         {
-            "id": 602632587,
+            "id": 602670373,
             "name": "Month",
             "dataTypeName": "text",
             "description": "",
@@ -106,35 +106,35 @@
             "format": {}
         },
         {
-            "id": 602632595,
+            "id": 602670380,
             "name": "Clients Served (intakes)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "clients_served_intakes",
             "position": 4,
-            "renderTypeName": "number",
-            "tableColumnId": 155799095,
+            "renderTypeName": "text",
+            "tableColumnId": 155815420,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 602632594,
+            "id": 602670379,
             "name": "Training and Awareness Events",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "training_and_awareness_events",
             "position": 5,
-            "renderTypeName": "number",
-            "tableColumnId": 155799094,
+            "renderTypeName": "text",
+            "tableColumnId": 155815419,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 602632590,
+            "id": 602670376,
             "name": "LAP (Screened in)",
             "dataTypeName": "text",
             "description": "",
@@ -148,7 +148,7 @@
             }
         },
         {
-            "id": 602632591,
+            "id": 602670377,
             "name": "LAP (Svs)",
             "dataTypeName": "text",
             "description": "",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "id": 602632592,
+            "id": 602670378,
             "name": "LAP (reported strangulation)",
             "dataTypeName": "text",
             "description": "",
