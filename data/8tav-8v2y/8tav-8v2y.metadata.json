@@ -6,7 +6,7 @@
     "createdAt": 1722880055,
     "description": "Text descriptions of parcel type codes taken from comptroller site\nhttps://comptroller.tn.gov/content/dam/cot/pa/documents/landuse/COTLandUseCodes.pdf",
     "displayType": "table",
-    "downloadCount": 12,
+    "downloadCount": 14,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 19611110,
     "totalTimesRated": 0,
-    "viewCount": 8,
+    "viewCount": 9,
     "viewLastModified": 1722880656,
     "viewType": "tabular",
     "approvals": [
