@@ -7,7 +7,7 @@
     "createdAt": 1576262237,
     "description": "A simple data set of Activities.  Full data set can be viewed by selecting source data.",
     "displayType": "table",
-    "downloadCount": 493,
+    "downloadCount": 500,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
-    "viewCount": 211,
+    "viewCount": 212,
     "viewLastModified": 1708630316,
     "viewType": "tabular",
     "approvals": [
