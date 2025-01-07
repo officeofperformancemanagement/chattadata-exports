@@ -8,7 +8,7 @@
     "createdAt": 1728936678,
     "description": "This dataset contains outcome data aggregated by month from the Office of Homelessness and Supportive Housing. Many of the rows will show \"0\" due to changes in how data is collected and presented over time. Note: The first month that data on the Downtown Street Outreach program will be available is October 2024.",
     "displayType": "table",
-    "downloadCount": 87,
+    "downloadCount": 88,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19667697,
     "totalTimesRated": 0,
-    "viewCount": 15,
+    "viewCount": 16,
     "viewLastModified": 1735839792,
     "viewType": "tabular",
     "approvals": [
