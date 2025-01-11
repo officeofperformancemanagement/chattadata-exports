@@ -5,31 +5,31 @@
     "averageRating": 0,
     "createdAt": 1732649095,
     "displayType": "table",
-    "downloadCount": 34,
+    "downloadCount": 36,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 41001046,
+    "oid": 41044091,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1733536914,
+    "publicationDate": 1736440632,
     "publicationGroup": 19703199,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1736215305,
-    "rowsUpdatedBy": "nfms-ud8q",
-    "tableId": 19710419,
+    "rowsUpdatedAt": 1736440626,
+    "rowsUpdatedBy": "vjqq-neb8",
+    "tableId": 19731691,
     "totalTimesRated": 0,
-    "viewCount": 24,
-    "viewLastModified": 1736215304,
+    "viewCount": 27,
+    "viewLastModified": 1736440632,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1733410882,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6648155,
+            "submissionId": 6675507,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1733410853,
@@ -70,18 +70,18 @@
     },
     "columns": [
         {
-            "id": 602670381,
-            "name": "Timestamp",
-            "dataTypeName": "text",
+            "id": 603947123,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "timestamp",
             "position": 1,
-            "renderTypeName": "text",
-            "tableColumnId": 155815421,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 156234634,
             "format": {}
         },
         {
-            "id": 602670372,
+            "id": 603947114,
             "name": "Year",
             "dataTypeName": "text",
             "description": "",
@@ -95,7 +95,7 @@
             }
         },
         {
-            "id": 602670373,
+            "id": 603947115,
             "name": "Month",
             "dataTypeName": "text",
             "description": "",
@@ -106,35 +106,35 @@
             "format": {}
         },
         {
-            "id": 602670380,
+            "id": 603947122,
             "name": "Clients Served (intakes)",
-            "dataTypeName": "text",
+            "dataTypeName": "number",
             "description": "",
             "fieldName": "clients_served_intakes",
             "position": 4,
-            "renderTypeName": "text",
-            "tableColumnId": 155815420,
+            "renderTypeName": "number",
+            "tableColumnId": 156234633,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 602670379,
+            "id": 603947121,
             "name": "Training and Awareness Events",
-            "dataTypeName": "text",
+            "dataTypeName": "number",
             "description": "",
             "fieldName": "training_and_awareness_events",
             "position": 5,
-            "renderTypeName": "text",
-            "tableColumnId": 155815419,
+            "renderTypeName": "number",
+            "tableColumnId": 156234632,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 602670376,
+            "id": 603947118,
             "name": "LAP (Screened in)",
             "dataTypeName": "text",
             "description": "",
@@ -148,7 +148,7 @@
             }
         },
         {
-            "id": 602670377,
+            "id": 603947119,
             "name": "LAP (Svs)",
             "dataTypeName": "text",
             "description": "",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "id": 602670378,
+            "id": 603947120,
             "name": "LAP (reported strangulation)",
             "dataTypeName": "text",
             "description": "",

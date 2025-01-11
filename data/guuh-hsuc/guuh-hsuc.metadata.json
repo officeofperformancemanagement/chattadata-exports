@@ -1,0 +1,282 @@
+{
+    "id": "guuh-hsuc",
+    "name": "Weather Incident - 311 Requests - 2025-01-09",
+    "assetType": "filter",
+    "attribution": "City of Chattanooga",
+    "attributionLink": "https://vc0.publicstuff.com/api/2.0/requests_list",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1736488060,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "locked": false,
+    "modifyingViewUid": "vxmp-vijw",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 41045724,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1736488169,
+    "publicationGroup": 19732538,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1736555025,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19732541,
+    "totalTimesRated": 0,
+    "viewCount": 27,
+    "viewLastModified": 1736489257,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1736488188,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6676521,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1736488170,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1736488188,
+                "failureCount": 0,
+                "startedAt": 1736488188,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 603966032,
+            "name": "id",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 156239939,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 603966033,
+            "name": "timestamp",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "timestamp",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 156239940,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 603966034,
+            "name": "status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "status",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 156239941,
+            "format": {}
+        },
+        {
+            "id": 603966035,
+            "name": "type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 156239942,
+            "format": {}
+        },
+        {
+            "id": 603966036,
+            "name": "url",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "url",
+            "position": 5,
+            "renderTypeName": "url",
+            "tableColumnId": 156239943,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 603966037,
+            "name": "created",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "created",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 156239944,
+            "format": {}
+        },
+        {
+            "id": 603966038,
+            "name": "latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 156239945,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 603966039,
+            "name": "longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 156239946,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 603966040,
+            "name": "location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 9,
+            "renderTypeName": "point",
+            "tableColumnId": 156239947,
+            "format": {}
+        },
+        {
+            "id": 603966041,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 156239948,
+            "format": {}
+        },
+        {
+            "id": 603966042,
+            "name": "address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 156239980,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Other",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}
