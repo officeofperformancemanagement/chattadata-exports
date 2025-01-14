@@ -5,31 +5,31 @@
     "averageRating": 0,
     "createdAt": 1732649095,
     "displayType": "table",
-    "downloadCount": 36,
+    "downloadCount": 39,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 41044091,
+    "oid": 41047234,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1736440632,
+    "publicationDate": 1736560970,
     "publicationGroup": 19703199,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1736440626,
-    "rowsUpdatedBy": "vjqq-neb8",
-    "tableId": 19731691,
+    "rowsUpdatedAt": 1736733725,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19733394,
     "totalTimesRated": 0,
     "viewCount": 27,
-    "viewLastModified": 1736440632,
+    "viewLastModified": 1736733724,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1733410882,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6675507,
+            "submissionId": 6677436,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1733410853,
@@ -70,18 +70,18 @@
     },
     "columns": [
         {
-            "id": 603947123,
+            "id": 604006053,
             "name": "Date",
-            "dataTypeName": "calendar_date",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "timestamp",
             "position": 1,
-            "renderTypeName": "calendar_date",
-            "tableColumnId": 156234634,
+            "renderTypeName": "text",
+            "tableColumnId": 156257869,
             "format": {}
         },
         {
-            "id": 603947114,
+            "id": 604006044,
             "name": "Year",
             "dataTypeName": "text",
             "description": "",
@@ -95,7 +95,7 @@
             }
         },
         {
-            "id": 603947115,
+            "id": 604006045,
             "name": "Month",
             "dataTypeName": "text",
             "description": "",
@@ -106,35 +106,35 @@
             "format": {}
         },
         {
-            "id": 603947122,
+            "id": 604006052,
             "name": "Clients Served (intakes)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "clients_served_intakes",
             "position": 4,
-            "renderTypeName": "number",
-            "tableColumnId": 156234633,
+            "renderTypeName": "text",
+            "tableColumnId": 156257868,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 603947121,
+            "id": 604006051,
             "name": "Training and Awareness Events",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "training_and_awareness_events",
             "position": 5,
-            "renderTypeName": "number",
-            "tableColumnId": 156234632,
+            "renderTypeName": "text",
+            "tableColumnId": 156257867,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 603947118,
+            "id": 604006048,
             "name": "LAP (Screened in)",
             "dataTypeName": "text",
             "description": "",
@@ -148,7 +148,7 @@
             }
         },
         {
-            "id": 603947119,
+            "id": 604006049,
             "name": "LAP (Svs)",
             "dataTypeName": "text",
             "description": "",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "id": 603947120,
+            "id": 604006050,
             "name": "LAP (reported strangulation)",
             "dataTypeName": "text",
             "description": "",

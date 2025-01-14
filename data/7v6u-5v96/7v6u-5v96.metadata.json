@@ -6,7 +6,7 @@
     "createdAt": 1581368456,
     "description": "Each row represents the daily average of the given direction from all data for that intersection.",
     "displayType": "table",
-    "downloadCount": 269,
+    "downloadCount": 271,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16879401,
     "totalTimesRated": 0,
-    "viewCount": 251,
+    "viewCount": 252,
     "viewLastModified": 1708630520,
     "viewType": "tabular",
     "approvals": [
