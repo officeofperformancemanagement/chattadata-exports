@@ -5,10 +5,11 @@
     "averageRating": 0,
     "createdAt": 1595346244,
     "displayType": "table",
-    "downloadCount": 704,
+    "downloadCount": 707,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
+    "modifyingViewUid": "b5bi-svwj",
     "newBackend": true,
     "numberOfComments": 0,
     "oid": 35506553,
@@ -17,12 +18,13 @@
     "publicationDate": 1595347927,
     "publicationGroup": 17171806,
     "publicationStage": "published",
+    "queryString": "SELECT `date`, `cat_detail`, `new_cases_past_7_days`, `geometry` WHERE (upper(`most_recent_date`) = \"Y\") and (NOT contains(upper(`cat_detail`), \"PENDING\"))",
     "rowsUpdatedAt": 1710111641,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17668954,
     "totalTimesRated": 0,
-    "viewCount": 257,
-    "viewLastModified": 1595347927,
+    "viewCount": 258,
+    "viewLastModified": 1736897307,
     "viewType": "tabular",
     "approvals": [
         {
@@ -76,7 +78,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "cat_detail",
-            "position": 3,
+            "position": 2,
             "renderTypeName": "text",
             "tableColumnId": 103184008,
             "width": 100,
@@ -90,7 +92,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "new_cases_past_7_days",
-            "position": 10,
+            "position": 3,
             "renderTypeName": "number",
             "tableColumnId": 109331600,
             "format": {
@@ -104,7 +106,7 @@
             "dataTypeName": "multipolygon",
             "description": "",
             "fieldName": "geometry",
-            "position": 13,
+            "position": 4,
             "renderTypeName": "multipolygon",
             "tableColumnId": 103184034,
             "width": 100,
@@ -150,75 +152,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 502276934,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "Y"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "17171806": 103184004
-                        },
-                        "operator": "EQUALS"
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "NOT_CONTAINS_INSENSITIVE",
-                            "children": [
-                                {
-                                    "columnId": 502276926,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "pending"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "17171806": 103184008
-                        },
-                        "operator": "NOT_CONTAINS_INSENSITIVE"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -240,8 +174,10 @@
         "health department"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }
