@@ -1,37 +1,37 @@
 {
     "id": "84m2-rzct",
-    "name": "OHSH Ages 2023",
+    "name": "Home-ARP Household Sizes Aggregate",
     "assetType": "dataset",
     "averageRating": 0,
     "category": "Social Services",
     "createdAt": 1708959004,
-    "description": "The aggregated age categories of all clients served by OHSH in 2023. This information is not limited to one grant or program.",
+    "description": "Aggregated data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing. This data represents the full life of the grant from January 2022 through December 2024.",
     "displayType": "table",
-    "downloadCount": 288,
+    "downloadCount": 289,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40442427,
+    "oid": 41072175,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1708959173,
+    "publicationDate": 1737664027,
     "publicationGroup": 19464699,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708959167,
+    "rowsUpdatedAt": 1737664021,
     "rowsUpdatedBy": "n3cu-zjep",
-    "tableId": 19464699,
+    "tableId": 19748591,
     "totalTimesRated": 0,
-    "viewCount": 22,
-    "viewLastModified": 1709565111,
+    "viewCount": 24,
+    "viewLastModified": 1737664027,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1709317444,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6198322,
+            "submissionId": 6694785,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1709314831,
@@ -72,45 +72,26 @@
     },
     "columns": [
         {
-            "id": 589914350,
-            "name": "Age",
+            "id": 604468905,
+            "name": "Household Size",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "age",
+            "fieldName": "household_size",
             "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 151558711,
+            "tableColumnId": 156439056,
             "format": {}
         },
         {
-            "id": 589914351,
-            "name": "Total",
+            "id": 604468904,
+            "name": "Sum",
             "dataTypeName": "number",
             "description": "",
-            "fieldName": "total",
+            "fieldName": "sum",
             "position": 2,
             "renderTypeName": "number",
-            "tableColumnId": 151558712,
-            "format": {
-                "decimalSeparator": ".",
-                "groupSeparator": ","
-            }
-        },
-        {
-            "id": 589914352,
-            "name": "Percent",
-            "dataTypeName": "number",
-            "description": "",
-            "fieldName": "percent",
-            "position": 3,
-            "renderTypeName": "number",
-            "tableColumnId": 151558713,
-            "format": {
-                "precisionStyle": "percentage",
-                "percentScale": "1",
-                "decimalSeparator": ".",
-                "groupSeparator": ","
-            }
+            "tableColumnId": 156439055,
+            "format": {}
         }
     ],
     "grants": [
@@ -126,9 +107,10 @@
         "custom_fields": {
             "Internal": {
                 "Department": "Office of Homelessness and Supportive Housing",
-                "How often are data values updated?": "Yearly"
+                "How often are data values updated?": "Historical (no longer updated)"
             }
         },
+        "rowLabel": "Household size",
         "availableDisplayTypes": [
             "table",
             "fatrow",
