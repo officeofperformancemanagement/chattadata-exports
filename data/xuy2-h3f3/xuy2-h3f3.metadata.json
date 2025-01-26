@@ -6,7 +6,7 @@
     "createdAt": 1581362916,
     "description": "Total for each direction and each camera grouped by date",
     "displayType": "table",
-    "downloadCount": 497,
+    "downloadCount": 498,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16879401,
     "totalTimesRated": 0,
-    "viewCount": 270,
+    "viewCount": 271,
     "viewLastModified": 1708630426,
     "viewType": "tabular",
     "approvals": [
