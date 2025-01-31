@@ -7,7 +7,7 @@
     "createdAt": 1562007655,
     "description": "Code enforcement cases for the City of Chattanooga from 1999 to present date.",
     "displayType": "table",
-    "downloadCount": 530,
+    "downloadCount": 531,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationDate": 1573827037,
     "publicationGroup": 15952472,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738205716,
+    "rowsUpdatedAt": 1738292105,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17320071,
     "totalTimesRated": 0,
     "viewCount": 730,
-    "viewLastModified": 1708630377,
+    "viewLastModified": 1738213502,
     "viewType": "tabular",
     "approvals": [
         {
@@ -324,8 +324,10 @@
         "code enforcement case violation overgrowth litter"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

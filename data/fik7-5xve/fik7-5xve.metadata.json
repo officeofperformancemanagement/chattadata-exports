@@ -6,7 +6,7 @@
     "createdAt": 1564489001,
     "description": "Polygons of City Owned Sidewalks",
     "displayType": "table",
-    "downloadCount": 488,
+    "downloadCount": 489,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1564489083,
@@ -25,8 +25,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16380051,
     "totalTimesRated": 0,
-    "viewCount": 190,
-    "viewLastModified": 1708630774,
+    "viewCount": 192,
+    "viewLastModified": 1738213305,
     "viewType": "tabular",
     "approvals": [
         {
@@ -79,7 +79,7 @@
             "dataTypeName": "text",
             "description": "Sidewalk owner",
             "fieldName": "owner",
-            "position": 2,
+            "position": 1,
             "renderTypeName": "text",
             "tableColumnId": 83253002,
             "width": 100,
@@ -91,7 +91,7 @@
             "dataTypeName": "multipolygon",
             "description": "Feature geometry in well known text format",
             "fieldName": "geometry",
-            "position": 3,
+            "position": 2,
             "renderTypeName": "multipolygon",
             "tableColumnId": 84600563,
             "width": 100,
@@ -167,8 +167,10 @@
         "row"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

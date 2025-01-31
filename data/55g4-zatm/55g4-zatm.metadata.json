@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559324904,
     "displayType": "table",
-    "downloadCount": 488,
+    "downloadCount": 489,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575392667,
@@ -26,7 +26,7 @@
     "tableId": 16220781,
     "totalTimesRated": 0,
     "viewCount": 224,
-    "viewLastModified": 1708630702,
+    "viewLastModified": 1738212396,
     "viewType": "tabular",
     "approvals": [
         {
@@ -81,7 +81,6 @@
             "fieldName": "reportmonth",
             "position": 1,
             "renderTypeName": "calendar_date",
-            "tableColumnId": 81351260,
             "width": 100,
             "format": {
                 "align": "left",
@@ -110,7 +109,6 @@
             "fieldName": "trafficflow",
             "position": 3,
             "renderTypeName": "number",
-            "tableColumnId": 81351258,
             "width": 100,
             "format": {
                 "precisionStyle": "standard",
@@ -181,8 +179,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

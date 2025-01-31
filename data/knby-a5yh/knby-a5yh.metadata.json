@@ -6,7 +6,7 @@
     "createdAt": 1611341455,
     "description": "311 service requests containing trip hazard in the description.",
     "displayType": "table",
-    "downloadCount": 437,
+    "downloadCount": 438,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,13 @@
     "publicationDate": 1611341601,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738159582,
+    "queryString": "SELECT `service_request_key`, `created_date`, `due_at`, `completed_at`, `on_time_indicator`, `department`, `request_type`, `description`, `request_type_code`, `status_code`, `intake_form`, `actual_days_to_complete_working`, `sla_fy_2019`, `ispublic`, `citydst`, `publiclocation` WHERE contains(upper(`description`), \"TRIP HAZARD\") ORDER BY `created_date` DESC NULL LAST",
+    "rowsUpdatedAt": 1738245960,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 89,
-    "viewLastModified": 1708630425,
+    "viewLastModified": 1738213438,
     "viewType": "tabular",
     "approvals": [
         {
@@ -133,7 +134,7 @@
             "dataTypeName": "text",
             "description": "Indicator if the request is completed at or before the due date.",
             "fieldName": "on_time_indicator",
-            "position": 6,
+            "position": 5,
             "renderTypeName": "text",
             "tableColumnId": 76829311,
             "width": 100,
@@ -147,7 +148,7 @@
             "dataTypeName": "text",
             "description": "Department service request is routed to",
             "fieldName": "department",
-            "position": 7,
+            "position": 6,
             "renderTypeName": "text",
             "tableColumnId": 92262849,
             "width": 100,
@@ -161,7 +162,7 @@
             "dataTypeName": "text",
             "description": "The type of the service request created.",
             "fieldName": "request_type",
-            "position": 8,
+            "position": 7,
             "renderTypeName": "text",
             "tableColumnId": 76762086,
             "width": 100,
@@ -175,7 +176,7 @@
             "dataTypeName": "text",
             "description": "Description of the service request often populated by the constituent submitting the request.",
             "fieldName": "description",
-            "position": 9,
+            "position": 8,
             "renderTypeName": "text",
             "tableColumnId": 76762087,
             "width": 100,
@@ -189,7 +190,7 @@
             "dataTypeName": "text",
             "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
             "fieldName": "request_type_code",
-            "position": 10,
+            "position": 9,
             "renderTypeName": "text",
             "tableColumnId": 76762088,
             "width": 100,
@@ -203,7 +204,7 @@
             "dataTypeName": "text",
             "description": "Status of the request, Open, New, and Closed.",
             "fieldName": "status_code",
-            "position": 11,
+            "position": 10,
             "renderTypeName": "text",
             "tableColumnId": 76762089,
             "width": 100,
@@ -217,7 +218,7 @@
             "dataTypeName": "text",
             "description": "How the request was submitted.",
             "fieldName": "intake_form",
-            "position": 12,
+            "position": 11,
             "renderTypeName": "text",
             "tableColumnId": 76762090,
             "width": 100,
@@ -231,7 +232,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "actual_days_to_complete_working",
-            "position": 15,
+            "position": 12,
             "renderTypeName": "number",
             "tableColumnId": 81399746,
             "width": 100,
@@ -246,7 +247,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sla_fy_2019",
-            "position": 16,
+            "position": 13,
             "renderTypeName": "number",
             "tableColumnId": 82038591,
             "width": 100,
@@ -261,7 +262,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "ispublic",
-            "position": 20,
+            "position": 14,
             "renderTypeName": "text",
             "tableColumnId": 80865363,
             "width": 100,
@@ -275,7 +276,7 @@
             "dataTypeName": "text",
             "description": "Council District in which the requests was submitted for",
             "fieldName": "citydst",
-            "position": 21,
+            "position": 15,
             "renderTypeName": "text",
             "tableColumnId": 81939070,
             "width": 100,
@@ -289,7 +290,7 @@
             "dataTypeName": "point",
             "description": "",
             "fieldName": "publiclocation",
-            "position": 22,
+            "position": 16,
             "renderTypeName": "point",
             "tableColumnId": 106332869,
             "width": 100,
@@ -345,92 +346,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "CONTAINS_INSENSITIVE",
-                    "children": [
-                        {
-                            "columnId": 577284922,
-                            "type": "column"
-                        },
-                        {
-                            "type": "literal",
-                            "value": "trip hazard"
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15950137": 76762087
-                        },
-                        "freeform": true,
-                        "unifiedVersion": 2,
-                        "operator": "CONTAINS_INSENSITIVE"
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "CONTAINS_INSENSITIVE",
-                    "children": [
-                        {
-                            "columnId": 577284922,
-                            "type": "column"
-                        },
-                        {
-                            "type": "literal",
-                            "value": "trip hazard"
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15950137": 76762087
-                        },
-                        "freeform": true,
-                        "unifiedVersion": 2,
-                        "operator": "CONTAINS_INSENSITIVE"
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "CONTAINS_INSENSITIVE",
-                    "children": [
-                        {
-                            "columnId": 577284922,
-                            "type": "column"
-                        },
-                        {
-                            "type": "literal",
-                            "value": "trip hazard"
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15950137": 76762087
-                        },
-                        "freeform": true,
-                        "unifiedVersion": 2,
-                        "operator": "CONTAINS_INSENSITIVE"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        },
-        "orderBys": [
-            {
-                "ascending": false,
-                "expression": {
-                    "columnId": 577284915,
-                    "type": "column"
-                }
-            }
-        ]
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -448,8 +364,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

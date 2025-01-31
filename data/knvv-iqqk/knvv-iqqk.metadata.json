@@ -6,7 +6,7 @@
     "averageRating": 0,
     "createdAt": 1623870814,
     "displayType": "table",
-    "downloadCount": 414,
+    "downloadCount": 415,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "PUBLIC_DOMAIN",
@@ -25,7 +25,7 @@
     "tableId": 18396957,
     "totalTimesRated": 0,
     "viewCount": 42,
-    "viewLastModified": 1708630437,
+    "viewLastModified": 1738213439,
     "viewType": "tabular",
     "approvals": [
         {
@@ -134,7 +134,7 @@
             "dataTypeName": "text",
             "description": "Status of action",
             "fieldName": "status",
-            "position": 6,
+            "position": 5,
             "renderTypeName": "text",
             "tableColumnId": 136017848,
             "width": 100,
@@ -148,7 +148,7 @@
             "dataTypeName": "url",
             "description": "Link to project folder",
             "fieldName": "project_folder",
-            "position": 10,
+            "position": 6,
             "renderTypeName": "url",
             "tableColumnId": 137956735,
             "width": 100,
@@ -166,7 +166,7 @@
             "dataTypeName": "text",
             "description": "If Marked as True, action item is budget dependent. ",
             "fieldName": "action_item_budget_dependent",
-            "position": 12,
+            "position": 7,
             "renderTypeName": "text",
             "tableColumnId": 138905291,
             "format": {
@@ -241,8 +241,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

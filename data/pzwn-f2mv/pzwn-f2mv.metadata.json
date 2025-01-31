@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1596571048,
     "displayType": "table",
-    "downloadCount": 414,
+    "downloadCount": 415,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -18,12 +18,13 @@
     "publicationDate": 1596571082,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738159582,
+    "queryString": "SELECT `service_request_key`, `created_date`, `due_at`, `completed_at`, `on_time_indicator`, `department`, `request_type`, `description`, `request_type_code`, `status_code`, `intake_form`, `actual_days_to_complete_working`, `sla_fy_2019`, `ispublic`, `citydst`, `publiclocation` WHERE starts_with(upper(`request_type`), \"SIDEWALK\")",
+    "rowsUpdatedAt": 1738245960,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 103,
-    "viewLastModified": 1708630559,
+    "viewLastModified": 1738213501,
     "viewType": "tabular",
     "approvals": [
         {
@@ -230,7 +231,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "actual_days_to_complete_working",
-            "position": 13,
+            "position": 12,
             "renderTypeName": "number",
             "tableColumnId": 81399746,
             "width": 100,
@@ -245,7 +246,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sla_fy_2019",
-            "position": 14,
+            "position": 13,
             "renderTypeName": "number",
             "tableColumnId": 82038591,
             "width": 100,
@@ -260,7 +261,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "ispublic",
-            "position": 18,
+            "position": 14,
             "renderTypeName": "text",
             "tableColumnId": 80865363,
             "width": 100,
@@ -274,7 +275,7 @@
             "dataTypeName": "text",
             "description": "Council District in which the requests was submitted for",
             "fieldName": "citydst",
-            "position": 19,
+            "position": 15,
             "renderTypeName": "text",
             "tableColumnId": 81939070,
             "width": 100,
@@ -288,7 +289,7 @@
             "dataTypeName": "point",
             "description": "",
             "fieldName": "publiclocation",
-            "position": 20,
+            "position": 16,
             "renderTypeName": "point",
             "tableColumnId": 106332869,
             "width": 100,
@@ -335,46 +336,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "STARTS_WITH",
-                            "children": [
-                                {
-                                    "columnId": 577284832,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "Sidewalk"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15950137": 76762086
-                        },
-                        "operator": "STARTS_WITH"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -392,8 +354,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

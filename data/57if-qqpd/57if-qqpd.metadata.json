@@ -6,7 +6,7 @@
     "createdAt": 1563193722,
     "description": "311 SRs for Sidewalks only",
     "displayType": "table",
-    "downloadCount": 499,
+    "downloadCount": 501,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,13 @@
     "publicationDate": 1563193819,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738159582,
+    "queryString": "SELECT `service_request_key`, `created_date`, `request_type`, `description`, `request_type_code`, `status_code`, `intake_form`, `days_to_complete`, `sla_fy_2019`, `on_time_indicator`, `completed_at`, `due_at`, `ispublic`, `council_district`, `loc` WHERE starts_with(upper(`request_type`), \"SIDEWALK\")",
+    "rowsUpdatedAt": 1738245960,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 292,
-    "viewLastModified": 1708630363,
+    "viewLastModified": 1738212398,
     "viewType": "tabular",
     "approvals": [
         {
@@ -275,7 +276,7 @@
             "dataTypeName": "point",
             "description": "Column created from a SoQL query.",
             "fieldName": "loc",
-            "position": 16,
+            "position": 15,
             "renderTypeName": "point",
             "format": {}
         }
@@ -324,46 +325,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "STARTS_WITH",
-                            "children": [
-                                {
-                                    "columnId": 577284942,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "Sidewalk"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15950137": 76762086
-                        },
-                        "operator": "STARTS_WITH"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -381,8 +343,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

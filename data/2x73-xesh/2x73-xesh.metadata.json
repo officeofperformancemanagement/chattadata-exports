@@ -6,7 +6,7 @@
     "createdAt": 1568310696,
     "description": "Pothole and paving service requests",
     "displayType": "table",
-    "downloadCount": 493,
+    "downloadCount": 494,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,13 @@
     "publicationDate": 1568311115,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738159582,
+    "queryString": "SELECT `service_request_key`, `created_date`, `request_type`, `description`, `request_type_code`, `status_code`, `intake_form`, `days_to_complete`, `sla_fy_2019`, `on_time_indicator`, `completed_at`, `due_at`, `ispublic`, `council_district`, `loc` WHERE (contains(upper(`request_type`), \"POTHOLE\")) or (contains(upper(`request_type`), \"DISTRESSED\")) ORDER BY `created_date` DESC NULL LAST",
+    "rowsUpdatedAt": 1738245960,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
-    "viewCount": 303,
-    "viewLastModified": 1708631198,
+    "viewCount": 304,
+    "viewLastModified": 1738212343,
     "viewType": "tabular",
     "approvals": [
         {
@@ -275,7 +276,7 @@
             "dataTypeName": "point",
             "description": "Column created from a SoQL query.",
             "fieldName": "loc",
-            "position": 16,
+            "position": 15,
             "renderTypeName": "point",
             "format": {}
         }
@@ -327,64 +328,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "OR",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "CONTAINS_INSENSITIVE",
-                    "children": [
-                        {
-                            "columnId": 577284869,
-                            "type": "column"
-                        },
-                        {
-                            "type": "literal",
-                            "value": "pothole"
-                        }
-                    ],
-                    "metadata": {
-                        "freeform": true
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "CONTAINS_INSENSITIVE",
-                    "children": [
-                        {
-                            "columnId": 577284869,
-                            "type": "column"
-                        },
-                        {
-                            "type": "literal",
-                            "value": "distressed"
-                        }
-                    ],
-                    "metadata": {
-                        "freeform": true
-                    }
-                }
-            ],
-            "metadata": {
-                "tableColumnId": {
-                    "15950137": 76762086
-                },
-                "unifiedVersion": 2,
-                "operator": "CONTAINS_INSENSITIVE"
-            }
-        },
-        "orderBys": [
-            {
-                "ascending": false,
-                "expression": {
-                    "columnId": 577284867,
-                    "type": "column"
-                }
-            }
-        ]
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -408,8 +352,10 @@
         "service requests"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

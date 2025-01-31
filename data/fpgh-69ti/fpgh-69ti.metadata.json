@@ -7,7 +7,7 @@
     "createdAt": 1581345559,
     "description": "Vehicle volume counts for intersections with GridSmart cameras. Data represents volume in a specific direction for a given 15 minute interval.",
     "displayType": "table",
-    "downloadCount": 843,
+    "downloadCount": 844,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -26,7 +26,7 @@
     "tableId": 16879401,
     "totalTimesRated": 0,
     "viewCount": 370,
-    "viewLastModified": 1708630359,
+    "viewLastModified": 1738213310,
     "viewType": "tabular",
     "approvals": [
         {
@@ -223,7 +223,7 @@
             "dataTypeName": "point",
             "description": "Camera location",
             "fieldName": "geom",
-            "position": 14,
+            "position": 11,
             "renderTypeName": "point",
             "tableColumnId": 94288833,
             "width": 100,
@@ -303,8 +303,10 @@
         "traffic"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

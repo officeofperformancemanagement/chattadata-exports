@@ -19,12 +19,12 @@
     "publicationDate": 1563205990,
     "publicationGroup": 15947356,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738192249,
+    "rowsUpdatedAt": 1738278647,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18985374,
     "totalTimesRated": 0,
     "viewCount": 245,
-    "viewLastModified": 1708631195,
+    "viewLastModified": 1738292513,
     "viewType": "tabular",
     "approvals": [
         {
@@ -611,66 +611,6 @@
                 "precisionStyle": "standard",
                 "align": "left"
             }
-        },
-        {
-            "id": 568813188,
-            "name": "Council",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_q7y7_kk3x",
-            "position": 91,
-            "renderTypeName": "number",
-            "tableColumnId": 88963280,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_q7y7-kk3x",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813189,
-            "name": "Police Districts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_bjeb_sd3n",
-            "position": 92,
-            "renderTypeName": "number",
-            "tableColumnId": 88990390,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_bjeb-sd3n",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813190,
-            "name": "Neighborhood Associations",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_epkc_jqa5",
-            "position": 93,
-            "renderTypeName": "number",
-            "tableColumnId": 88990840,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_epkc-jqa5",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
         }
     ],
     "grants": [
@@ -734,8 +674,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

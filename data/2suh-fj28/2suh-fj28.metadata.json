@@ -7,7 +7,7 @@
     "createdAt": 1569607587,
     "description": "Incidents where building fires occurred",
     "displayType": "table",
-    "downloadCount": 442,
+    "downloadCount": 443,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "tableId": 18984793,
     "totalTimesRated": 0,
     "viewCount": 289,
-    "viewLastModified": 1708630678,
+    "viewLastModified": 1738212340,
     "viewType": "tabular",
     "approvals": [
         {
@@ -426,7 +426,7 @@
             "dataTypeName": "text",
             "description": "EPB Has Removed Power from this Property",
             "fieldName": "epb_removed_power",
-            "position": 35,
+            "position": 30,
             "renderTypeName": "text",
             "tableColumnId": 140951604,
             "format": {}
@@ -493,8 +493,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

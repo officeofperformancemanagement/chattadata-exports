@@ -8,7 +8,7 @@
     "createdAt": 1562680870,
     "description": "All Part 1 Property Crime Incidents CPD responds to.",
     "displayType": "table",
-    "downloadCount": 657,
+    "downloadCount": 658,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -21,12 +21,13 @@
     "publicationDate": 1562683352,
     "publicationGroup": 15936287,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738148573,
+    "queryString": "SELECT `address`, `city`, `state`, `zip`, `date_incident`, `jurisdiction`, `incident_tract`, `zone`, `ucr_incident_code`, `incident_description`, `incident_type`, `case_number`, `case_status`, `case_status_description`, `latitude`, `longitude`, `location`, `citydst` WHERE (upper(`ucr_incident_code`) = \"23H\") or (upper(`ucr_incident_code`) = \"23E\") or (upper(`ucr_incident_code`) = \"220\") or (upper(`ucr_incident_code`) = \"23A\") or (upper(`ucr_incident_code`) = \"23F\") or (upper(`ucr_incident_code`) = \"240\") or (upper(`ucr_incident_code`) = \"23B\") or (upper(`ucr_incident_code`) = \"23D\") or (upper(`ucr_incident_code`) = \"23G\") or (upper(`ucr_incident_code`) = \"23C\")",
+    "rowsUpdatedAt": 1738234978,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
     "viewCount": 1022,
-    "viewLastModified": 1708630702,
+    "viewLastModified": 1738292518,
     "viewType": "tabular",
     "approvals": [
         {
@@ -319,33 +320,13 @@
             "dataTypeName": "text",
             "description": "Council district where incident occurred",
             "fieldName": "citydst",
-            "position": 19,
+            "position": 18,
             "renderTypeName": "text",
             "tableColumnId": 81996682,
             "width": 100,
             "format": {
                 "align": "left"
             }
-        },
-        {
-            "id": 568778300,
-            "name": "Council",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_q7y7_kk3x",
-            "position": 21,
-            "renderTypeName": "number",
-            "tableColumnId": 83911300,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_q7y7-kk3x",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
         }
     ],
     "grants": [
@@ -392,160 +373,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "220"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "240"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23A"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23B"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23C"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23D"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23E"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23F"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23G"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778284,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "23H"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -573,8 +401,10 @@
         "safety"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

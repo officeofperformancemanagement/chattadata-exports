@@ -7,7 +7,7 @@
     "createdAt": 1633440504,
     "description": "This is a view from the Census 2020 Block Populations for Hamilton County only.",
     "displayType": "table",
-    "downloadCount": 417,
+    "downloadCount": 418,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,13 +20,14 @@
     "publicationDate": 1633440605,
     "publicationGroup": 18413909,
     "publicationStage": "published",
+    "queryString": "SELECT `state_fips_code`, `county_fips_code`, `census_tract`, `census_block`, `geoid`, `common_name`, `total_population`, `population_of_one_race`, `white_alone`, `black_or_african_american`, `american_indian_and_alaska`, `asian_alone`, `native_hawaiian_and_other`, `some_other_race_alone`, `population_of_two_or_more`, `hispanic_or_latino`, `not_hispanic_or_latino`, `geometry`, `white_alone_percent`, `black_or_african_american_alone_percent`, `american_indian_and_alaska_native_alone_percent`, `asian_alone_percent`, `native_hawaiian_and_other_pacific_islander_alone_percent`, `some_other_race_alone_percent`, `two_or_more_races_percent`, `hispanic_or_latino_percent`, `not_hispanic_or_latino_percent` WHERE upper(`county_fips_code`) = \"065\"",
     "rowClass": "",
     "rowsUpdatedAt": 1628957512,
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 18414138,
     "totalTimesRated": 0,
     "viewCount": 21,
-    "viewLastModified": 1708630436,
+    "viewLastModified": 1738212625,
     "viewType": "tabular",
     "approvals": [
         {
@@ -444,47 +445,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnFieldName": "county_fips_code",
-                                    "columnId": 549455732,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "065"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "18413909": 139058313
-                        },
-                        "operator": "EQUALS"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -506,8 +467,10 @@
         "redistrict"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

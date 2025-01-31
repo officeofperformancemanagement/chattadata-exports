@@ -6,7 +6,7 @@
     "createdAt": 1597255476,
     "description": "Place of Worship category types from SafeGraph and Google POI data.",
     "displayType": "table",
-    "downloadCount": 414,
+    "downloadCount": 415,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "tableId": 17114788,
     "totalTimesRated": 0,
     "viewCount": 29,
-    "viewLastModified": 1708630679,
+    "viewLastModified": 1738213743,
     "viewType": "tabular",
     "approvals": [
         {
@@ -194,8 +194,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

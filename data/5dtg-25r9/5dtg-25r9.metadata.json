@@ -7,7 +7,7 @@
     "createdAt": 1561576074,
     "description": "This dataset contains fire incident data from all responding units from 2001 to the current date. As a result there may be more than one record for each fire incident. To view just the fire incidents, without all the responding units details, then check out our Fire Incidents datasets at https://chattanooga-internal.data.socrata.com/Public-Safety/Fire-Incidents/mpms-yy3n",
     "displayType": "table",
-    "downloadCount": 1136,
+    "downloadCount": 1137,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationDate": 1562675402,
     "publicationGroup": 15938925,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738146544,
+    "rowsUpdatedAt": 1738232889,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
     "viewCount": 5560,
-    "viewLastModified": 1708630696,
+    "viewLastModified": 1738212454,
     "viewType": "tabular",
     "approvals": [
         {
@@ -465,7 +465,7 @@
             "dataTypeName": "text",
             "description": "For first alarm units was this the last arriving",
             "fieldName": "lastarrivingfirstalarm",
-            "position": 29,
+            "position": 28,
             "renderTypeName": "text",
             "tableColumnId": 83489076,
             "format": {
@@ -478,7 +478,7 @@
             "dataTypeName": "calendar_date",
             "description": "Unit on scene date",
             "fieldName": "onscndate",
-            "position": 30,
+            "position": 29,
             "renderTypeName": "calendar_date",
             "tableColumnId": 77722142,
             "width": 100,
@@ -492,7 +492,7 @@
             "dataTypeName": "calendar_date",
             "description": "Unit dispatch date",
             "fieldName": "dispdate",
-            "position": 31,
+            "position": 30,
             "renderTypeName": "calendar_date",
             "tableColumnId": 77722143,
             "width": 100,
@@ -506,7 +506,7 @@
             "dataTypeName": "text",
             "description": "City council district of incident",
             "fieldName": "citydst",
-            "position": 32,
+            "position": 31,
             "renderTypeName": "text",
             "tableColumnId": 81993663,
             "width": 100,
@@ -582,8 +582,10 @@
         "fire fires firetruck unit detail response time emergency alarm false ems cfd"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

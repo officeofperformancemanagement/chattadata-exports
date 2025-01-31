@@ -8,7 +8,7 @@
     "createdAt": 1562759950,
     "description": "Data for violent crimes per Police Incident Data taken from the records managment sysmte",
     "displayType": "table",
-    "downloadCount": 547,
+    "downloadCount": 548,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -21,12 +21,13 @@
     "publicationDate": 1562760267,
     "publicationGroup": 15936287,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738148573,
+    "queryString": "SELECT `address`, `city`, `state`, `zip`, `date_incident`, `jurisdiction`, `incident_tract`, `zone`, `ucr_incident_code`, `incident_description`, `incident_type`, `case_number`, `case_status`, `case_status_description`, `latitude`, `longitude`, `location`, `citydst` WHERE (upper(`ucr_incident_code`) = \"09A\") or (upper(`ucr_incident_code`) = \"11A\") or (upper(`ucr_incident_code`) = \"120\") or (upper(`ucr_incident_code`) = \"13A\")",
+    "rowsUpdatedAt": 1738234978,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
     "viewCount": 1557,
-    "viewLastModified": 1708630598,
+    "viewLastModified": 1738292522,
     "viewType": "tabular",
     "approvals": [
         {
@@ -283,30 +284,10 @@
             "dataTypeName": "text",
             "description": "Council district where incident occurred",
             "fieldName": "citydst",
-            "position": 19,
+            "position": 18,
             "renderTypeName": "text",
             "tableColumnId": 81996682,
             "width": 97,
-            "format": {}
-        },
-        {
-            "id": 568778360,
-            "name": "Council",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_q7y7_kk3x",
-            "position": 21,
-            "renderTypeName": "number",
-            "tableColumnId": 83911300,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_q7y7-kk3x",
-                    "primary_key": "_feature_id"
-                }
-            },
             "format": {}
         }
     ],
@@ -354,97 +335,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778344,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "09A"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778344,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "11A"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778344,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "120"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 568778344,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "13A"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15936287": 76585104
-                        },
-                        "operator": "EQUALS"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -473,8 +364,10 @@
         "police"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

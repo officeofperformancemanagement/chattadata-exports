@@ -7,7 +7,7 @@
     "createdAt": 1561052490,
     "description": "Vehicle incidents recorded in Chattanooga, TN since 2018. Location information for incidents remains unchanged from the source data. Data is pulled from CPD's RMS system.\r\n\r\nNote: Starting in 2023, CPD stopped proactively responding to crashes where there are no injuries, under $1,500 damage, and all involved parties have insurance, unless specifically requested to respond by a motorist.",
     "displayType": "table",
-    "downloadCount": 574,
+    "downloadCount": 576,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -21,12 +21,12 @@
     "publicationGroup": 15972539,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1738185899,
+    "rowsUpdatedAt": 1738272199,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984786,
     "totalTimesRated": 0,
-    "viewCount": 797,
-    "viewLastModified": 1708652967,
+    "viewCount": 802,
+    "viewLastModified": 1738292536,
     "viewType": "tabular",
     "approvals": [
         {
@@ -221,7 +221,7 @@
             "dataTypeName": "text",
             "description": "Type of collision that occurred, description of how it occurred.",
             "fieldName": "collision_type",
-            "position": 12,
+            "position": 11,
             "renderTypeName": "text",
             "tableColumnId": 77062696,
             "width": 100,
@@ -235,7 +235,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident was a hit and run.",
             "fieldName": "hit_and_run",
-            "position": 13,
+            "position": 12,
             "renderTypeName": "text",
             "tableColumnId": 80721077,
             "width": 100,
@@ -249,7 +249,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a fatal injury.",
             "fieldName": "involved_fatal_injury",
-            "position": 14,
+            "position": 13,
             "renderTypeName": "text",
             "tableColumnId": 80721078,
             "width": 100,
@@ -263,7 +263,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates medical transport was needed for the incident.",
             "fieldName": "involved_medical_transport",
-            "position": 16,
+            "position": 14,
             "renderTypeName": "text",
             "tableColumnId": 80721079,
             "width": 100,
@@ -277,7 +277,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a truck.",
             "fieldName": "involved_placarded_truck",
-            "position": 17,
+            "position": 15,
             "renderTypeName": "text",
             "tableColumnId": 80721072,
             "width": 100,
@@ -291,7 +291,7 @@
             "dataTypeName": "number",
             "description": "The posted speed of the address the incident occurred.",
             "fieldName": "posted_speed",
-            "position": 18,
+            "position": 16,
             "renderTypeName": "number",
             "tableColumnId": 77062701,
             "width": 100,
@@ -306,7 +306,7 @@
             "dataTypeName": "number",
             "description": "Total number of vehicles involved in the incident.",
             "fieldName": "total_vehicles_involved",
-            "position": 19,
+            "position": 17,
             "renderTypeName": "number",
             "tableColumnId": 77062702,
             "width": 100,
@@ -321,7 +321,7 @@
             "dataTypeName": "text",
             "description": "Describes the condition of the weather at the time.",
             "fieldName": "weather_code",
-            "position": 20,
+            "position": 18,
             "renderTypeName": "text",
             "tableColumnId": 77062703,
             "width": 100,
@@ -335,7 +335,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a pedestrian.",
             "fieldName": "pedestrian_involved",
-            "position": 21,
+            "position": 19,
             "renderTypeName": "text",
             "tableColumnId": 80721076,
             "width": 100,
@@ -349,7 +349,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a bicycle.",
             "fieldName": "bicycle_involved",
-            "position": 22,
+            "position": 20,
             "renderTypeName": "text",
             "tableColumnId": 80721073,
             "width": 100,
@@ -363,7 +363,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves drugs.",
             "fieldName": "drug_involved",
-            "position": 23,
+            "position": 21,
             "renderTypeName": "text",
             "tableColumnId": 80721074,
             "width": 100,
@@ -377,7 +377,7 @@
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a alcohol.",
             "fieldName": "alcohol_involved",
-            "position": 24,
+            "position": 22,
             "renderTypeName": "text",
             "tableColumnId": 80721075,
             "width": 100,
@@ -391,7 +391,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "light_condition",
-            "position": 26,
+            "position": 23,
             "renderTypeName": "text",
             "tableColumnId": 81951366,
             "width": 100,
@@ -405,7 +405,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_one_safety_equipment",
-            "position": 27,
+            "position": 24,
             "renderTypeName": "text",
             "tableColumnId": 81306531,
             "width": 100,
@@ -419,7 +419,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_one_zip",
-            "position": 28,
+            "position": 25,
             "renderTypeName": "text",
             "tableColumnId": 82199867,
             "width": 100,
@@ -433,7 +433,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_two_safety_equipment",
-            "position": 29,
+            "position": 26,
             "renderTypeName": "text",
             "tableColumnId": 81306530,
             "width": 100,
@@ -447,7 +447,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_two_zip",
-            "position": 30,
+            "position": 27,
             "renderTypeName": "text",
             "tableColumnId": 82199865,
             "width": 100,
@@ -461,7 +461,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "latitude",
-            "position": 31,
+            "position": 28,
             "renderTypeName": "number",
             "tableColumnId": 77062707,
             "width": 100,
@@ -476,7 +476,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "longitude",
-            "position": 33,
+            "position": 29,
             "renderTypeName": "number",
             "tableColumnId": 77062708,
             "width": 100,
@@ -491,113 +491,13 @@
             "dataTypeName": "point",
             "description": "",
             "fieldName": "location_wkt",
-            "position": 34,
+            "position": 30,
             "renderTypeName": "point",
             "tableColumnId": 77062709,
             "width": 100,
             "format": {
                 "align": "left"
             }
-        },
-        {
-            "id": 589816573,
-            "name": "Neighborhood Associations",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_epkc_jqa5",
-            "position": 46,
-            "renderTypeName": "number",
-            "tableColumnId": 88990517,
-            "computationStrategy": {
-                "source_columns": [
-                    "location_wkt"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_epkc-jqa5",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 589816574,
-            "name": "Chattanooga Redistricting - New Districts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_hr78_d3nd",
-            "position": 47,
-            "renderTypeName": "number",
-            "tableColumnId": 144872083,
-            "computationStrategy": {
-                "source_columns": [
-                    "location_wkt"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_hr78-d3nd",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 589816575,
-            "name": "Chattanooga Historic Red Lining",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_tdua_xyxp",
-            "position": 48,
-            "renderTypeName": "number",
-            "tableColumnId": 144874224,
-            "computationStrategy": {
-                "source_columns": [
-                    "location_wkt"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_tdua-xyxp",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 589816576,
-            "name": "Chattanooga Area Zip Codes",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_3qrp_xh54",
-            "position": 49,
-            "renderTypeName": "number",
-            "tableColumnId": 144874273,
-            "computationStrategy": {
-                "source_columns": [
-                    "location_wkt"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_3qrp-xh54",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 589816577,
-            "name": "Hamilton County 2020 Census Tracts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_ymb6_j43f",
-            "position": 50,
-            "renderTypeName": "number",
-            "tableColumnId": 144874399,
-            "computationStrategy": {
-                "source_columns": [
-                    "location_wkt"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_ymb6-j43f",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
         }
     ],
     "grants": [
@@ -669,8 +569,10 @@
         "accident crash vehicle incident car wreck"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

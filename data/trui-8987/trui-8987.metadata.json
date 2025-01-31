@@ -6,7 +6,7 @@
     "createdAt": 1562340435,
     "description": "Reservation data for Youth and Family Development",
     "displayType": "table",
-    "downloadCount": 475,
+    "downloadCount": 476,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575352509,
@@ -25,7 +25,7 @@
     "tableId": 16336225,
     "totalTimesRated": 0,
     "viewCount": 194,
-    "viewLastModified": 1708630635,
+    "viewLastModified": 1738213675,
     "viewType": "tabular",
     "approvals": [
         {
@@ -246,8 +246,10 @@
         "reservation yfd facility"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

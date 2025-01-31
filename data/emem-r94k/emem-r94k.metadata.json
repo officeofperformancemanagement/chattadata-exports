@@ -6,7 +6,7 @@
     "category": "Finance",
     "createdAt": 1611084563,
     "displayType": "table",
-    "downloadCount": 419,
+    "downloadCount": 420,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "tableId": 17919519,
     "totalTimesRated": 0,
     "viewCount": 58,
-    "viewLastModified": 1708630773,
+    "viewLastModified": 1738213299,
     "viewType": "tabular",
     "approvals": [
         {
@@ -78,7 +78,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "zoom_session",
-            "position": 3,
+            "position": 1,
             "renderTypeName": "text",
             "tableColumnId": 127198193,
             "width": 100,
@@ -92,7 +92,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "attendance",
-            "position": 4,
+            "position": 2,
             "renderTypeName": "text",
             "tableColumnId": 127198187,
             "width": 100,
@@ -106,7 +106,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "city_employee",
-            "position": 5,
+            "position": 3,
             "renderTypeName": "text",
             "tableColumnId": 127198188,
             "width": 100,
@@ -120,7 +120,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "zip_code",
-            "position": 8,
+            "position": 4,
             "renderTypeName": "text",
             "tableColumnId": 127198184,
             "width": 100,
@@ -134,7 +134,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "city_council_district",
-            "position": 10,
+            "position": 5,
             "renderTypeName": "text",
             "tableColumnId": 127198192,
             "width": 100,
@@ -206,8 +206,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

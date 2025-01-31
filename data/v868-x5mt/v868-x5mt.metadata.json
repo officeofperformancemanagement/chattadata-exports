@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559325032,
     "displayType": "table",
-    "downloadCount": 608,
+    "downloadCount": 609,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575392667,
@@ -24,8 +24,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16220781,
     "totalTimesRated": 0,
-    "viewCount": 434,
-    "viewLastModified": 1708630565,
+    "viewCount": 437,
+    "viewLastModified": 1738213720,
     "viewType": "tabular",
     "approvals": [
         {
@@ -123,7 +123,6 @@
             "fieldName": "trafficflow",
             "position": 4,
             "renderTypeName": "number",
-            "tableColumnId": 81351258,
             "width": 100,
             "format": {
                 "precisionStyle": "standard",
@@ -192,8 +191,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

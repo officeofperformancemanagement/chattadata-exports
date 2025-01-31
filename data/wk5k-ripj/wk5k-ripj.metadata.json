@@ -7,7 +7,7 @@
     "createdAt": 1561470993,
     "description": "Activity Visit Report for Chattanooga YFD",
     "displayType": "table",
-    "downloadCount": 489,
+    "downloadCount": 490,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575352209,
@@ -27,7 +27,7 @@
     "tableId": 16307262,
     "totalTimesRated": 0,
     "viewCount": 273,
-    "viewLastModified": 1708630374,
+    "viewLastModified": 1738213747,
     "viewType": "tabular",
     "approvals": [
         {
@@ -151,7 +151,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "type",
-            "position": 7,
+            "position": 6,
             "renderTypeName": "text",
             "tableColumnId": 83105173,
             "width": 100,
@@ -165,7 +165,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "visit_type",
-            "position": 8,
+            "position": 7,
             "renderTypeName": "text",
             "tableColumnId": 83105174,
             "width": 100,
@@ -247,8 +247,10 @@
         "parks"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

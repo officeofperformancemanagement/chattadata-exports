@@ -7,7 +7,7 @@
     "createdAt": 1596115438,
     "description": "This data set contains a high level view of all CPD Internal Affairs cases from the IAPro system since January 1, 2018. Each row of data is an individual case that may have multiple allegations and multiple officers involved. The columns are high level data points on the case file.  For the public view, only Completed cases are available for viewing.",
     "displayType": "table",
-    "downloadCount": 480,
+    "downloadCount": 481,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -21,12 +21,12 @@
     "publicationGroup": 17369982,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1738118785,
+    "rowsUpdatedAt": 1738205066,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17386451,
     "totalTimesRated": 0,
     "viewCount": 375,
-    "viewLastModified": 1708630723,
+    "viewLastModified": 1738213469,
     "viewType": "tabular",
     "approvals": [
         {
@@ -335,7 +335,7 @@
             "dataTypeName": "text",
             "description": "Census tract in Hamilton County where incident occurred.",
             "fieldName": "census_tract",
-            "position": 27,
+            "position": 19,
             "renderTypeName": "text",
             "tableColumnId": 110202192,
             "width": 100,
@@ -349,7 +349,7 @@
             "dataTypeName": "text",
             "description": "Council district in the City where the incident occurred.",
             "fieldName": "council_district",
-            "position": 28,
+            "position": 20,
             "renderTypeName": "text",
             "tableColumnId": 110202191,
             "width": 100,
@@ -363,7 +363,7 @@
             "dataTypeName": "point",
             "description": "Anonymized location of the incident for public viewing.",
             "fieldName": "public_location",
-            "position": 29,
+            "position": 21,
             "renderTypeName": "point",
             "tableColumnId": 110202193,
             "width": 100,
@@ -453,8 +453,10 @@
         "investigation"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

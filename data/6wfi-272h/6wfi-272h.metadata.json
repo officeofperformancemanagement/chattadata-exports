@@ -7,7 +7,7 @@
     "createdAt": 1562677217,
     "description": "A filtered view of fire incidents that took less than 10 minutes to respond in FY19.",
     "displayType": "table",
-    "downloadCount": 554,
+    "downloadCount": 555,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,13 @@
     "publicationDate": 1562677398,
     "publicationGroup": 15938925,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738146544,
+    "queryString": "SELECT `incident_number`, `incident_date`, `shift_color`, `specific_incident_code_and`, `generic_incident_code`, `generic_incident_description`, `incident_category`, `streetnumber`, `streetprefix`, `streetname`, `streettype`, `city`, `civilian_casualty`, `firefighter_casualty`, `property_loss`, `property_value`, `responding_unit`, `responding_unit_in_or_out`, `responding_unit_district`, `responding_unit_district_1`, `turnout_time`, `travel_time`, `response_time_minutes`, `first_arriving`, `latitude`, `longitude`, `location`, `lastarrivingfirstalarm`, `onscndate`, `dispdate`, `citydst` WHERE (upper(`first_arriving`) = \"Y\") and (`incident_date` BETWEEN \"2018-07-01T00:00:00\" AND \"2019-06-30T00:00:00\") and (`response_time_minutes` BETWEEN \"0\" AND \"10\")",
+    "rowsUpdatedAt": 1738232889,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
     "viewCount": 270,
-    "viewLastModified": 1708630703,
+    "viewLastModified": 1738212427,
     "viewType": "tabular",
     "approvals": [
         {
@@ -466,7 +467,7 @@
             "dataTypeName": "text",
             "description": "For first alarm units was this the last arriving",
             "fieldName": "lastarrivingfirstalarm",
-            "position": 29,
+            "position": 28,
             "renderTypeName": "text",
             "tableColumnId": 83489076,
             "width": 100,
@@ -480,7 +481,7 @@
             "dataTypeName": "calendar_date",
             "description": "Unit on scene date",
             "fieldName": "onscndate",
-            "position": 30,
+            "position": 29,
             "renderTypeName": "calendar_date",
             "tableColumnId": 77722142,
             "width": 100,
@@ -494,7 +495,7 @@
             "dataTypeName": "calendar_date",
             "description": "Unit dispatch date",
             "fieldName": "dispdate",
-            "position": 31,
+            "position": 30,
             "renderTypeName": "calendar_date",
             "tableColumnId": 77722143,
             "width": 100,
@@ -508,7 +509,7 @@
             "dataTypeName": "text",
             "description": "City council district of incident",
             "fieldName": "citydst",
-            "position": 32,
+            "position": 31,
             "renderTypeName": "text",
             "tableColumnId": 81993663,
             "width": 100,
@@ -561,112 +562,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnId": 570773906,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "Y"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15938925": 83489077
-                        },
-                        "operator": "EQUALS"
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "BETWEEN",
-                            "children": [
-                                {
-                                    "columnId": 570773883,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "2018-07-01T00:00:00"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "2019-06-30T00:00:00"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15938925": 76619929
-                        },
-                        "operator": "BETWEEN"
-                    }
-                },
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "BETWEEN",
-                            "children": [
-                                {
-                                    "columnId": 570773905,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "0"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "10"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15938925": 76619923
-                        },
-                        "operator": "BETWEEN"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -684,8 +580,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

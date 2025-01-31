@@ -7,7 +7,7 @@
     "createdAt": 1653312144,
     "description": "This dataset contains fire incident data from 2001 to the current date. For a more detailed view of the data containing information on all responding units check out this dataset: https://chattanooga-internal.data.socrata.com/Public-Safety/Fire-Incidents-Detailed/5dtg-25r9",
     "displayType": "table",
-    "downloadCount": 727,
+    "downloadCount": 728,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,13 @@
     "publicationDate": 1653312160,
     "publicationGroup": 15947569,
     "publicationStage": "published",
+    "queryString": "SELECT `incident_number`, `incident_date`, `shift_color`, `specific_incident_code_and`, `generic_incident_code`, `generic_incident_description`, `incident_category`, `streetnumber`, `address`, `streetprefix`, `streetname`, `streettype`, `city`, `civilian_casualty`, `firefighter_casualty`, `property_loss`, `property_value`, `reporting_district_number`, `reporting_district_station`, `average_in_district_response`, `average_out_district_response`, `average_response_time_minutes`, `mutualaid`, `latitude`, `longitude`, `location`, `incident_count`, `zip`, `exposurenum`, `citydst` WHERE (contains(upper(`specific_incident_code_and`), \"311\")) or (contains(upper(`specific_incident_code_and`), \"551\"))",
     "rowsUpdatedAt": 1715678658,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984793,
     "totalTimesRated": 0,
     "viewCount": 201,
-    "viewLastModified": 1653312160,
+    "viewLastModified": 1738215346,
     "viewType": "tabular",
     "approvals": [
         {
@@ -532,63 +533,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "CONTAINS_INSENSITIVE",
-                            "children": [
-                                {
-                                    "columnId": 568775801,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "311"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "CONTAINS_INSENSITIVE",
-                            "children": [
-                                {
-                                    "columnId": 568775801,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "551"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "15947569": 76731150
-                        },
-                        "operator": "CONTAINS_INSENSITIVE"
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -609,10 +554,12 @@
         "fire fires firetruck unit response time emergency alarm false ems cfd"
     ],
     "flags": [
+        "calculatedView",
         "federated",
         "ownerMayBeContacted",
         "restorable",
         "restorePossibleForType",
+        "soqlBasedView",
         "unfederatedViewBasedOnInternalToPublicFederatedDataset"
     ]
 }

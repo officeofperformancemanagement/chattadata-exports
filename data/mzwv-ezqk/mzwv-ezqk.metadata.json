@@ -7,7 +7,7 @@
     "createdAt": 1571841539,
     "description": "Permit inspections with a 2019 inspection date.",
     "displayType": "table",
-    "downloadCount": 492,
+    "downloadCount": 493,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationDate": 1571886088,
     "publicationGroup": 15989879,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738070716,
+    "rowsUpdatedAt": 1738243765,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17864112,
     "totalTimesRated": 0,
     "viewCount": 269,
-    "viewLastModified": 1708630412,
+    "viewLastModified": 1738213458,
     "viewType": "tabular",
     "approvals": [
         {
@@ -437,8 +437,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

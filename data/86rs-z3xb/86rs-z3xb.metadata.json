@@ -8,7 +8,7 @@
     "createdAt": 1569594415,
     "description": "Parcels owned by the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 557,
+    "downloadCount": 558,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -22,12 +22,13 @@
     "publicationDate": 1618942124,
     "publicationGroup": 16036449,
     "publicationStage": "published",
+    "queryString": "SELECT `address`, `appvalue`, `assvalue`, `bcktaxyrs`, `bnkrptind`, `buildvalue`, `calcacres`, `cnytaxamt`, `controlmap`, `currentuse`, `deedacres`, `dirpfx`, `district`, `exemptcode`, `gdb_geomattr_data`, `gislink`, `group_`, `impcode`, `landvalue`, `legaldesc1`, `legaldesc2`, `legaldesc3`, `legaldesc4`, `legaldesc5`, `legaldesc6`, `legaldesc7`, `legaldesc8`, `lotdim1`, `lotdim2`, `lucode`, `lyrbillnum`, `macity`, `madirpfx`, `maline2`, `map`, `mapacres`, `mastate`, `mastname`, `mastnum`, `matypesfx`, `mazip`, `mortaccnum`, `mortco`, `muntaxamt`, `neighcode`, `objectid`, `ownername1`, `ownername2`, `parcel`, `parcel_type`, `pba_num`, `plat1book`, `plat1lot`, `plat1page`, `plat1pg`, `plat2book`, `plat2lot`, `plat2page`, `plat2pg`, `printmap`, `proptype`, `sale1book`, `sale1conf`, `sale1consd`, `sale1date`, `sale1page`, `sale1type`, `sale2book`, `sale2conf`, `sale2consd`, `sale2date`, `sale2page`, `sale2type`, `sale3book`, `sale3conf`, `sale3consd`, `sale3date`, `sale3page`, `sale3type`, `sale4book`, `sale4conf`, `sale4consd`, `sale4date`, `sale4page`, `sale4type`, `sortdist`, `stname`, `stnum`, `subdivname`, `tax_map_no`, `taxrlfcode`, `txbillnum`, `typesfx`, `yarditemsvalue`, `geometry_wkt` WHERE (upper(`proptype`) = \"02\") or (upper(`proptype`) = \"12\") or (upper(`proptype`) = \"35\") or (upper(`proptype`) = \"37\")",
     "rowsUpdatedAt": 1738136575,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16871762,
     "totalTimesRated": 0,
     "viewCount": 283,
-    "viewLastModified": 1708630406,
+    "viewLastModified": 1738212515,
     "viewType": "tabular",
     "approvals": [
         {
@@ -812,7 +813,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale1book",
-            "position": 63,
+            "position": 62,
             "renderTypeName": "text",
             "tableColumnId": 77864243,
             "width": 97,
@@ -824,7 +825,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale1conf",
-            "position": 64,
+            "position": 63,
             "renderTypeName": "text",
             "tableColumnId": 77864279,
             "width": 97,
@@ -836,7 +837,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sale1consd",
-            "position": 65,
+            "position": 64,
             "renderTypeName": "number",
             "tableColumnId": 77864235,
             "width": 97,
@@ -848,7 +849,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale1date",
-            "position": 66,
+            "position": 65,
             "renderTypeName": "text",
             "tableColumnId": 77864219,
             "width": 97,
@@ -860,7 +861,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale1page",
-            "position": 67,
+            "position": 66,
             "renderTypeName": "text",
             "tableColumnId": 77864268,
             "width": 97,
@@ -872,7 +873,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale1type",
-            "position": 68,
+            "position": 67,
             "renderTypeName": "text",
             "tableColumnId": 77864257,
             "width": 97,
@@ -884,7 +885,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale2book",
-            "position": 69,
+            "position": 68,
             "renderTypeName": "text",
             "tableColumnId": 77864242,
             "width": 97,
@@ -896,7 +897,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale2conf",
-            "position": 70,
+            "position": 69,
             "renderTypeName": "text",
             "tableColumnId": 77864209,
             "width": 97,
@@ -908,7 +909,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sale2consd",
-            "position": 71,
+            "position": 70,
             "renderTypeName": "number",
             "tableColumnId": 77864258,
             "width": 97,
@@ -920,7 +921,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale2date",
-            "position": 72,
+            "position": 71,
             "renderTypeName": "text",
             "tableColumnId": 77864260,
             "width": 97,
@@ -932,7 +933,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale2page",
-            "position": 73,
+            "position": 72,
             "renderTypeName": "text",
             "tableColumnId": 77864254,
             "width": 97,
@@ -944,7 +945,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale2type",
-            "position": 74,
+            "position": 73,
             "renderTypeName": "text",
             "tableColumnId": 77864250,
             "width": 97,
@@ -956,7 +957,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale3book",
-            "position": 75,
+            "position": 74,
             "renderTypeName": "text",
             "tableColumnId": 77864239,
             "width": 97,
@@ -968,7 +969,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale3conf",
-            "position": 76,
+            "position": 75,
             "renderTypeName": "text",
             "tableColumnId": 77864226,
             "width": 97,
@@ -980,7 +981,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "sale3consd",
-            "position": 77,
+            "position": 76,
             "renderTypeName": "number",
             "tableColumnId": 77864271,
             "width": 97,
@@ -992,7 +993,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale3date",
-            "position": 78,
+            "position": 77,
             "renderTypeName": "text",
             "tableColumnId": 77864230,
             "width": 97,
@@ -1004,7 +1005,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale3page",
-            "position": 79,
+            "position": 78,
             "renderTypeName": "text",
             "tableColumnId": 77864255,
             "width": 97,
@@ -1016,7 +1017,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale3type",
-            "position": 80,
+            "position": 79,
             "renderTypeName": "text",
             "tableColumnId": 77864240,
             "width": 97,
@@ -1028,7 +1029,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4book",
-            "position": 81,
+            "position": 80,
             "renderTypeName": "text",
             "tableColumnId": 77864208,
             "width": 97,
@@ -1040,7 +1041,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4conf",
-            "position": 82,
+            "position": 81,
             "renderTypeName": "text",
             "tableColumnId": 77864265,
             "width": 97,
@@ -1052,7 +1053,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4consd",
-            "position": 83,
+            "position": 82,
             "renderTypeName": "text",
             "tableColumnId": 77864248,
             "width": 97,
@@ -1064,7 +1065,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4date",
-            "position": 84,
+            "position": 83,
             "renderTypeName": "text",
             "tableColumnId": 77864275,
             "width": 97,
@@ -1076,7 +1077,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4page",
-            "position": 85,
+            "position": 84,
             "renderTypeName": "text",
             "tableColumnId": 77865594,
             "width": 97,
@@ -1088,7 +1089,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sale4type",
-            "position": 86,
+            "position": 85,
             "renderTypeName": "text",
             "tableColumnId": 77864202,
             "width": 97,
@@ -1100,7 +1101,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "sortdist",
-            "position": 87,
+            "position": 86,
             "renderTypeName": "text",
             "tableColumnId": 77864289,
             "width": 97,
@@ -1112,7 +1113,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "stname",
-            "position": 88,
+            "position": 87,
             "renderTypeName": "text",
             "tableColumnId": 77864259,
             "width": 97,
@@ -1124,7 +1125,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "stnum",
-            "position": 89,
+            "position": 88,
             "renderTypeName": "text",
             "tableColumnId": 77864241,
             "width": 97,
@@ -1136,7 +1137,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "subdivname",
-            "position": 90,
+            "position": 89,
             "renderTypeName": "text",
             "tableColumnId": 77864277,
             "width": 97,
@@ -1148,7 +1149,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "tax_map_no",
-            "position": 91,
+            "position": 90,
             "renderTypeName": "text",
             "tableColumnId": 77864206,
             "width": 97,
@@ -1160,7 +1161,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "taxrlfcode",
-            "position": 92,
+            "position": 91,
             "renderTypeName": "text",
             "tableColumnId": 77864249,
             "width": 97,
@@ -1172,7 +1173,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "txbillnum",
-            "position": 93,
+            "position": 92,
             "renderTypeName": "text",
             "tableColumnId": 77864280,
             "width": 97,
@@ -1184,7 +1185,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "typesfx",
-            "position": 94,
+            "position": 93,
             "renderTypeName": "text",
             "tableColumnId": 77864210,
             "width": 97,
@@ -1196,7 +1197,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "yarditemsvalue",
-            "position": 95,
+            "position": 94,
             "renderTypeName": "number",
             "tableColumnId": 77864274,
             "width": 97,
@@ -1208,7 +1209,7 @@
             "dataTypeName": "multipolygon",
             "description": "",
             "fieldName": "geometry_wkt",
-            "position": 96,
+            "position": 95,
             "renderTypeName": "multipolygon",
             "tableColumnId": 77864966,
             "width": 97,
@@ -1263,104 +1264,7 @@
             "mayBeStoriesCoOwner"
         ]
     },
-    "query": {
-        "filterCondition": {
-            "type": "operator",
-            "value": "AND",
-            "children": [
-                {
-                    "type": "operator",
-                    "value": "OR",
-                    "children": [
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnFieldName": "proptype",
-                                    "columnId": 537220760,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "02"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnFieldName": "proptype",
-                                    "columnId": 537220760,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "12"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnFieldName": "proptype",
-                                    "columnId": 537220760,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "35"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        },
-                        {
-                            "type": "operator",
-                            "value": "EQUALS",
-                            "children": [
-                                {
-                                    "columnFieldName": "proptype",
-                                    "columnId": 537220760,
-                                    "type": "column"
-                                },
-                                {
-                                    "type": "literal",
-                                    "value": "37"
-                                }
-                            ],
-                            "metadata": {
-                                "freeform": true
-                            }
-                        }
-                    ],
-                    "metadata": {
-                        "tableColumnId": {
-                            "16036449": 77864251
-                        },
-                        "operator": "EQUALS",
-                        "customValues": [
-                            "CHATTANOOGA CITY OF"
-                        ]
-                    }
-                }
-            ],
-            "metadata": {
-                "unifiedVersion": 2
-            }
-        }
-    },
+    "query": {},
     "rights": [
         "read"
     ],
@@ -1428,8 +1332,10 @@
         "city owned"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

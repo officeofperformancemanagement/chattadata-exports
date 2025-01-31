@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559324180,
     "displayType": "table",
-    "downloadCount": 519,
+    "downloadCount": 520,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "SEE_TERMS_OF_USE",
@@ -20,12 +20,12 @@
     "publicationDate": 1559324564,
     "publicationGroup": 16153179,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738208155,
+    "rowsUpdatedAt": 1738296335,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16819167,
     "totalTimesRated": 0,
     "viewCount": 287,
-    "viewLastModified": 1708630703,
+    "viewLastModified": 1738213706,
     "viewType": "tabular",
     "approvals": [
         {
@@ -80,7 +80,6 @@
             "fieldName": "report_month",
             "position": 1,
             "renderTypeName": "calendar_date",
-            "tableColumnId": 80016353,
             "width": 100,
             "format": {
                 "view": "date_time",
@@ -96,7 +95,6 @@
             "fieldName": "jamcount",
             "position": 2,
             "renderTypeName": "number",
-            "tableColumnId": 80016352,
             "width": 100,
             "format": {
                 "precisionStyle": "standard",
@@ -111,7 +109,6 @@
             "fieldName": "secondsdelay",
             "position": 3,
             "renderTypeName": "number",
-            "tableColumnId": 80016359,
             "width": 100,
             "format": {
                 "precisionStyle": "standard",
@@ -184,8 +181,10 @@
         ]
     },
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

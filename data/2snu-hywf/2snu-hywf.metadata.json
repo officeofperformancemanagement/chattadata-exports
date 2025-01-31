@@ -7,7 +7,7 @@
     "createdAt": 1561649497,
     "description": "Public Works work orders from 1990 to current date. Data includes information on work orders received by Public Works. Where the work order was initiated by a CItyWorks service request, the service request number has also been included.",
     "displayType": "table",
-    "downloadCount": 35750,
+    "downloadCount": 35752,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationDate": 1584037805,
     "publicationGroup": 15947356,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738192249,
+    "rowsUpdatedAt": 1738278647,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18985374,
     "totalTimesRated": 0,
     "viewCount": 475,
-    "viewLastModified": 1708630703,
+    "viewLastModified": 1738292506,
     "viewType": "tabular",
     "approvals": [
         {
@@ -330,7 +330,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "contractors_id",
-            "position": 20,
+            "position": 19,
             "renderTypeName": "text",
             "tableColumnId": 76729903,
             "width": 97,
@@ -344,7 +344,7 @@
             "dataTypeName": "checkbox",
             "description": "",
             "fieldName": "unattached",
-            "position": 21,
+            "position": 20,
             "renderTypeName": "checkbox",
             "tableColumnId": 76729892,
             "width": 97,
@@ -358,7 +358,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "submit_to",
-            "position": 22,
+            "position": 21,
             "renderTypeName": "text",
             "tableColumnId": 76729896,
             "width": 97,
@@ -372,7 +372,7 @@
             "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "date_submit_to",
-            "position": 23,
+            "position": 22,
             "renderTypeName": "calendar_date",
             "tableColumnId": 76729907,
             "width": 97,
@@ -386,7 +386,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "submit_to_open_by",
-            "position": 24,
+            "position": 23,
             "renderTypeName": "text",
             "tableColumnId": 76729902,
             "width": 97,
@@ -400,7 +400,7 @@
             "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "date_submit_to_open",
-            "position": 25,
+            "position": 24,
             "renderTypeName": "calendar_date",
             "tableColumnId": 76729885,
             "width": 97,
@@ -414,7 +414,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "work_completed_by",
-            "position": 26,
+            "position": 25,
             "renderTypeName": "text",
             "tableColumnId": 76729879,
             "width": 97,
@@ -428,7 +428,7 @@
             "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "date_work_order_closed",
-            "position": 27,
+            "position": 26,
             "renderTypeName": "calendar_date",
             "tableColumnId": 76729890,
             "width": 97,
@@ -442,7 +442,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "work_order_closed_by",
-            "position": 28,
+            "position": 27,
             "renderTypeName": "text",
             "tableColumnId": 76729878,
             "width": 97,
@@ -456,7 +456,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "work_total_order_cost",
-            "position": 29,
+            "position": 28,
             "renderTypeName": "number",
             "tableColumnId": 76729880,
             "width": 97,
@@ -471,7 +471,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "work_order_equipment_cost",
-            "position": 30,
+            "position": 29,
             "renderTypeName": "number",
             "tableColumnId": 76729904,
             "width": 97,
@@ -486,7 +486,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "work_order_labor_cost",
-            "position": 31,
+            "position": 30,
             "renderTypeName": "number",
             "tableColumnId": 76729897,
             "width": 97,
@@ -501,7 +501,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "work_order_material_cost",
-            "position": 32,
+            "position": 31,
             "renderTypeName": "number",
             "tableColumnId": 76729876,
             "width": 97,
@@ -516,7 +516,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "work_order_permit_cost",
-            "position": 33,
+            "position": 32,
             "renderTypeName": "number",
             "tableColumnId": 76729908,
             "width": 97,
@@ -531,7 +531,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "work_order_address",
-            "position": 34,
+            "position": 33,
             "renderTypeName": "text",
             "tableColumnId": 76729883,
             "width": 97,
@@ -545,7 +545,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "latitude",
-            "position": 35,
+            "position": 34,
             "renderTypeName": "number",
             "tableColumnId": 76729910,
             "width": 97,
@@ -560,7 +560,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "longitude",
-            "position": 36,
+            "position": 35,
             "renderTypeName": "number",
             "tableColumnId": 76729889,
             "width": 97,
@@ -575,7 +575,7 @@
             "dataTypeName": "point",
             "description": "",
             "fieldName": "location",
-            "position": 37,
+            "position": 36,
             "renderTypeName": "point",
             "tableColumnId": 76729905,
             "width": 97,
@@ -589,7 +589,7 @@
             "dataTypeName": "number",
             "description": "",
             "fieldName": "open_days",
-            "position": 38,
+            "position": 37,
             "renderTypeName": "number",
             "tableColumnId": 76825404,
             "width": 100,
@@ -604,152 +604,12 @@
             "dataTypeName": "text",
             "description": "Council district of work orders",
             "fieldName": "council_district",
-            "position": 54,
+            "position": 38,
             "renderTypeName": "text",
             "tableColumnId": 95864243,
             "format": {
                 "align": "left"
             }
-        },
-        {
-            "id": 568813254,
-            "name": "Council",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_q7y7_kk3x",
-            "position": 56,
-            "renderTypeName": "number",
-            "tableColumnId": 88963280,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_q7y7-kk3x",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813255,
-            "name": "Police Districts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_bjeb_sd3n",
-            "position": 57,
-            "renderTypeName": "number",
-            "tableColumnId": 88990390,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_bjeb-sd3n",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813256,
-            "name": "Neighborhood Associations",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_epkc_jqa5",
-            "position": 58,
-            "renderTypeName": "number",
-            "tableColumnId": 88990840,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_epkc-jqa5",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813257,
-            "name": "Chattanooga Redistricting - New Districts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_hr78_d3nd",
-            "position": 63,
-            "renderTypeName": "number",
-            "tableColumnId": 144870891,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_hr78-d3nd",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813258,
-            "name": "Chattanooga Area Zip Codes",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_3qrp_xh54",
-            "position": 64,
-            "renderTypeName": "number",
-            "tableColumnId": 144885526,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_3qrp-xh54",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813259,
-            "name": "Chattanooga Historic Red Lining",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_tdua_xyxp",
-            "position": 65,
-            "renderTypeName": "number",
-            "tableColumnId": 144885721,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_tdua-xyxp",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568813260,
-            "name": "Hamilton County 2020 Census Tracts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_ymb6_j43f",
-            "position": 66,
-            "renderTypeName": "number",
-            "tableColumnId": 144886629,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_ymb6-j43f",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
         }
     ],
     "grants": [
@@ -819,8 +679,10 @@
         "work order work order request"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }
