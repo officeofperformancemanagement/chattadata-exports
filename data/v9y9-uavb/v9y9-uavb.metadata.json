@@ -7,7 +7,7 @@
     "createdAt": 1579720178,
     "description": "This dataset represents individual charges in an arrest. For single arrest data please visit: https://internal.chattadata.org/Public-Safety/Public-CPD-Arrests/hhdc-a448\r\n\r\nThe data provided in this public portal/website represents general data of incidents based on the Tennessee Incident Based Reporting System (TIBRS). Incidents involving protected classes (juveniles, domestic abuse victims) by Tennessee law have been removed. Additionally, some incident addresses have been generalized to block level and randomly offset to protect the privacy of victims of crime. All crime data posted is preliminary and may or may not have been reviewed and approved by the Chattanooga Police Department’s (CPD) quality control process; therefore, the data may change upon further investigation.\r\n\r\nThe City of Chattanooga and the Chattanooga Police Department caution against using crime data provided in this public portal to make decisions regarding the safety of, amount of or type of crime occurring in a particular area. Users should not make decisions as it relates to safety solely based on the data provided on this website, but should seek independent verification directly through CPD’s Crime Analyst Unit.\r\n\r\nThe information in this portal is provided strictly as a courtesy to the public.",
     "displayType": "table",
-    "downloadCount": 528,
+    "downloadCount": 529,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationDate": 1597255238,
     "publicationGroup": 16725814,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738539392,
+    "rowsUpdatedAt": 1738625795,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17435374,
     "totalTimesRated": 0,
     "viewCount": 1527,
-    "viewLastModified": 1708630796,
+    "viewLastModified": 1738621049,
     "viewType": "tabular",
     "approvals": [
         {
@@ -277,7 +277,7 @@
             "dataTypeName": "text",
             "description": "",
             "fieldName": "race",
-            "position": 17,
+            "position": 15,
             "renderTypeName": "text",
             "tableColumnId": 103996767,
             "format": {
@@ -290,7 +290,7 @@
             "dataTypeName": "text",
             "description": "Sex of arrested party.",
             "fieldName": "sex",
-            "position": 18,
+            "position": 16,
             "renderTypeName": "text",
             "tableColumnId": 106217832,
             "format": {
@@ -303,7 +303,7 @@
             "dataTypeName": "text",
             "description": "City council district.",
             "fieldName": "council_district",
-            "position": 20,
+            "position": 17,
             "renderTypeName": "text",
             "tableColumnId": 111791086,
             "format": {
@@ -316,7 +316,7 @@
             "dataTypeName": "text",
             "description": "Census tract.",
             "fieldName": "hamilton_county_census_tracts_2010",
-            "position": 21,
+            "position": 18,
             "renderTypeName": "text",
             "tableColumnId": 111791085,
             "format": {
@@ -394,8 +394,10 @@
         "police"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }

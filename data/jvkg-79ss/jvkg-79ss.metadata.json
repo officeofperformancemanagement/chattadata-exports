@@ -8,7 +8,7 @@
     "createdAt": 1562613548,
     "description": "The data provided in this public portal/website represents general data of incidents based on the Tennessee Incident Based Reporting System (TIBRS). Incidents involving protected classes (juveniles, domestic abuse victims) by Tennessee law have been removed. Additionally, some incident addresses have been generalized to block level and randomly offset to protect the privacy of victims of crime. All crime data posted is preliminary and may or may not have been reviewed and approved by the Chattanooga Police Department’s (CPD) quality control process; therefore, the data may change upon further investigation.\r\n\r\nThe City of Chattanooga and the Chattanooga Police Department caution against using crime data provided in this public portal to make decisions regarding the safety of, amount of or type of crime occurring in a particular area. Users should not make decisions as it relates to safety solely based on the data provided on this website, but should seek independent verification directly through CPD’s Crime Analyst Unit.\r\n\r\nThe information in this portal is provided strictly as a courtesy to the public.",
     "displayType": "table",
-    "downloadCount": 2179,
+    "downloadCount": 2181,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -21,12 +21,12 @@
     "publicationDate": 1670451082,
     "publicationGroup": 15936287,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1738494179,
+    "rowsUpdatedAt": 1738580602,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
-    "viewCount": 39716,
-    "viewLastModified": 1708630569,
+    "viewCount": 39766,
+    "viewLastModified": 1738626385,
     "viewType": "tabular",
     "approvals": [
         {
@@ -294,130 +294,10 @@
             "dataTypeName": "text",
             "description": "Council district where incident occurred",
             "fieldName": "citydst",
-            "position": 20,
+            "position": 19,
             "renderTypeName": "text",
             "tableColumnId": 81996682,
             "width": 97,
-            "format": {}
-        },
-        {
-            "id": 568785802,
-            "name": "Council",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_q7y7_kk3x",
-            "position": 25,
-            "renderTypeName": "number",
-            "tableColumnId": 83911300,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_q7y7-kk3x",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568785803,
-            "name": "Chattanooga Area Zip Codes",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_3qrp_xh54",
-            "position": 26,
-            "renderTypeName": "number",
-            "tableColumnId": 141511194,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_3qrp-xh54",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568785804,
-            "name": "Chattanooga Historic Red Lining",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_tdua_xyxp",
-            "position": 27,
-            "renderTypeName": "number",
-            "tableColumnId": 144857723,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_tdua-xyxp",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568785805,
-            "name": "Chattanooga Redistricting - New Districts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_hr78_d3nd",
-            "position": 28,
-            "renderTypeName": "number",
-            "tableColumnId": 144860810,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_hr78-d3nd",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568785806,
-            "name": "Neighborhood Associations",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_epkc_jqa5",
-            "position": 29,
-            "renderTypeName": "number",
-            "tableColumnId": 144870228,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_epkc-jqa5",
-                    "primary_key": "_feature_id"
-                }
-            },
-            "format": {}
-        },
-        {
-            "id": 568785807,
-            "name": "Hamilton County 2020 Census Tracts",
-            "dataTypeName": "number",
-            "fieldName": ":@computed_region_ymb6_j43f",
-            "position": 30,
-            "renderTypeName": "number",
-            "tableColumnId": 144874600,
-            "computationStrategy": {
-                "source_columns": [
-                    "location"
-                ],
-                "type": "georegion_match_on_point",
-                "parameters": {
-                    "region": "_ymb6-j43f",
-                    "primary_key": "_feature_id"
-                }
-            },
             "format": {}
         }
     ],
@@ -491,8 +371,10 @@
         "crimes"
     ],
     "flags": [
+        "calculatedView",
         "ownerMayBeContacted",
         "restorable",
-        "restorePossibleForType"
+        "restorePossibleForType",
+        "soqlBasedView"
     ]
 }
