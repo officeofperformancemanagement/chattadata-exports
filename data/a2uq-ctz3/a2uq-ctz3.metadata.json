@@ -5,31 +5,31 @@
     "averageRating": 0,
     "createdAt": 1732649095,
     "displayType": "table",
-    "downloadCount": 71,
+    "downloadCount": 72,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 41142385,
+    "oid": 41143494,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1739561207,
+    "publicationDate": 1739584892,
     "publicationGroup": 19703199,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1739561196,
-    "rowsUpdatedBy": "vjqq-neb8",
-    "tableId": 19784147,
+    "rowsUpdatedAt": 1739584881,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19784611,
     "totalTimesRated": 0,
     "viewCount": 31,
-    "viewLastModified": 1739561208,
+    "viewLastModified": 1739584892,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1733410882,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6748405,
+            "submissionId": 6748946,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1733410853,
@@ -70,18 +70,18 @@
     },
     "columns": [
         {
-            "id": 605873705,
+            "id": 605921104,
             "name": "Date",
-            "dataTypeName": "calendar_date",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "timestamp",
             "position": 1,
-            "renderTypeName": "calendar_date",
-            "tableColumnId": 156846770,
+            "renderTypeName": "text",
+            "tableColumnId": 156867262,
             "format": {}
         },
         {
-            "id": 605873706,
+            "id": 605921092,
             "name": "Year",
             "dataTypeName": "text",
             "description": "",
@@ -95,7 +95,7 @@
             }
         },
         {
-            "id": 605873707,
+            "id": 605921093,
             "name": "Month",
             "dataTypeName": "text",
             "description": "",
@@ -106,70 +106,70 @@
             "format": {}
         },
         {
-            "id": 605873713,
+            "id": 605921103,
             "name": "Clients Served (intakes)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "clients_served_intakes",
             "position": 4,
-            "renderTypeName": "number",
-            "tableColumnId": 156846881,
+            "renderTypeName": "text",
+            "tableColumnId": 156867261,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 605873717,
+            "id": 605921102,
             "name": "Training and Awareness Events",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "training_and_awareness_events",
             "position": 5,
-            "renderTypeName": "number",
-            "tableColumnId": 156846885,
+            "renderTypeName": "text",
+            "tableColumnId": 156867260,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 605873716,
+            "id": 605921101,
             "name": "LAP (Screened in)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "lap_screened_in",
             "position": 6,
-            "renderTypeName": "number",
-            "tableColumnId": 156846884,
+            "renderTypeName": "text",
+            "tableColumnId": 156867259,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 605873715,
+            "id": 605921100,
             "name": "LAP (Svs)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "lap_svs",
             "position": 7,
-            "renderTypeName": "number",
-            "tableColumnId": 156846883,
+            "renderTypeName": "text",
+            "tableColumnId": 156867258,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 605873714,
+            "id": 605921099,
             "name": "LAP (reported strangulation)",
-            "dataTypeName": "number",
+            "dataTypeName": "text",
             "description": "",
             "fieldName": "lap_reported_strangulation",
             "position": 8,
-            "renderTypeName": "number",
-            "tableColumnId": 156846882,
+            "renderTypeName": "text",
+            "tableColumnId": 156867257,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
