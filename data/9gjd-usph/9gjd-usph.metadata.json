@@ -1,0 +1,234 @@
+{
+    "id": "9gjd-usph",
+    "name": "Live Garbage Vehicle Locations",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1739894996,
+    "displayType": "table",
+    "downloadCount": 1,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "modifyingViewUid": "d458-jzef",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 41148453,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1739895046,
+    "publicationGroup": 19782566,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1740014653,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19782567,
+    "totalTimesRated": 0,
+    "viewCount": 1,
+    "viewLastModified": 1739895046,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1739895065,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6752546,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1739895047,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1739895065,
+                "failureCount": 0,
+                "startedAt": 1739895065,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 606090294,
+            "name": "vehicle_id",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vehicle_id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 156804173,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 606090295,
+            "name": "vehicle_name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vehicle_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 156804174,
+            "format": {}
+        },
+        {
+            "id": 606090296,
+            "name": "tag_name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tag_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 156804175,
+            "format": {}
+        },
+        {
+            "id": 606090297,
+            "name": "time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "time",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 156804176,
+            "format": {}
+        },
+        {
+            "id": 606090298,
+            "name": "latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 156804177,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 606090299,
+            "name": "longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 156804178,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 606090300,
+            "name": "address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 156804179,
+            "format": {}
+        },
+        {
+            "id": 606090301,
+            "name": "point",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "point",
+            "position": 8,
+            "renderTypeName": "point",
+            "tableColumnId": 156804187,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Public Works",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}
