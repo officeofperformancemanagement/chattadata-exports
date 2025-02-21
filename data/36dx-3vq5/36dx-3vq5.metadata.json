@@ -6,7 +6,7 @@
     "createdAt": 1722021059,
     "description": "CS/GVP data combined with point values",
     "displayType": "table",
-    "downloadCount": 89,
+    "downloadCount": 90,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -18,12 +18,12 @@
     "publicationDate": 1730379864,
     "publicationGroup": 19594394,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1739930435,
+    "rowsUpdatedAt": 1740016830,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678662,
     "totalTimesRated": 0,
     "viewCount": 47,
-    "viewLastModified": 1739930435,
+    "viewLastModified": 1740016829,
     "viewType": "tabular",
     "approvals": [
         {
