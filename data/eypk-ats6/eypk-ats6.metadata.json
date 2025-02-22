@@ -7,7 +7,7 @@
     "createdAt": 1561651039,
     "description": "Business license information from 1990 to current date.",
     "displayType": "table",
-    "downloadCount": 2950,
+    "downloadCount": 2952,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18395892,
     "totalTimesRated": 0,
-    "viewCount": 835,
+    "viewCount": 839,
     "viewLastModified": 1738621042,
     "viewType": "tabular",
     "approvals": [
