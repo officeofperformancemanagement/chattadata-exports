@@ -7,7 +7,7 @@
     "createdAt": 1723225896,
     "description": "Nurse navigator data from community events.\nThis dataset contains the work of the Office of Community Health nurse navigators following their work completed under the C.A.R.E. Coalition Grant funding. The data from the work of the OCH nurse navigators under the Grant can be found in the historical \"OCHS Events\" dataset.",
     "displayType": "table",
-    "downloadCount": 107,
+    "downloadCount": 108,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,12 @@
     "publicationDate": 1730314842,
     "publicationGroup": 19617763,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1740448884,
+    "rowsUpdatedAt": 1740535284,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19678305,
     "totalTimesRated": 0,
     "viewCount": 85,
-    "viewLastModified": 1740448883,
+    "viewLastModified": 1740535284,
     "viewType": "tabular",
     "approvals": [
         {
