@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559324904,
     "displayType": "table",
-    "downloadCount": 520,
+    "downloadCount": 522,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575392667,
@@ -26,7 +26,7 @@
     "tableId": 16220781,
     "totalTimesRated": 0,
     "viewCount": 228,
-    "viewLastModified": 1738212396,
+    "viewLastModified": 1740786910,
     "viewType": "tabular",
     "approvals": [
         {
@@ -140,7 +140,6 @@
                 "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
-        "rowIdentifier": "0",
         "availableDisplayTypes": [
             "table",
             "fatrow",

@@ -6,7 +6,7 @@
     "category": "Finance",
     "createdAt": 1611084563,
     "displayType": "table",
-    "downloadCount": 446,
+    "downloadCount": 448,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "tableId": 17919519,
     "totalTimesRated": 0,
     "viewCount": 63,
-    "viewLastModified": 1738213299,
+    "viewLastModified": 1740786926,
     "viewType": "tabular",
     "approvals": [
         {
@@ -167,7 +167,6 @@
                 "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
-        "rowIdentifier": "0",
         "availableDisplayTypes": [
             "table",
             "fatrow",

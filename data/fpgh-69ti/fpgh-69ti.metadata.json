@@ -7,7 +7,7 @@
     "createdAt": 1581345559,
     "description": "Vehicle volume counts for intersections with GridSmart cameras. Data represents volume in a specific direction for a given 15 minute interval.",
     "displayType": "table",
-    "downloadCount": 870,
+    "downloadCount": 872,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -26,7 +26,7 @@
     "tableId": 16879401,
     "totalTimesRated": 0,
     "viewCount": 376,
-    "viewLastModified": 1738213310,
+    "viewLastModified": 1740786928,
     "viewType": "tabular",
     "approvals": [
         {
@@ -256,7 +256,6 @@
                 "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
-        "rowIdentifier": "0",
         "availableDisplayTypes": [
             "table",
             "fatrow",

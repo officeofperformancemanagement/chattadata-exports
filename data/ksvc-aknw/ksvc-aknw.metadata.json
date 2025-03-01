@@ -7,7 +7,7 @@
     "createdAt": 1563813458,
     "description": "Sidewalk data and geography in the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 476,
+    "downloadCount": 478,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1563814268,
@@ -26,8 +26,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16380051,
     "totalTimesRated": 0,
-    "viewCount": 244,
-    "viewLastModified": 1738213444,
+    "viewCount": 245,
+    "viewLastModified": 1740786937,
     "viewType": "tabular",
     "approvals": [
         {
@@ -123,7 +123,6 @@
                 "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
-        "rowIdentifier": "0",
         "availableDisplayTypes": [
             "table",
             "fatrow",
