@@ -8,33 +8,33 @@
     "createdAt": 1727099289,
     "description": "Car crash data from Tennessee Integrated Traffic Analysis Network since July 1, 2024.\n\nThis dataset supersedes the historical Vehicle Incidents dataset, which is found here: https://www.chattadata.org/Public-Safety/Vehicle-Incidents/nvdi-c4tt/about_data",
     "displayType": "table",
-    "downloadCount": 135,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40874116,
+    "oid": 41191306,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1727100115,
+    "publicationDate": 1741714911,
     "publicationGroup": 19654353,
     "publicationStage": "published",
     "resourceName": "car-crashes",
-    "rowsUpdatedAt": 1741607111,
+    "rowsUpdatedAt": 1741726854,
     "rowsUpdatedBy": "nfms-ud8q",
-    "tableId": 19654353,
+    "tableId": 19805236,
     "totalTimesRated": 0,
-    "viewCount": 69,
-    "viewLastModified": 1737947628,
+    "viewCount": 72,
+    "viewLastModified": 1741714911,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1730903666,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6603574,
+            "submissionId": 6786603,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1730903558,
@@ -75,7 +75,7 @@
     },
     "columns": [
         {
-            "id": 599629445,
+            "id": 607247391,
             "name": "AgencyTrackingNbrTxt",
             "dataTypeName": "text",
             "description": "",
@@ -86,18 +86,18 @@
             "format": {}
         },
         {
-            "id": 599629428,
+            "id": 607247604,
             "name": "CollisionDte",
-            "dataTypeName": "text",
+            "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "collisiondte",
             "position": 2,
-            "renderTypeName": "text",
-            "tableColumnId": 154911072,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 157310910,
             "format": {}
         },
         {
-            "id": 599629541,
+            "id": 607247393,
             "name": "CollisionTimeUnknownInd",
             "dataTypeName": "text",
             "description": "",
@@ -108,7 +108,7 @@
             "format": {}
         },
         {
-            "id": 599629350,
+            "id": 607247394,
             "name": "NbrUnitsNmb",
             "dataTypeName": "number",
             "description": "",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "id": 599629399,
+            "id": 607247395,
             "name": "NbrFatalitiesNmb",
             "dataTypeName": "number",
             "description": "",
@@ -136,7 +136,7 @@
             }
         },
         {
-            "id": 599629506,
+            "id": 607247396,
             "name": "NbrInjuredNmb",
             "dataTypeName": "number",
             "description": "",
@@ -150,7 +150,7 @@
             }
         },
         {
-            "id": 599629418,
+            "id": 607247397,
             "name": "NbrNonInjuredNmb",
             "dataTypeName": "number",
             "description": "",
@@ -164,7 +164,7 @@
             }
         },
         {
-            "id": 599629410,
+            "id": 607247398,
             "name": "NbrMotoristsNmb",
             "dataTypeName": "number",
             "description": "",
@@ -178,7 +178,7 @@
             }
         },
         {
-            "id": 599629448,
+            "id": 607247399,
             "name": "NbrNonMotoristsNmb",
             "dataTypeName": "number",
             "description": "",
@@ -192,7 +192,7 @@
             }
         },
         {
-            "id": 599629449,
+            "id": 607247400,
             "name": "AlcoholInd",
             "dataTypeName": "text",
             "description": "",
@@ -203,7 +203,7 @@
             "format": {}
         },
         {
-            "id": 599629426,
+            "id": 607247401,
             "name": "AreaDesignationCde",
             "dataTypeName": "text",
             "description": "",
@@ -214,18 +214,18 @@
             "format": {}
         },
         {
-            "id": 599629425,
+            "id": 607247605,
             "name": "ArrivedDte",
-            "dataTypeName": "text",
+            "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "arriveddte",
             "position": 12,
-            "renderTypeName": "text",
-            "tableColumnId": 154911069,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 157310911,
             "format": {}
         },
         {
-            "id": 599629534,
+            "id": 607247403,
             "name": "BlockNbrTxt",
             "dataTypeName": "text",
             "description": "",
@@ -239,7 +239,7 @@
             }
         },
         {
-            "id": 599629398,
+            "id": 607247404,
             "name": "CityCde",
             "dataTypeName": "text",
             "description": "",
@@ -250,7 +250,7 @@
             "format": {}
         },
         {
-            "id": 599629388,
+            "id": 607247405,
             "name": "ConstructionMaintZoneCde",
             "dataTypeName": "text",
             "description": "",
@@ -261,7 +261,7 @@
             "format": {}
         },
         {
-            "id": 599629450,
+            "id": 607247406,
             "name": "ConstructionMaintZoneLocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -272,7 +272,7 @@
             "format": {}
         },
         {
-            "id": 599629430,
+            "id": 607247407,
             "name": "CountyStateCde",
             "dataTypeName": "text",
             "description": "",
@@ -283,7 +283,7 @@
             "format": {}
         },
         {
-            "id": 599629338,
+            "id": 607247408,
             "name": "CrashTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -294,7 +294,7 @@
             "format": {}
         },
         {
-            "id": 599629353,
+            "id": 607247409,
             "name": "DirFromRefCde",
             "dataTypeName": "text",
             "description": "",
@@ -305,7 +305,7 @@
             "format": {}
         },
         {
-            "id": 599629395,
+            "id": 607247410,
             "name": "DistFromRefNmb",
             "dataTypeName": "text",
             "description": "",
@@ -319,7 +319,7 @@
             }
         },
         {
-            "id": 599629542,
+            "id": 607247411,
             "name": "DrugInd",
             "dataTypeName": "text",
             "description": "",
@@ -330,7 +330,7 @@
             "format": {}
         },
         {
-            "id": 599629531,
+            "id": 607247412,
             "name": "FirstHarmfulEventCde",
             "dataTypeName": "text",
             "description": "",
@@ -341,7 +341,7 @@
             "format": {}
         },
         {
-            "id": 599629337,
+            "id": 607247413,
             "name": "HitAndRunSolvedInd",
             "dataTypeName": "text",
             "description": "",
@@ -352,7 +352,7 @@
             "format": {}
         },
         {
-            "id": 599629503,
+            "id": 607247414,
             "name": "HitRunInd",
             "dataTypeName": "text",
             "description": "",
@@ -363,7 +363,7 @@
             "format": {}
         },
         {
-            "id": 599629334,
+            "id": 607247415,
             "name": "InterchangeRelatedInd",
             "dataTypeName": "text",
             "description": "",
@@ -374,7 +374,7 @@
             "format": {}
         },
         {
-            "id": 599629466,
+            "id": 607247416,
             "name": "IntersectLocalIDTxt",
             "dataTypeName": "text",
             "description": "",
@@ -385,7 +385,7 @@
             "format": {}
         },
         {
-            "id": 599629420,
+            "id": 607247417,
             "name": "IntersectRoadNameTxt",
             "dataTypeName": "text",
             "description": "",
@@ -396,7 +396,7 @@
             "format": {}
         },
         {
-            "id": 599629501,
+            "id": 607247418,
             "name": "IntersectRoadNameSuffixTxt",
             "dataTypeName": "text",
             "description": "",
@@ -407,7 +407,7 @@
             "format": {}
         },
         {
-            "id": 599629465,
+            "id": 607247419,
             "name": "IntersectRoadNbrTxt",
             "dataTypeName": "text",
             "description": "",
@@ -418,7 +418,7 @@
             "format": {}
         },
         {
-            "id": 599629483,
+            "id": 607247420,
             "name": "IntersectTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -429,7 +429,7 @@
             "format": {}
         },
         {
-            "id": 599629514,
+            "id": 607247421,
             "name": "InvestigationCompleteInd",
             "dataTypeName": "text",
             "description": "",
@@ -440,7 +440,7 @@
             "format": {}
         },
         {
-            "id": 599629473,
+            "id": 607247422,
             "name": "LatDecimalNmb",
             "dataTypeName": "number",
             "description": "",
@@ -454,7 +454,7 @@
             }
         },
         {
-            "id": 599629360,
+            "id": 607247423,
             "name": "LongDecimalNmb",
             "dataTypeName": "number",
             "description": "",
@@ -468,7 +468,7 @@
             }
         },
         {
-            "id": 599629472,
+            "id": 607247424,
             "name": "LightConditionCde",
             "dataTypeName": "text",
             "description": "",
@@ -479,7 +479,7 @@
             "format": {}
         },
         {
-            "id": 599629485,
+            "id": 607247425,
             "name": "MannerCollisionCde",
             "dataTypeName": "text",
             "description": "",
@@ -490,7 +490,7 @@
             "format": {}
         },
         {
-            "id": 599629403,
+            "id": 607247426,
             "name": "MileMarkNmb",
             "dataTypeName": "number",
             "description": "",
@@ -504,7 +504,7 @@
             }
         },
         {
-            "id": 599629508,
+            "id": 607247427,
             "name": "MilesFeetCde",
             "dataTypeName": "text",
             "description": "",
@@ -515,7 +515,7 @@
             "format": {}
         },
         {
-            "id": 599629439,
+            "id": 607247428,
             "name": "NineOrMoreInd",
             "dataTypeName": "text",
             "description": "",
@@ -526,18 +526,18 @@
             "format": {}
         },
         {
-            "id": 599629444,
+            "id": 607247603,
             "name": "NotifiedDte",
-            "dataTypeName": "text",
+            "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "notifieddte",
             "position": 39,
-            "renderTypeName": "text",
-            "tableColumnId": 154911088,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 157310909,
             "format": {}
         },
         {
-            "id": 599629467,
+            "id": 607247430,
             "name": "PolicePursuitInd",
             "dataTypeName": "text",
             "description": "",
@@ -548,7 +548,7 @@
             "format": {}
         },
         {
-            "id": 599629438,
+            "id": 607247431,
             "name": "RailCrossingIDTxt",
             "dataTypeName": "text",
             "description": "",
@@ -559,7 +559,7 @@
             "format": {}
         },
         {
-            "id": 599629488,
+            "id": 607247432,
             "name": "RouteSigningCde",
             "dataTypeName": "text",
             "description": "",
@@ -570,7 +570,7 @@
             "format": {}
         },
         {
-            "id": 599629341,
+            "id": 607247433,
             "name": "RdwyLocalIDTxt",
             "dataTypeName": "text",
             "description": "",
@@ -581,7 +581,7 @@
             "format": {}
         },
         {
-            "id": 599629515,
+            "id": 607247434,
             "name": "RdwyNameTxt",
             "dataTypeName": "text",
             "description": "",
@@ -592,7 +592,7 @@
             "format": {}
         },
         {
-            "id": 599629371,
+            "id": 607247435,
             "name": "RdwyNameSuffixTxt",
             "dataTypeName": "text",
             "description": "",
@@ -603,7 +603,7 @@
             "format": {}
         },
         {
-            "id": 599629502,
+            "id": 607247436,
             "name": "RdwyNbrTxt",
             "dataTypeName": "text",
             "description": "",
@@ -614,7 +614,7 @@
             "format": {}
         },
         {
-            "id": 599629487,
+            "id": 607247437,
             "name": "RelationToJunctionCde",
             "dataTypeName": "text",
             "description": "",
@@ -625,7 +625,7 @@
             "format": {}
         },
         {
-            "id": 599629435,
+            "id": 607247438,
             "name": "RelationToRoadCde",
             "dataTypeName": "text",
             "description": "",
@@ -636,18 +636,18 @@
             "format": {}
         },
         {
-            "id": 599629491,
+            "id": 607247606,
             "name": "ReportDte",
-            "dataTypeName": "text",
+            "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "reportdte",
             "position": 49,
-            "renderTypeName": "text",
-            "tableColumnId": 154911135,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 157310912,
             "format": {}
         },
         {
-            "id": 599629358,
+            "id": 607247440,
             "name": "SchoolBusCde",
             "dataTypeName": "text",
             "description": "",
@@ -658,7 +658,7 @@
             "format": {}
         },
         {
-            "id": 599629433,
+            "id": 607247441,
             "name": "SpeedInd",
             "dataTypeName": "text",
             "description": "",
@@ -669,7 +669,7 @@
             "format": {}
         },
         {
-            "id": 599629434,
+            "id": 607247442,
             "name": "TenKPlusInd",
             "dataTypeName": "text",
             "description": "",
@@ -680,7 +680,7 @@
             "format": {}
         },
         {
-            "id": 599629455,
+            "id": 607247443,
             "name": "TowedInd",
             "dataTypeName": "text",
             "description": "",
@@ -691,7 +691,7 @@
             "format": {}
         },
         {
-            "id": 599629478,
+            "id": 607247444,
             "name": "TrafficwayTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -702,7 +702,7 @@
             "format": {}
         },
         {
-            "id": 599629459,
+            "id": 607247445,
             "name": "WeatherCdes",
             "dataTypeName": "text",
             "description": "",
@@ -713,7 +713,7 @@
             "format": {}
         },
         {
-            "id": 599629480,
+            "id": 607247446,
             "name": "WeatherCde1",
             "dataTypeName": "text",
             "description": "",
@@ -727,7 +727,7 @@
             }
         },
         {
-            "id": 599629369,
+            "id": 607247447,
             "name": "WeatherCde2",
             "dataTypeName": "text",
             "description": "",
@@ -741,7 +741,7 @@
             }
         },
         {
-            "id": 599629370,
+            "id": 607247448,
             "name": "WorkersPresentCde",
             "dataTypeName": "text",
             "description": "",
@@ -752,7 +752,7 @@
             "format": {}
         },
         {
-            "id": 599629375,
+            "id": 607247449,
             "name": "WorkZoneTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -763,7 +763,7 @@
             "format": {}
         },
         {
-            "id": 599629443,
+            "id": 607247450,
             "name": "SecondaryCollision",
             "dataTypeName": "text",
             "description": "",
@@ -774,7 +774,7 @@
             "format": {}
         },
         {
-            "id": 599629333,
+            "id": 607247451,
             "name": "SecondaryCollisionType",
             "dataTypeName": "text",
             "description": "",
@@ -785,7 +785,7 @@
             "format": {}
         },
         {
-            "id": 599629517,
+            "id": 607247452,
             "name": "BlockageOccurred",
             "dataTypeName": "text",
             "description": "",
@@ -796,7 +796,7 @@
             "format": {}
         },
         {
-            "id": 599629513,
+            "id": 607247453,
             "name": "BlockageStart",
             "dataTypeName": "text",
             "description": "",
@@ -807,7 +807,7 @@
             "format": {}
         },
         {
-            "id": 599629367,
+            "id": 607247454,
             "name": "BlockageEnd",
             "dataTypeName": "text",
             "description": "",
@@ -818,7 +818,7 @@
             "format": {}
         },
         {
-            "id": 599629364,
+            "id": 607247455,
             "name": "BlockageIncidentStart",
             "dataTypeName": "text",
             "description": "",
@@ -829,7 +829,7 @@
             "format": {}
         },
         {
-            "id": 599629496,
+            "id": 607247456,
             "name": "BlockageIncidentEnd",
             "dataTypeName": "text",
             "description": "",
@@ -840,7 +840,7 @@
             "format": {}
         },
         {
-            "id": 599629400,
+            "id": 607247457,
             "name": "Unit.1.UnitTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -851,7 +851,7 @@
             "format": {}
         },
         {
-            "id": 599629352,
+            "id": 607247458,
             "name": "Unit.1.AccessControlCde",
             "dataTypeName": "text",
             "description": "",
@@ -862,7 +862,7 @@
             "format": {}
         },
         {
-            "id": 599629468,
+            "id": 607247459,
             "name": "Unit.1.BodyCde",
             "dataTypeName": "text",
             "description": "",
@@ -873,7 +873,7 @@
             "format": {}
         },
         {
-            "id": 599629386,
+            "id": 607247460,
             "name": "Unit.1.BusUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -884,7 +884,7 @@
             "format": {}
         },
         {
-            "id": 599629389,
+            "id": 607247461,
             "name": "Unit.1.ColorCde",
             "dataTypeName": "text",
             "description": "",
@@ -895,7 +895,7 @@
             "format": {}
         },
         {
-            "id": 599629484,
+            "id": 607247462,
             "name": "Unit.1.DamageEstCde",
             "dataTypeName": "text",
             "description": "",
@@ -906,7 +906,7 @@
             "format": {}
         },
         {
-            "id": 599629387,
+            "id": 607247463,
             "name": "Unit.1.DamageExtentCde",
             "dataTypeName": "text",
             "description": "",
@@ -917,7 +917,7 @@
             "format": {}
         },
         {
-            "id": 599629505,
+            "id": 607247464,
             "name": "Unit.1.DriverPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -928,7 +928,7 @@
             "format": {}
         },
         {
-            "id": 599629489,
+            "id": 607247465,
             "name": "Unit.1.EmergencyInd",
             "dataTypeName": "text",
             "description": "",
@@ -939,7 +939,7 @@
             "format": {}
         },
         {
-            "id": 599629523,
+            "id": 607247466,
             "name": "Unit.1.FireInd",
             "dataTypeName": "text",
             "description": "",
@@ -950,7 +950,7 @@
             "format": {}
         },
         {
-            "id": 599629511,
+            "id": 607247467,
             "name": "Unit.1.FirstImpactCde",
             "dataTypeName": "text",
             "description": "",
@@ -961,7 +961,7 @@
             "format": {}
         },
         {
-            "id": 599629344,
+            "id": 607247468,
             "name": "Unit.1.FMCSAReportableInd",
             "dataTypeName": "text",
             "description": "",
@@ -972,7 +972,7 @@
             "format": {}
         },
         {
-            "id": 599629469,
+            "id": 607247469,
             "name": "Unit.1.GVWRCde",
             "dataTypeName": "text",
             "description": "",
@@ -983,7 +983,7 @@
             "format": {}
         },
         {
-            "id": 599629339,
+            "id": 607247470,
             "name": "Unit.1.HAZMATInd",
             "dataTypeName": "text",
             "description": "",
@@ -994,7 +994,7 @@
             "format": {}
         },
         {
-            "id": 599629492,
+            "id": 607247471,
             "name": "Unit.1.EmergencyUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -1005,7 +1005,7 @@
             "format": {}
         },
         {
-            "id": 599629527,
+            "id": 607247472,
             "name": "Unit.1.HitRunCde",
             "dataTypeName": "text",
             "description": "",
@@ -1016,7 +1016,7 @@
             "format": {}
         },
         {
-            "id": 599629447,
+            "id": 607247473,
             "name": "Unit.1.MakeTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1027,7 +1027,7 @@
             "format": {}
         },
         {
-            "id": 599629402,
+            "id": 607247474,
             "name": "Unit.1.ManeuverCde",
             "dataTypeName": "text",
             "description": "",
@@ -1038,7 +1038,7 @@
             "format": {}
         },
         {
-            "id": 599629423,
+            "id": 607247475,
             "name": "Unit.1.Model",
             "dataTypeName": "text",
             "description": "",
@@ -1049,7 +1049,7 @@
             "format": {}
         },
         {
-            "id": 599629451,
+            "id": 607247476,
             "name": "Unit.1.MostHarmfulEventCde",
             "dataTypeName": "text",
             "description": "",
@@ -1060,7 +1060,7 @@
             "format": {}
         },
         {
-            "id": 599629376,
+            "id": 607247477,
             "name": "Unit.1.NbrOccupantsNmb",
             "dataTypeName": "number",
             "description": "",
@@ -1074,7 +1074,7 @@
             }
         },
         {
-            "id": 599629493,
+            "id": 607247478,
             "name": "Unit.1.RouteSigningCde",
             "dataTypeName": "text",
             "description": "",
@@ -1085,7 +1085,7 @@
             "format": {}
         },
         {
-            "id": 599629521,
+            "id": 607247479,
             "name": "Unit.1.PlateStateCde",
             "dataTypeName": "text",
             "description": "",
@@ -1096,7 +1096,7 @@
             "format": {}
         },
         {
-            "id": 599629408,
+            "id": 607247480,
             "name": "Unit.1.PostedSpeedNmb",
             "dataTypeName": "number",
             "description": "",
@@ -1110,7 +1110,7 @@
             }
         },
         {
-            "id": 599629406,
+            "id": 607247481,
             "name": "Unit.1.RemovalCde",
             "dataTypeName": "text",
             "description": "",
@@ -1121,7 +1121,7 @@
             "format": {}
         },
         {
-            "id": 599629416,
+            "id": 607247482,
             "name": "Unit.1.RoadAlignmentCde",
             "dataTypeName": "text",
             "description": "",
@@ -1132,7 +1132,7 @@
             "format": {}
         },
         {
-            "id": 599629528,
+            "id": 607247483,
             "name": "Unit.1.RoadProfileCde",
             "dataTypeName": "text",
             "description": "",
@@ -1143,7 +1143,7 @@
             "format": {}
         },
         {
-            "id": 599629421,
+            "id": 607247484,
             "name": "Unit.1.RoadSurfTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1154,7 +1154,7 @@
             "format": {}
         },
         {
-            "id": 599629373,
+            "id": 607247485,
             "name": "Unit.1.SpecialUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -1165,7 +1165,7 @@
             "format": {}
         },
         {
-            "id": 599629452,
+            "id": 607247486,
             "name": "Unit.1.SurfCondCde",
             "dataTypeName": "text",
             "description": "",
@@ -1176,7 +1176,7 @@
             "format": {}
         },
         {
-            "id": 599629539,
+            "id": 607247487,
             "name": "Unit.1.TrafficControlCde",
             "dataTypeName": "text",
             "description": "",
@@ -1187,7 +1187,7 @@
             "format": {}
         },
         {
-            "id": 599629382,
+            "id": 607247488,
             "name": "Unit.1.TrafficControlFuncCde",
             "dataTypeName": "text",
             "description": "",
@@ -1198,7 +1198,7 @@
             "format": {}
         },
         {
-            "id": 599629404,
+            "id": 607247489,
             "name": "Unit.1.TrafficwayFlowCde",
             "dataTypeName": "text",
             "description": "",
@@ -1209,7 +1209,7 @@
             "format": {}
         },
         {
-            "id": 599629409,
+            "id": 607247490,
             "name": "Unit.1.TravelDirCde",
             "dataTypeName": "text",
             "description": "",
@@ -1220,7 +1220,7 @@
             "format": {}
         },
         {
-            "id": 599629431,
+            "id": 607247491,
             "name": "Unit.1.TravelLanesCde",
             "dataTypeName": "text",
             "description": "",
@@ -1231,7 +1231,7 @@
             "format": {}
         },
         {
-            "id": 599629463,
+            "id": 607247492,
             "name": "Unit.1.TravelingOnTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1242,7 +1242,7 @@
             "format": {}
         },
         {
-            "id": 599629393,
+            "id": 607247493,
             "name": "Unit.1.VehicleOperationTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1253,7 +1253,7 @@
             "format": {}
         },
         {
-            "id": 599629510,
+            "id": 607247494,
             "name": "Unit.1.VehicleYearTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1267,7 +1267,7 @@
             }
         },
         {
-            "id": 599629343,
+            "id": 607247495,
             "name": "Unit.1.Person.1.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1278,7 +1278,7 @@
             "format": {}
         },
         {
-            "id": 599629512,
+            "id": 607247496,
             "name": "Unit.1.Person.2.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1289,7 +1289,7 @@
             "format": {}
         },
         {
-            "id": 599629499,
+            "id": 607247497,
             "name": "Unit.1.Person.3.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1300,7 +1300,7 @@
             "format": {}
         },
         {
-            "id": 599629509,
+            "id": 607247498,
             "name": "Unit.1.Person.4.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1311,7 +1311,7 @@
             "format": {}
         },
         {
-            "id": 599629346,
+            "id": 607247499,
             "name": "Unit.1.Person.1.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1322,7 +1322,7 @@
             "format": {}
         },
         {
-            "id": 599629363,
+            "id": 607247500,
             "name": "Unit.1.Person.2.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1333,7 +1333,7 @@
             "format": {}
         },
         {
-            "id": 599629427,
+            "id": 607247501,
             "name": "Unit.1.Person.3.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1344,7 +1344,7 @@
             "format": {}
         },
         {
-            "id": 599629366,
+            "id": 607247502,
             "name": "Unit.1.Person.4.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1355,7 +1355,7 @@
             "format": {}
         },
         {
-            "id": 599629537,
+            "id": 607247503,
             "name": "Unit.1.Person.1.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1369,7 +1369,7 @@
             }
         },
         {
-            "id": 599629347,
+            "id": 607247504,
             "name": "Unit.1.Person.2.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1383,7 +1383,7 @@
             }
         },
         {
-            "id": 599629390,
+            "id": 607247505,
             "name": "Unit.1.Person.3.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1397,7 +1397,7 @@
             }
         },
         {
-            "id": 599629392,
+            "id": 607247506,
             "name": "Unit.1.Person.4.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1411,7 +1411,7 @@
             }
         },
         {
-            "id": 599629401,
+            "id": 607247507,
             "name": "Unit.1.Person.1.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -1422,7 +1422,7 @@
             "format": {}
         },
         {
-            "id": 599629533,
+            "id": 607247508,
             "name": "Unit.1.Person.2.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -1433,7 +1433,7 @@
             "format": {}
         },
         {
-            "id": 599629394,
+            "id": 607247509,
             "name": "Unit.1.Person.3.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -1444,7 +1444,7 @@
             "format": {}
         },
         {
-            "id": 599629519,
+            "id": 607247510,
             "name": "Unit.1.Person.4.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -1455,7 +1455,7 @@
             "format": {}
         },
         {
-            "id": 599629349,
+            "id": 607247511,
             "name": "Unit.1.UnitEventSequence",
             "dataTypeName": "text",
             "description": "",
@@ -1466,7 +1466,7 @@
             "format": {}
         },
         {
-            "id": 599629442,
+            "id": 607247512,
             "name": "Unit.2.UnitTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1477,7 +1477,7 @@
             "format": {}
         },
         {
-            "id": 599629481,
+            "id": 607247513,
             "name": "Unit.2.AccessControlCde",
             "dataTypeName": "text",
             "description": "",
@@ -1488,7 +1488,7 @@
             "format": {}
         },
         {
-            "id": 599629396,
+            "id": 607247514,
             "name": "Unit.2.BodyCde",
             "dataTypeName": "text",
             "description": "",
@@ -1499,7 +1499,7 @@
             "format": {}
         },
         {
-            "id": 599629437,
+            "id": 607247515,
             "name": "Unit.2.BusUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -1510,7 +1510,7 @@
             "format": {}
         },
         {
-            "id": 599629440,
+            "id": 607247516,
             "name": "Unit.2.ColorCde",
             "dataTypeName": "text",
             "description": "",
@@ -1521,7 +1521,7 @@
             "format": {}
         },
         {
-            "id": 599629475,
+            "id": 607247517,
             "name": "Unit.2.DamageEstCde",
             "dataTypeName": "text",
             "description": "",
@@ -1532,7 +1532,7 @@
             "format": {}
         },
         {
-            "id": 599629474,
+            "id": 607247518,
             "name": "Unit.2.DamageExtentCde",
             "dataTypeName": "text",
             "description": "",
@@ -1543,7 +1543,7 @@
             "format": {}
         },
         {
-            "id": 599629538,
+            "id": 607247519,
             "name": "Unit.2.DriverPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -1554,7 +1554,7 @@
             "format": {}
         },
         {
-            "id": 599629384,
+            "id": 607247520,
             "name": "Unit.2.EmergencyInd",
             "dataTypeName": "text",
             "description": "",
@@ -1565,7 +1565,7 @@
             "format": {}
         },
         {
-            "id": 599629405,
+            "id": 607247521,
             "name": "Unit.2.FireInd",
             "dataTypeName": "text",
             "description": "",
@@ -1576,7 +1576,7 @@
             "format": {}
         },
         {
-            "id": 599629454,
+            "id": 607247522,
             "name": "Unit.2.FirstImpactCde",
             "dataTypeName": "text",
             "description": "",
@@ -1587,7 +1587,7 @@
             "format": {}
         },
         {
-            "id": 599629464,
+            "id": 607247523,
             "name": "Unit.2.FMCSAReportableInd",
             "dataTypeName": "text",
             "description": "",
@@ -1598,7 +1598,7 @@
             "format": {}
         },
         {
-            "id": 599629486,
+            "id": 607247524,
             "name": "Unit.2.GVWRCde",
             "dataTypeName": "text",
             "description": "",
@@ -1609,7 +1609,7 @@
             "format": {}
         },
         {
-            "id": 599629456,
+            "id": 607247525,
             "name": "Unit.2.HAZMATInd",
             "dataTypeName": "text",
             "description": "",
@@ -1620,7 +1620,7 @@
             "format": {}
         },
         {
-            "id": 599629530,
+            "id": 607247526,
             "name": "Unit.2.EmergencyUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -1631,7 +1631,7 @@
             "format": {}
         },
         {
-            "id": 599629412,
+            "id": 607247527,
             "name": "Unit.2.HitRunCde",
             "dataTypeName": "text",
             "description": "",
@@ -1642,7 +1642,7 @@
             "format": {}
         },
         {
-            "id": 599629391,
+            "id": 607247528,
             "name": "Unit.2.MakeTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1653,7 +1653,7 @@
             "format": {}
         },
         {
-            "id": 599629397,
+            "id": 607247529,
             "name": "Unit.2.ManeuverCde",
             "dataTypeName": "text",
             "description": "",
@@ -1664,7 +1664,7 @@
             "format": {}
         },
         {
-            "id": 599629359,
+            "id": 607247530,
             "name": "Unit.2.Model",
             "dataTypeName": "text",
             "description": "",
@@ -1675,7 +1675,7 @@
             "format": {}
         },
         {
-            "id": 599629429,
+            "id": 607247531,
             "name": "Unit.2.MostHarmfulEventCde",
             "dataTypeName": "text",
             "description": "",
@@ -1686,7 +1686,7 @@
             "format": {}
         },
         {
-            "id": 599629526,
+            "id": 607247532,
             "name": "Unit.2.NbrOccupantsNmb",
             "dataTypeName": "number",
             "description": "",
@@ -1700,7 +1700,7 @@
             }
         },
         {
-            "id": 599629535,
+            "id": 607247533,
             "name": "Unit.2.RouteSigningCde",
             "dataTypeName": "text",
             "description": "",
@@ -1711,7 +1711,7 @@
             "format": {}
         },
         {
-            "id": 599629419,
+            "id": 607247534,
             "name": "Unit.2.PlateStateCde",
             "dataTypeName": "text",
             "description": "",
@@ -1722,7 +1722,7 @@
             "format": {}
         },
         {
-            "id": 599629500,
+            "id": 607247535,
             "name": "Unit.2.PostedSpeedNmb",
             "dataTypeName": "number",
             "description": "",
@@ -1736,7 +1736,7 @@
             }
         },
         {
-            "id": 599629543,
+            "id": 607247536,
             "name": "Unit.2.RemovalCde",
             "dataTypeName": "text",
             "description": "",
@@ -1747,7 +1747,7 @@
             "format": {}
         },
         {
-            "id": 599629477,
+            "id": 607247537,
             "name": "Unit.2.RoadAlignmentCde",
             "dataTypeName": "text",
             "description": "",
@@ -1758,7 +1758,7 @@
             "format": {}
         },
         {
-            "id": 599629497,
+            "id": 607247538,
             "name": "Unit.2.RoadProfileCde",
             "dataTypeName": "text",
             "description": "",
@@ -1769,7 +1769,7 @@
             "format": {}
         },
         {
-            "id": 599629345,
+            "id": 607247539,
             "name": "Unit.2.RoadSurfTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1780,7 +1780,7 @@
             "format": {}
         },
         {
-            "id": 599629365,
+            "id": 607247540,
             "name": "Unit.2.SpecialUseCde",
             "dataTypeName": "text",
             "description": "",
@@ -1791,7 +1791,7 @@
             "format": {}
         },
         {
-            "id": 599629413,
+            "id": 607247541,
             "name": "Unit.2.SurfCondCde",
             "dataTypeName": "text",
             "description": "",
@@ -1802,7 +1802,7 @@
             "format": {}
         },
         {
-            "id": 599629458,
+            "id": 607247542,
             "name": "Unit.2.TrafficControlCde",
             "dataTypeName": "text",
             "description": "",
@@ -1813,7 +1813,7 @@
             "format": {}
         },
         {
-            "id": 599629494,
+            "id": 607247543,
             "name": "Unit.2.TrafficControlFuncCde",
             "dataTypeName": "text",
             "description": "",
@@ -1824,7 +1824,7 @@
             "format": {}
         },
         {
-            "id": 599629372,
+            "id": 607247544,
             "name": "Unit.2.TrafficwayFlowCde",
             "dataTypeName": "text",
             "description": "",
@@ -1835,7 +1835,7 @@
             "format": {}
         },
         {
-            "id": 599629414,
+            "id": 607247545,
             "name": "Unit.2.TravelDirCde",
             "dataTypeName": "text",
             "description": "",
@@ -1846,7 +1846,7 @@
             "format": {}
         },
         {
-            "id": 599629357,
+            "id": 607247546,
             "name": "Unit.2.TravelLanesCde",
             "dataTypeName": "text",
             "description": "",
@@ -1857,7 +1857,7 @@
             "format": {}
         },
         {
-            "id": 599629441,
+            "id": 607247547,
             "name": "Unit.2.TravelingOnTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1868,7 +1868,7 @@
             "format": {}
         },
         {
-            "id": 599629495,
+            "id": 607247548,
             "name": "Unit.2.VehicleOperationTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1879,7 +1879,7 @@
             "format": {}
         },
         {
-            "id": 599629342,
+            "id": 607247549,
             "name": "Unit.2.VehicleYearTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1893,7 +1893,7 @@
             }
         },
         {
-            "id": 599629544,
+            "id": 607247550,
             "name": "Unit.2.Person.1.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1904,7 +1904,7 @@
             "format": {}
         },
         {
-            "id": 599629381,
+            "id": 607247551,
             "name": "Unit.2.Person.2.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1915,7 +1915,7 @@
             "format": {}
         },
         {
-            "id": 599629490,
+            "id": 607247552,
             "name": "Unit.2.Person.3.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1926,7 +1926,7 @@
             "format": {}
         },
         {
-            "id": 599629432,
+            "id": 607247553,
             "name": "Unit.2.Person.4.PersonTypeCde",
             "dataTypeName": "text",
             "description": "",
@@ -1937,7 +1937,7 @@
             "format": {}
         },
         {
-            "id": 599629524,
+            "id": 607247554,
             "name": "Unit.2.Person.1.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1948,7 +1948,7 @@
             "format": {}
         },
         {
-            "id": 599629536,
+            "id": 607247555,
             "name": "Unit.2.Person.2.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1959,7 +1959,7 @@
             "format": {}
         },
         {
-            "id": 599629529,
+            "id": 607247556,
             "name": "Unit.2.Person.3.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1970,7 +1970,7 @@
             "format": {}
         },
         {
-            "id": 599629354,
+            "id": 607247557,
             "name": "Unit.2.Person.4.ProtectionSystemCde",
             "dataTypeName": "text",
             "description": "",
@@ -1981,7 +1981,7 @@
             "format": {}
         },
         {
-            "id": 599629516,
+            "id": 607247558,
             "name": "Unit.2.Person.1.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -1995,7 +1995,7 @@
             }
         },
         {
-            "id": 599629385,
+            "id": 607247559,
             "name": "Unit.2.Person.2.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2009,7 +2009,7 @@
             }
         },
         {
-            "id": 599629362,
+            "id": 607247560,
             "name": "Unit.2.Person.3.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2023,7 +2023,7 @@
             }
         },
         {
-            "id": 599629378,
+            "id": 607247561,
             "name": "Unit.2.Person.4.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2037,7 +2037,7 @@
             }
         },
         {
-            "id": 599629479,
+            "id": 607247562,
             "name": "Unit.2.Person.1.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2048,7 +2048,7 @@
             "format": {}
         },
         {
-            "id": 599629377,
+            "id": 607247563,
             "name": "Unit.2.Person.2.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2059,7 +2059,7 @@
             "format": {}
         },
         {
-            "id": 599629356,
+            "id": 607247564,
             "name": "Unit.2.Person.3.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2070,7 +2070,7 @@
             "format": {}
         },
         {
-            "id": 599629336,
+            "id": 607247565,
             "name": "Unit.2.Person.4.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2081,7 +2081,7 @@
             "format": {}
         },
         {
-            "id": 599629532,
+            "id": 607247566,
             "name": "Unit.2.UnitEventSequence",
             "dataTypeName": "text",
             "description": "",
@@ -2092,7 +2092,7 @@
             "format": {}
         },
         {
-            "id": 599629411,
+            "id": 607247567,
             "name": "Pedestrian.1.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2103,7 +2103,7 @@
             "format": {}
         },
         {
-            "id": 599629417,
+            "id": 607247568,
             "name": "Pedestrian.1.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2117,7 +2117,7 @@
             }
         },
         {
-            "id": 599629374,
+            "id": 607247569,
             "name": "Pedestrian.1.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2128,7 +2128,7 @@
             "format": {}
         },
         {
-            "id": 599629453,
+            "id": 607247570,
             "name": "Pedestrian.1.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2139,7 +2139,7 @@
             "format": {}
         },
         {
-            "id": 599629507,
+            "id": 607247571,
             "name": "Pedestrian.1.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2150,7 +2150,7 @@
             "format": {}
         },
         {
-            "id": 599629368,
+            "id": 607247572,
             "name": "Pedestrian.1.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2161,7 +2161,7 @@
             "format": {}
         },
         {
-            "id": 599629462,
+            "id": 607247573,
             "name": "Pedestrian.2.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2172,7 +2172,7 @@
             "format": {}
         },
         {
-            "id": 599629422,
+            "id": 607247574,
             "name": "Pedestrian.2.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2183,7 +2183,7 @@
             "format": {}
         },
         {
-            "id": 599629520,
+            "id": 607247575,
             "name": "Pedestrian.2.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2194,7 +2194,7 @@
             "format": {}
         },
         {
-            "id": 599629436,
+            "id": 607247576,
             "name": "Pedestrian.2.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2205,7 +2205,7 @@
             "format": {}
         },
         {
-            "id": 599629498,
+            "id": 607247577,
             "name": "Pedestrian.2.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2216,7 +2216,7 @@
             "format": {}
         },
         {
-            "id": 599629380,
+            "id": 607247578,
             "name": "Pedestrian.2.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2227,7 +2227,7 @@
             "format": {}
         },
         {
-            "id": 599629383,
+            "id": 607247579,
             "name": "Pedestrian.3.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2238,7 +2238,7 @@
             "format": {}
         },
         {
-            "id": 599629504,
+            "id": 607247580,
             "name": "Pedestrian.3.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2249,7 +2249,7 @@
             "format": {}
         },
         {
-            "id": 599629457,
+            "id": 607247581,
             "name": "Pedestrian.3.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2260,7 +2260,7 @@
             "format": {}
         },
         {
-            "id": 599629340,
+            "id": 607247582,
             "name": "Pedestrian.3.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2271,7 +2271,7 @@
             "format": {}
         },
         {
-            "id": 599629525,
+            "id": 607247583,
             "name": "Pedestrian.3.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2282,7 +2282,7 @@
             "format": {}
         },
         {
-            "id": 599629470,
+            "id": 607247584,
             "name": "Pedestrian.3.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2293,7 +2293,7 @@
             "format": {}
         },
         {
-            "id": 599629540,
+            "id": 607247585,
             "name": "Pedestrian.4.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2304,7 +2304,7 @@
             "format": {}
         },
         {
-            "id": 599629476,
+            "id": 607247586,
             "name": "Pedestrian.4.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2315,7 +2315,7 @@
             "format": {}
         },
         {
-            "id": 599629424,
+            "id": 607247587,
             "name": "Pedestrian.4.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2326,7 +2326,7 @@
             "format": {}
         },
         {
-            "id": 599629335,
+            "id": 607247588,
             "name": "Pedestrian.4.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2337,7 +2337,7 @@
             "format": {}
         },
         {
-            "id": 599629351,
+            "id": 607247589,
             "name": "Pedestrian.4.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2348,7 +2348,7 @@
             "format": {}
         },
         {
-            "id": 599629361,
+            "id": 607247590,
             "name": "Pedestrian.4.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2359,7 +2359,7 @@
             "format": {}
         },
         {
-            "id": 599629482,
+            "id": 607247591,
             "name": "Bicyclist.1.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2370,7 +2370,7 @@
             "format": {}
         },
         {
-            "id": 599629522,
+            "id": 607247592,
             "name": "Bicyclist.1.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2384,7 +2384,7 @@
             }
         },
         {
-            "id": 599629446,
+            "id": 607247593,
             "name": "Bicyclist.1.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2395,7 +2395,7 @@
             "format": {}
         },
         {
-            "id": 599629348,
+            "id": 607247594,
             "name": "Bicyclist.1.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2406,7 +2406,7 @@
             "format": {}
         },
         {
-            "id": 599629379,
+            "id": 607247595,
             "name": "Bicyclist.1.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2417,7 +2417,7 @@
             "format": {}
         },
         {
-            "id": 599629518,
+            "id": 607247596,
             "name": "Bicyclist.1.TransportCde",
             "dataTypeName": "text",
             "description": "",
@@ -2428,7 +2428,7 @@
             "format": {}
         },
         {
-            "id": 599629471,
+            "id": 607247597,
             "name": "Bicyclist.2.LocationCde",
             "dataTypeName": "text",
             "description": "",
@@ -2439,7 +2439,7 @@
             "format": {}
         },
         {
-            "id": 599629461,
+            "id": 607247598,
             "name": "Bicyclist.2.ZipTxt",
             "dataTypeName": "text",
             "description": "",
@@ -2450,7 +2450,7 @@
             "format": {}
         },
         {
-            "id": 599629355,
+            "id": 607247599,
             "name": "Bicyclist.2.AlcoholPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2461,7 +2461,7 @@
             "format": {}
         },
         {
-            "id": 599629415,
+            "id": 607247600,
             "name": "Bicyclist.2.DrugPresenceCde",
             "dataTypeName": "text",
             "description": "",
@@ -2472,7 +2472,7 @@
             "format": {}
         },
         {
-            "id": 599629460,
+            "id": 607247601,
             "name": "Bicyclist.2.InjuryClassCde",
             "dataTypeName": "text",
             "description": "",
@@ -2483,7 +2483,7 @@
             "format": {}
         },
         {
-            "id": 599629407,
+            "id": 607247602,
             "name": "Bicyclist.2.TransportCde",
             "dataTypeName": "text",
             "description": "",
