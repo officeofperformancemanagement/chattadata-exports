@@ -7,7 +7,7 @@
     "createdAt": 1588794121,
     "description": "Street resurfacing work beginning in 2016",
     "displayType": "table",
-    "downloadCount": 453,
+    "downloadCount": 454,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -20,12 +20,12 @@
     "publicationGroup": 17097183,
     "publicationStage": "published",
     "rowIdentifierColumnId": 501822047,
-    "rowsUpdatedAt": 1742133108,
+    "rowsUpdatedAt": 1742219495,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17661809,
     "totalTimesRated": 0,
     "viewCount": 130,
-    "viewLastModified": 1742132838,
+    "viewLastModified": 1742219232,
     "viewType": "tabular",
     "approvals": [
         {
