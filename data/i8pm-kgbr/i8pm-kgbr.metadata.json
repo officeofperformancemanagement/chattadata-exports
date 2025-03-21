@@ -1,0 +1,154 @@
+{
+    "id": "i8pm-kgbr",
+    "name": "City Court Docket Status Codes",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1741807397,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 41193452,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1741809015,
+    "publicationGroup": 19806580,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1741809004,
+    "rowsUpdatedBy": "kp5y-vgiw",
+    "tableId": 19806580,
+    "totalTimesRated": 0,
+    "viewCount": 1,
+    "viewLastModified": 1741809015,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1742492618,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6788273,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1741809015,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1742492619,
+                "failureCount": 0,
+                "startedAt": 1742492618,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 607302837,
+            "name": "Status_code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "status_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 157338403,
+            "format": {}
+        },
+        {
+            "id": 607302836,
+            "name": "Definition",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "definition",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 157338402,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "City Attorney",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "rowLabel": "Docket status code",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "kp5y-vgiw",
+        "displayName": "Katharine Clem",
+        "profileImageUrlLarge": "/api/users/kp5y-vgiw/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/kp5y-vgiw/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/kp5y-vgiw/profile_images/TINY",
+        "screenName": "Katharine Clem",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "kp5y-vgiw",
+        "displayName": "Katharine Clem",
+        "profileImageUrlLarge": "/api/users/kp5y-vgiw/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/kp5y-vgiw/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/kp5y-vgiw/profile_images/TINY",
+        "screenName": "Katharine Clem",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
